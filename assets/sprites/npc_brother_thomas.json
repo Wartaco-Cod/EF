@@ -1,0 +1,29 @@
+{
+ "image": "npc_brother_thomas_sheet.png",
+ "frameWidth": 160,
+ "frameHeight": 160,
+ "directions": 8,
+ "directionAngles": [
+  180,
+  135,
+  90,
+  45,
+  0,
+  315,
+  270,
+  225
+ ],
+ "anchor": [
+  80,
+  128
+ ],
+ "animations": {
+  "idle": {
+   "row": 0,
+   "frames": 8,
+   "fps": 6,
+   "loop": true
+  }
+ },
+ "metres": 2.6
+}
