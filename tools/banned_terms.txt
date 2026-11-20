@@ -1,0 +1,12 @@
+# Terms that must never appear in Taco Factory or Templar Knights files or file names.
+# One regular expression per line, matched case-insensitively. Lines starting with "cs:" are case-sensitive.
+# This file is the only place these terms may appear; the scanner skips it.
+\brealm
+mabon
+norseman
+\bsierra\b
+cs:\bSCI\b
+sacred\s*temple
+realmwork
+NSClient
+UnderConstruction-main

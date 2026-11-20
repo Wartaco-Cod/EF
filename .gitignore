@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+TestResults/
+release/
+_to_delete/
+*.log
+tools/art/blender/_frames/
+__pycache__/

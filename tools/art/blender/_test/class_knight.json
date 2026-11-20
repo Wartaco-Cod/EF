@@ -1,0 +1,53 @@
+{
+ "image": "class_knight_sheet.png",
+ "frameWidth": 160,
+ "frameHeight": 160,
+ "directions": 8,
+ "directionAngles": [
+  0,
+  45,
+  90,
+  135,
+  180,
+  225,
+  270,
+  315
+ ],
+ "anchor": [
+  80,
+  128
+ ],
+ "animations": {
+  "idle": {
+   "row": 0,
+   "frames": 8,
+   "fps": 6,
+   "loop": true
+  },
+  "walk": {
+   "row": 8,
+   "frames": 8,
+   "fps": 11,
+   "loop": true
+  },
+  "attack": {
+   "row": 16,
+   "frames": 8,
+   "fps": 16,
+   "loop": false,
+   "hitFrame": 4
+  },
+  "hit": {
+   "row": 24,
+   "frames": 4,
+   "fps": 14,
+   "loop": false
+  },
+  "death": {
+   "row": 32,
+   "frames": 10,
+   "fps": 12,
+   "loop": false
+  }
+ }
+}

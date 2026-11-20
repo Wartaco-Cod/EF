@@ -1,0 +1,933 @@
+{
+ "mon_smuggler_cutthroat": {
+  "body": "#4A3B2A",
+  "trim": "#8A6B3A",
+  "head": "hood",
+  "weapon": "dagger"
+ },
+ "mon_smuggler_bruiser": {
+  "body": "#5B4632",
+  "trim": "#2E241A",
+  "head": "bare",
+  "weapon": "club"
+ },
+ "mon_tunnel_rats": {
+  "body": "#6B6258",
+  "shape": "swarm"
+ },
+ "mon_garrison_pikeman": {
+  "body": "#2C4A86",
+  "trim": "#D9B23A",
+  "head": "helm",
+  "weapon": "spear",
+  "emblem": "fleur"
+ },
+ "mon_garrison_crossbowman": {
+  "body": "#2C4A86",
+  "trim": "#D9B23A",
+  "head": "kettle",
+  "weapon": "crossbow",
+  "emblem": "fleur"
+ },
+ "mon_garrison_knight": {
+  "body": "#23407A",
+  "trim": "#E6C14A",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "shield": true
+ },
+ "mon_routier": {
+  "body": "#5E5A4E",
+  "trim": "#8E2F28",
+  "head": "coif",
+  "weapon": "axe"
+ },
+ "mon_routier_archer": {
+  "body": "#5E5A4E",
+  "trim": "#8E2F28",
+  "head": "hood",
+  "weapon": "bow"
+ },
+ "mon_cave_crawler": {
+  "body": "#C9C3B4",
+  "shape": "beast",
+  "eyes": "#9FE0C0",
+  "undead": true,
+  "beast": "crawler"
+ },
+ "mon_cave_bats": {
+  "body": "#3A3236",
+  "shape": "bats"
+ },
+ "mon_inquisition_jailer": {
+  "body": "#2A2624",
+  "trim": "#7A7468",
+  "head": "hood",
+  "weapon": "club"
+ },
+ "mon_dominican_inquisitor": {
+  "body": "#F0ECE2",
+  "trim": "#1E1C1A",
+  "head": "hood_black",
+  "weapon": "book"
+ },
+ "mon_inquisition_executioner": {
+  "body": "#1C1A18",
+  "trim": "#5A1A16",
+  "head": "executioner",
+  "weapon": "axe"
+ },
+ "mon_penitent_zealot": {
+  "body": "#8A7A64",
+  "trim": "#5A1A16",
+  "head": "bare",
+  "weapon": "whip"
+ },
+ "mon_royal_huntsman": {
+  "body": "#3E5A2E",
+  "trim": "#C9A227",
+  "head": "hood",
+  "weapon": "bow"
+ },
+ "mon_kings_forester": {
+  "body": "#3E5A2E",
+  "trim": "#6B4A2A",
+  "head": "kettle",
+  "weapon": "spear"
+ },
+ "mon_hunting_boar": {
+  "body": "#4E3A2A",
+  "shape": "beast",
+  "tusk": true,
+  "beast": "boar"
+ },
+ "mon_grey_wolf": {
+  "body": "#7A7670",
+  "shape": "beast",
+  "beast": "dog"
+ },
+ "mon_corrupt_monk": {
+  "body": "#5A4632",
+  "trim": "#2A2018",
+  "head": "hood",
+  "weapon": "book"
+ },
+ "mon_trial_executioner": {
+  "body": "#1C1A18",
+  "trim": "#8A1C18",
+  "head": "executioner",
+  "weapon": "maul"
+ },
+ "mon_penitent_brother": {
+  "body": "#8A7A64",
+  "trim": "#3A2E22",
+  "head": "hood",
+  "weapon": "whip"
+ },
+ "mon_court_guard": {
+  "body": "#23407A",
+  "trim": "#E6C14A",
+  "head": "kettle",
+  "weapon": "halberd",
+  "emblem": "fleur"
+ },
+ "mon_court_sergeant": {
+  "body": "#1B3366",
+  "trim": "#F2D25A",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "shield": true
+ },
+ "mon_court_spy": {
+  "body": "#4A2E4A",
+  "trim": "#C9A227",
+  "head": "hood",
+  "weapon": "dagger"
+ },
+ "mon_court_hound": {
+  "body": "#6A5038",
+  "shape": "beast",
+  "beast": "dog",
+  "collar": true,
+  "trim": "#1B3366"
+ },
+ "mon_apostate_templar": {
+  "body": "#E6E2D8",
+  "trim": "#1A1A1A",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "black_cross",
+  "shield": true
+ },
+ "mon_cathedral_shade": {
+  "body": "#7A8AA0",
+  "trim": "#C9D6E8",
+  "head": "wraith",
+  "weapon": "none",
+  "ghost": true,
+  "undead": true
+ },
+ "mon_ossuary_knight": {
+  "body": "#D8D0BC",
+  "trim": "#5A5448",
+  "head": "skull",
+  "weapon": "maul",
+  "undead": true
+ },
+ "mon_papal_guard": {
+  "body": "#8E1C1C",
+  "trim": "#E6C14A",
+  "head": "helm",
+  "weapon": "halberd",
+  "emblem": "keys"
+ },
+ "mon_papal_crossbowman": {
+  "body": "#8E1C1C",
+  "trim": "#E6C14A",
+  "head": "kettle",
+  "weapon": "crossbow",
+  "emblem": "keys"
+ },
+ "mon_legate_inquisitor": {
+  "body": "#6E1414",
+  "trim": "#F0ECE2",
+  "head": "hood",
+  "weapon": "book",
+  "emblem": "keys"
+ },
+ "mon_vault_warden": {
+  "body": "#3A3A40",
+  "trim": "#E6C14A",
+  "head": "greathelm",
+  "weapon": "maul",
+  "emblem": "keys"
+ },
+ "mon_paris_zealot": {
+  "body": "#6A5A44",
+  "trim": "#8A1C18",
+  "head": "bare",
+  "weapon": "torch"
+ },
+ "mon_royal_guardsman": {
+  "body": "#1B3366",
+  "trim": "#F2D25A",
+  "head": "helm",
+  "weapon": "halberd",
+  "emblem": "fleur"
+ },
+ "mon_royal_archer": {
+  "body": "#1B3366",
+  "trim": "#F2D25A",
+  "head": "kettle",
+  "weapon": "crossbow",
+  "emblem": "fleur"
+ },
+ "mon_provosts_man": {
+  "body": "#1C1A18",
+  "trim": "#8A1C18",
+  "head": "executioner",
+  "weapon": "axe"
+ },
+ "mon_household_knight": {
+  "body": "#142A55",
+  "trim": "#F2D25A",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "shield": true
+ },
+ "mon_royal_almoner": {
+  "body": "#E8E2D2",
+  "trim": "#1B3366",
+  "head": "mitre",
+  "weapon": "book",
+  "emblem": "fleur"
+ },
+ "mon_vatican_champion": {
+  "body": "#8E1C1C",
+  "trim": "#F2D25A",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "keys",
+  "shield": true
+ },
+ "mon_cardinal_inquisitor": {
+  "body": "#A01818",
+  "trim": "#F2D25A",
+  "head": "cardinal",
+  "weapon": "book",
+  "emblem": "keys"
+ },
+ "mon_living_effigy": {
+  "body": "#9A968C",
+  "trim": "#6A665E",
+  "head": "stone",
+  "weapon": "none",
+  "stone": true,
+  "undead": true
+ },
+ "mon_tower_warden": {
+  "body": "#2A2A30",
+  "trim": "#9A9080",
+  "head": "greathelm",
+  "weapon": "maul",
+  "emblem": "fleur"
+ },
+ "mon_confession_wraith": {
+  "body": "#A8B4C8",
+  "trim": "#E8E4DA",
+  "head": "wraith",
+  "weapon": "scroll",
+  "ghost": true,
+  "undead": true
+ },
+ "mon_chosen_knight": {
+  "body": "#E6C14A",
+  "trim": "#142A55",
+  "head": "crownhelm",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "shield": true
+ },
+ "mon_payns_soldier": {
+  "body": "#2C4A86",
+  "trim": "#D9B23A",
+  "head": "kettle",
+  "weapon": "spear",
+  "emblem": "fleur"
+ },
+ "mon_remnant_brother": {
+  "body": "#F0ECE2",
+  "trim": "#B3241E",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "cross",
+  "shield": true
+ },
+ "boss_bastien": {
+  "body": "#3A2E22",
+  "trim": "#C9A227",
+  "head": "hood",
+  "weapon": "oar",
+  "boss": true
+ },
+ "boss_brother_guichard": {
+  "body": "#B8B0A0",
+  "trim": "#5A1A16",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "cross",
+  "undead": true,
+  "shield": true,
+  "boss": true
+ },
+ "boss_reginald": {
+  "body": "#23407A",
+  "trim": "#F2D25A",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "shield": true,
+  "boss": true
+ },
+ "boss_hugues_le_routier": {
+  "body": "#4E4A40",
+  "trim": "#B3241E",
+  "head": "coif",
+  "weapon": "greataxe",
+  "boss": true
+ },
+ "boss_pale_thing": {
+  "body": "#E0DCCF",
+  "shape": "beast",
+  "eyes": "#9FE0C0",
+  "big": true,
+  "boss": true,
+  "beast": "crawler"
+ },
+ "boss_warden_of_cells": {
+  "body": "#1E1C1A",
+  "trim": "#C9A227",
+  "head": "hood",
+  "weapon": "keys_ring",
+  "boss": true
+ },
+ "boss_marcus": {
+  "body": "#F0ECE2",
+  "trim": "#8A1C18",
+  "head": "hood_black",
+  "weapon": "book",
+  "emblem": "eye",
+  "boss": true
+ },
+ "boss_master_of_the_hunt": {
+  "body": "#2E4A22",
+  "trim": "#F2D25A",
+  "head": "feathered",
+  "weapon": "bow",
+  "boss": true
+ },
+ "boss_black_boar": {
+  "body": "#1E1A16",
+  "shape": "beast",
+  "tusk": true,
+  "big": true,
+  "boss": true,
+  "beast": "boar"
+ },
+ "boss_prior_anselme": {
+  "body": "#3A2A1E",
+  "trim": "#C9A227",
+  "head": "tonsure",
+  "weapon": "book",
+  "boss": true
+ },
+ "boss_keeper_of_rolls": {
+  "body": "#1B3366",
+  "trim": "#F2D25A",
+  "head": "hat",
+  "weapon": "scroll",
+  "emblem": "fleur",
+  "boss": true
+ },
+ "boss_ossuary_abbot": {
+  "body": "#CFC6AE",
+  "trim": "#5A1A16",
+  "head": "skull_mitre",
+  "weapon": "crozier",
+  "boss": true
+ },
+ "boss_arnaud": {
+  "body": "#E6E2D8",
+  "trim": "#1A1A1A",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "black_cross",
+  "shield": true,
+  "boss": true
+ },
+ "boss_keeper_of_the_vault": {
+  "body": "#3A3A40",
+  "trim": "#F2D25A",
+  "head": "greathelm",
+  "weapon": "keys_ring",
+  "emblem": "keys",
+  "boss": true
+ },
+ "boss_inquisitor_general": {
+  "body": "#6E1414",
+  "trim": "#F2D25A",
+  "head": "cardinal",
+  "weapon": "crozier",
+  "emblem": "keys",
+  "boss": true
+ },
+ "boss_provost": {
+  "body": "#1C1A18",
+  "trim": "#F2D25A",
+  "head": "hat",
+  "weapon": "mace",
+  "emblem": "fleur",
+  "boss": true
+ },
+ "boss_captain_of_the_guard": {
+  "body": "#142A55",
+  "trim": "#F2D25A",
+  "head": "greathelm_plume",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "shield": true,
+  "boss": true
+ },
+ "boss_nogaret": {
+  "body": "#142A55",
+  "trim": "#E8E2D2",
+  "head": "hat",
+  "weapon": "seal",
+  "emblem": "fleur",
+  "boss": true
+ },
+ "boss_cardinals_champion": {
+  "body": "#8E1C1C",
+  "trim": "#F2D25A",
+  "head": "greathelm_plume",
+  "weapon": "greatsword",
+  "emblem": "keys",
+  "boss": true
+ },
+ "boss_clement": {
+  "body": "#F0ECE2",
+  "trim": "#F2D25A",
+  "head": "tiara",
+  "weapon": "crozier",
+  "emblem": "keys",
+  "boss": true
+ },
+ "boss_tower_gaoler": {
+  "body": "#2A2A30",
+  "trim": "#C9A227",
+  "head": "executioner",
+  "weapon": "keys_ring",
+  "boss": true
+ },
+ "boss_marigny": {
+  "body": "#142A55",
+  "trim": "#F2D25A",
+  "head": "hat",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "boss": true
+ },
+ "boss_living_confession": {
+  "body": "#C8D0DC",
+  "trim": "#8A1C18",
+  "head": "wraith",
+  "weapon": "scroll",
+  "ghost": true,
+  "big": true,
+  "boss": true
+ },
+ "boss_philip_iv": {
+  "body": "#142A55",
+  "trim": "#F2D25A",
+  "head": "crown",
+  "weapon": "greatsword",
+  "emblem": "fleur",
+  "cape": "#8E1C1C",
+  "boss": true
+ },
+ "npc_gerard_act2": {
+  "body": "#F0ECE2",
+  "trim": "#B3241E",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "cross",
+  "dress": "plate"
+ },
+ "npc_eleanor_of_valois": {
+  "body": "#3A2448",
+  "trim": "#C9A227",
+  "head": "veil",
+  "weapon": "none",
+  "dress": "gown"
+ },
+ "npc_jean_baptiste": {
+  "body": "#6A5A44",
+  "trim": "#2A2018",
+  "head": "tonsure",
+  "weapon": "book"
+ },
+ "npc_odette_the_farrier": {
+  "body": "#5A3A24",
+  "trim": "#2A1A10",
+  "head": "bare",
+  "weapon": "hammer",
+  "dress": "apron"
+ },
+ "npc_strongbox_act2": {
+  "shape": "chest"
+ },
+ "npc_broker_act2": {
+  "body": "#2E4A3A",
+  "trim": "#C9A227",
+  "head": "hat",
+  "weapon": "scroll"
+ },
+ "npc_count_de_valois": {
+  "body": "#3A2E6A",
+  "trim": "#F2D25A",
+  "head": "hat",
+  "weapon": "none",
+  "emblem": "fleur"
+ },
+ "npc_bishop_of_senlis": {
+  "body": "#E8E2D2",
+  "trim": "#8A1C18",
+  "head": "mitre",
+  "weapon": "crozier"
+ },
+ "npc_marie": {
+  "body": "#2A1E2A",
+  "trim": "#C9B88A",
+  "head": "hood",
+  "weapon": "none",
+  "dress": "gown"
+ },
+ "npc_isabeau_clothier": {
+  "body": "#7A2A4A",
+  "trim": "#E6C14A",
+  "head": "veil",
+  "weapon": "none",
+  "dress": "gown"
+ },
+ "npc_renier_armourer": {
+  "body": "#4A3A2A",
+  "trim": "#2A1A10",
+  "head": "bare_beard",
+  "weapon": "hammer",
+  "dress": "apron"
+ },
+ "npc_strongbox_act3": {
+  "shape": "chest"
+ },
+ "npc_broker_act3": {
+  "body": "#2E4A3A",
+  "trim": "#C9A227",
+  "head": "hood",
+  "weapon": "scroll"
+ },
+ "npc_gerard_act4": {
+  "body": "#F0ECE2",
+  "trim": "#B3241E",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "cross",
+  "dress": "plate"
+ },
+ "npc_eleanor_act4": {
+  "body": "#3A2448",
+  "trim": "#C9A227",
+  "head": "veil",
+  "weapon": "none",
+  "dress": "gown"
+ },
+ "npc_ysabeau_act4": {
+  "body": "#F0ECE2",
+  "trim": "#8A1C18",
+  "head": "hood_white",
+  "weapon": "none"
+ },
+ "npc_aubry_act4": {
+  "body": "#4A3A2A",
+  "trim": "#2A1A10",
+  "head": "bare_beard",
+  "weapon": "hammer",
+  "dress": "apron"
+ },
+ "npc_thomas_act4": {
+  "body": "#6A5A44",
+  "trim": "#2A2018",
+  "head": "tonsure",
+  "weapon": "book"
+ },
+ "npc_reginald_act4": {
+  "body": "#23407A",
+  "trim": "#F2D25A",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "fleur",
+  "dress": "plate"
+ },
+ "npc_arnaud_act4": {
+  "body": "#E6E2D8",
+  "trim": "#1A1A1A",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "cross",
+  "dress": "plate"
+ },
+ "npc_marie_act4": {
+  "body": "#2A1E2A",
+  "trim": "#C9B88A",
+  "head": "hood",
+  "weapon": "none",
+  "dress": "gown"
+ },
+ "npc_strongbox_act4": {
+  "shape": "chest"
+ },
+ "npc_broker_act4": {
+  "body": "#2E4A3A",
+  "trim": "#C9A227",
+  "head": "hat",
+  "weapon": "scroll"
+ },
+ "class_knight": {
+  "body": "#F0ECE2",
+  "trim": "#B3241E",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "cross",
+  "shield": true,
+  "dress": "plate",
+  "cape": "#E8E4DA"
+ },
+ "class_paladin": {
+  "body": "#ECE6D6",
+  "trim": "#D9B23A",
+  "head": "helm",
+  "weapon": "mace",
+  "emblem": "cross_gold",
+  "shield": true,
+  "dress": "plate",
+  "cape": "#8E1C1C"
+ },
+ "class_wizard": {
+  "body": "#2C3A78",
+  "trim": "#C9D6E8",
+  "head": "hood",
+  "weapon": "staff_orb",
+  "dress": "robe"
+ },
+ "class_healer": {
+  "body": "#C8CCB8",
+  "trim": "#F0ECE2",
+  "head": "hood_white",
+  "weapon": "staff",
+  "emblem": "cross_white",
+  "dress": "robe"
+ },
+ "boss_imbert": {
+  "body": "#F0ECE2",
+  "trim": "#1E1C1A",
+  "head": "hood_black",
+  "weapon": "book",
+  "emblem": "eye",
+  "boss": true,
+  "cape": "#1E1C1A"
+ },
+ "mon_royal_sergeant": {
+  "body": "#23407A",
+  "trim": "#D9B23A",
+  "head": "kettle",
+  "weapon": "spear",
+  "emblem": "fleur"
+ },
+ "mon_hunting_mastiff": {
+  "body": "#6A4A2E",
+  "trim": "#3A3A40",
+  "shape": "beast",
+  "beast": "dog",
+  "collar": true
+ },
+ "mon_carrion_crow": {
+  "body": "#1E1C22",
+  "shape": "crow"
+ },
+ "mon_crossbowman": {
+  "body": "#23407A",
+  "trim": "#D9B23A",
+  "head": "kettle",
+  "weapon": "crossbow",
+  "emblem": "fleur"
+ },
+ "mon_man_at_arms": {
+  "body": "#4A4E5E",
+  "trim": "#23407A",
+  "head": "helm",
+  "weapon": "sword",
+  "shield": true,
+  "dress": "mail"
+ },
+ "mon_bailiffs_enforcer": {
+  "body": "#4A3426",
+  "trim": "#23407A",
+  "head": "coif",
+  "weapon": "maul"
+ },
+ "mon_flagellant": {
+  "body": "#9A7A62",
+  "trim": "#6E1414",
+  "head": "hood",
+  "weapon": "whip",
+  "dress": "robe"
+ },
+ "mon_warhound": {
+  "body": "#3E3A34",
+  "trim": "#8E1C1C",
+  "shape": "beast",
+  "beast": "dog",
+  "collar": true,
+  "big": true
+ },
+ "mon_confessors_acolyte": {
+  "body": "#1E1C1A",
+  "trim": "#F0ECE2",
+  "head": "hood_black",
+  "weapon": "book",
+  "dress": "robe"
+ },
+ "mon_iron_sergeant": {
+  "body": "#3A3E46",
+  "trim": "#1E1C1A",
+  "head": "greathelm",
+  "weapon": "maul",
+  "dress": "plate",
+  "big": true
+ },
+ "mon_sworn_blade": {
+  "body": "#2A2238",
+  "trim": "#8E1C1C",
+  "head": "hood",
+  "weapon": "sword",
+  "dress": "tunic"
+ },
+ "mon_torturer": {
+  "body": "#3A2418",
+  "trim": "#1E1C1A",
+  "head": "executioner",
+  "weapon": "hammer",
+  "big": true
+ },
+ "mon_plague_rat_swarm": {
+  "body": "#4A4038",
+  "shape": "swarm"
+ },
+ "mon_drowned_penitent": {
+  "body": "#3E5A50",
+  "trim": "#2A3A34",
+  "head": "hood",
+  "weapon": "none",
+  "undead": true,
+  "dress": "robe"
+ },
+ "mon_quarry_ghoul": {
+  "body": "#8A9A88",
+  "trim": "#3A3A32",
+  "shape": "ghoul",
+  "undead": true,
+  "eyes": "#E0463C"
+ },
+ "mon_chapel_wraith": {
+  "body": "#8A92A0",
+  "trim": "#C9D6E8",
+  "head": "wraith",
+  "weapon": "none",
+  "ghost": true,
+  "undead": true
+ },
+ "mon_fallen_templar": {
+  "body": "#B8B0A0",
+  "trim": "#6E1414",
+  "head": "greathelm",
+  "weapon": "sword",
+  "emblem": "cross",
+  "undead": true,
+  "dress": "plate"
+ },
+ "mon_risen_marshal": {
+  "body": "#9A9484",
+  "trim": "#6E1414",
+  "head": "greathelm_plume",
+  "weapon": "maul",
+  "emblem": "cross",
+  "undead": true,
+  "dress": "plate",
+  "big": true
+ },
+ "npc_brother_thomas": {
+  "body": "#5A4632",
+  "trim": "#2A2018",
+  "head": "tonsure",
+  "weapon": "book",
+  "emblem": "cross_white"
+ },
+ "npc_eleanor_of_troyes": {
+  "body": "#6E2438",
+  "trim": "#C9A227",
+  "head": "veil",
+  "weapon": "none",
+  "dress": "gown"
+ },
+ "npc_gerard_de_villiers": {
+  "body": "#F0ECE2",
+  "trim": "#B3241E",
+  "head": "bare_beard",
+  "weapon": "sword",
+  "emblem": "cross",
+  "dress": "plate",
+  "cape": "#E8E4DA"
+ },
+ "npc_master_aubry": {
+  "body": "#5A4030",
+  "trim": "#2A1A10",
+  "head": "bare_beard",
+  "weapon": "hammer",
+  "dress": "apron"
+ },
+ "npc_sister_ysabeau": {
+  "body": "#F0ECE2",
+  "trim": "#8A1C18",
+  "head": "hood_white",
+  "weapon": "none",
+  "emblem": "cross"
+ },
+ "npc_the_hermit": {
+  "body": "#4A5034",
+  "trim": "#2A2018",
+  "head": "hood",
+  "weapon": "staff",
+  "dress": "robe"
+ },
+ "npc_townsfolk": {
+  "body": "#6A5038",
+  "trim": "#3A2A1E",
+  "head": "bare",
+  "weapon": "none",
+  "dress": "tunic"
+ },
+ "npc_strongbox": {
+  "shape": "chest"
+ },
+ "pet_greyhound": {
+  "body": "#8A8680",
+  "shape": "beast",
+  "beast": "dog",
+  "scale": 0.82,
+  "collar": true,
+  "trim": "#7A1A14",
+  "eyes": "#2A1A10"
+ },
+ "pet_barn_cat": {
+  "body": "#C07A38",
+  "shape": "beast",
+  "beast": "cat",
+  "scale": 0.55,
+  "eyes": "#7AC040"
+ },
+ "pet_piglet": {
+  "body": "#E0A8A0",
+  "shape": "beast",
+  "beast": "boar",
+  "scale": 0.55,
+  "eyes": "#2A1A10"
+ },
+ "pet_raven": {
+  "body": "#16141A",
+  "shape": "crow"
+ },
+ "pet_goshawk": {
+  "body": "#6A5034",
+  "shape": "crow"
+ },
+ "pet_white_hart": {
+  "body": "#ECE8E0",
+  "shape": "beast",
+  "beast": "deer",
+  "scale": 0.85,
+  "antlers": true,
+  "eyes": "#2A1A10"
+ },
+ "mon_tarasque": {
+  "body": "#4A5A3A",
+  "belly": "#8A7A52",
+  "shell": "#3A3424",
+  "mane": "#6A3A1A",
+  "shape": "tarasque",
+  "frame": [
+   384,
+   9.0
+  ],
+  "scale": 2.3
+ },
+ "mon_tarasque_brood": {
+  "body": "#5A6A40",
+  "belly": "#9A8A5A",
+  "shell": "#4A4430",
+  "mane": "#7A4A2A",
+  "shape": "tarasque",
+  "scale": 0.5
+ }
+}
