@@ -1,0 +1,105 @@
+{
+ "id": "knights_cell",
+ "name": "Your Cell",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 1,
+ "width": 1400,
+ "height": 1000,
+ "playerSpawn": [
+  700,
+  800
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act1_hall.png",
+ "description": "A brother's cell in the Sanctuary: a cot, a crucifix, and the rack where your harness hangs.",
+ "isTown": true,
+ "isPersonal": true,
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 700,
+   "y": 930
+  }
+ ],
+ "waypoint": null,
+ "arena": null,
+ "npcs": [
+  {
+   "id": "armoury_rack",
+   "name": "The Armoury Rack",
+   "role": "Your loadouts",
+   "services": [
+    "armoury"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 700,
+   "y": 420,
+   "sprite": "sprites/npc_armoury_rack.png",
+   "lines": []
+  }
+ ],
+ "decor": [
+  {
+   "prop": "cot_1",
+   "x": 330,
+   "y": 420,
+   "flip": false
+  },
+  {
+   "prop": "prie_dieu_1",
+   "x": 1080,
+   "y": 380,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1180,
+   "y": 300,
+   "flip": false
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 1180,
+   "y": 760,
+   "flip": false
+  }
+ ],
+ "lights": [
+  {
+   "x": 700,
+   "y": 360,
+   "light": {
+    "colour": "#FFC884",
+    "radius": 520,
+    "intensity": 0.9,
+    "flicker": 0.4
+   }
+  }
+ ],
+ "music": "town_act1",
+ "ambience": {
+  "ambient": "#D8B48C",
+  "level": 0.66,
+  "tint": "#FFEAD2",
+  "saturation": 0.95,
+  "contrast": 1.1,
+  "vignette": 0.5,
+  "bloom": 0.9,
+  "particles": "dust",
+  "particleDensity": 0.8,
+  "heroLight": 280,
+  "clouds": 0.0,
+  "dust": "#6A5E50",
+  "sound": "hall"
+ },
+ "levelSync": false
+}

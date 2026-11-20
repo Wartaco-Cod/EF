@@ -1,0 +1,137 @@
+{
+ "id": "tarascon_muster",
+ "name": "The Muster at Tarascon",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 1,
+ "width": 2200,
+ "height": 1500,
+ "playerSpawn": [
+  1100,
+  1000
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act4_camp.png",
+ "description": "Tents on the bank of the Rhône, below Tarascon. When the horn sounds, everyone here crosses to the shore where the beast waits.",
+ "isTown": true,
+ "muster": true,
+ "maxPlayers": 20,
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 120,
+   "y": 1000
+  }
+ ],
+ "waypoint": null,
+ "arena": null,
+ "npcs": [
+  {
+   "id": "herald_muster",
+   "name": "Guillaume the Herald",
+   "role": "Herald of the hunt",
+   "services": [
+    "herald"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1100,
+   "y": 620,
+   "sprite": "sprites/npc_gerard_act2.png",
+   "lines": [
+    "Up to twenty may cross. Stay together; she cannot crush all of you at once.",
+    "When one of you falls on the shore, the rest of you can raise them. Nowhere else."
+   ]
+  },
+  {
+   "id": "muster_healer",
+   "name": "Sister Ysabeau",
+   "role": "Infirmarian",
+   "services": [
+    "heal",
+    "potions"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 760,
+   "y": 820,
+   "sprite": "sprites/npc_sister_ysabeau.png",
+   "lines": []
+  }
+ ],
+ "decor": [
+  {
+   "prop": "tent_1",
+   "x": 520,
+   "y": 420,
+   "flip": false
+  },
+  {
+   "prop": "tent_2",
+   "x": 1680,
+   "y": 420,
+   "flip": true
+  },
+  {
+   "prop": "tent_1",
+   "x": 1880,
+   "y": 1180,
+   "flip": false
+  },
+  {
+   "prop": "banner_1",
+   "x": 1100,
+   "y": 380,
+   "flip": false
+  },
+  {
+   "prop": "brazier_1",
+   "x": 900,
+   "y": 700,
+   "flip": false
+  },
+  {
+   "prop": "brazier_2",
+   "x": 1300,
+   "y": 700,
+   "flip": false
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 360,
+   "y": 1220,
+   "flip": false
+  },
+  {
+   "prop": "weapon_rack_1",
+   "x": 1500,
+   "y": 980,
+   "flip": false
+  }
+ ],
+ "lights": [],
+ "music": "town_act1",
+ "ambience": {
+  "ambient": "#C8B8A8",
+  "level": 0.72,
+  "tint": "#FFE8D0",
+  "saturation": 0.92,
+  "contrast": 1.08,
+  "vignette": 0.45,
+  "bloom": 0.8,
+  "particles": "embers",
+  "particleDensity": 0.5,
+  "heroLight": 200,
+  "clouds": 0.4,
+  "dust": "#7A6A54",
+  "sound": "camp"
+ },
+ "levelSync": false
+}

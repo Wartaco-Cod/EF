@@ -1,0 +1,1856 @@
+{
+ "altar_1": {
+  "sprite": "sprites/prop_altar_1.png",
+  "metres": 3.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   63.9,
+   27.5
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 280,
+   "intensity": 1.05,
+   "flicker": 0.6,
+   "height": 1.5,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "altar_2": {
+  "sprite": "sprites/prop_altar_2.png",
+  "metres": 3.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   62.3,
+   28.9
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 280,
+   "intensity": 1.05,
+   "flicker": 0.6,
+   "height": 1.5,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "anvil_1": {
+  "sprite": "sprites/prop_anvil_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   24.0,
+   9.7
+  ]
+ },
+ "anvil_2": {
+  "sprite": "sprites/prop_anvil_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   23.1,
+   10.3
+  ]
+ },
+ "armoury_rack_1": {
+  "sprite": "sprites/prop_armoury_rack_1.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   40.3,
+   18.7
+  ]
+ },
+ "armoury_rack_2": {
+  "sprite": "sprites/prop_armoury_rack_2.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   40.5,
+   17.6
+  ]
+ },
+ "athanor_1": {
+  "sprite": "sprites/prop_athanor_1.png",
+  "metres": 4.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   34.3,
+   17.7
+  ],
+  "light": {
+   "colour": "#B070FF",
+   "radius": 380,
+   "intensity": 1.2,
+   "flicker": 0.4,
+   "height": 0.7,
+   "flame": true,
+   "embers": 2
+  }
+ },
+ "athanor_2": {
+  "sprite": "sprites/prop_athanor_2.png",
+  "metres": 4.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   34.3,
+   17.5
+  ],
+  "light": {
+   "colour": "#B070FF",
+   "radius": 380,
+   "intensity": 1.2,
+   "flicker": 0.4,
+   "height": 0.7,
+   "flame": true,
+   "embers": 2
+  }
+ },
+ "banner_1": {
+  "sprite": "sprites/prop_banner_1.png",
+  "metres": 5.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   2.7,
+   1.4
+  ]
+ },
+ "banner_2": {
+  "sprite": "sprites/prop_banner_2.png",
+  "metres": 5.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   2.8,
+   1.4
+  ]
+ },
+ "banquet_table_1": {
+  "sprite": "sprites/prop_banquet_table_1.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   83.6,
+   35.0
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 280,
+   "intensity": 1.05,
+   "flicker": 0.6,
+   "height": 1.5,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "banquet_table_2": {
+  "sprite": "sprites/prop_banquet_table_2.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   81.1,
+   37.1
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 280,
+   "intensity": 1.05,
+   "flicker": 0.6,
+   "height": 1.5,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "barrels_crates_1": {
+  "sprite": "sprites/prop_barrels_crates_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   58.1,
+   32.4
+  ]
+ },
+ "barrels_crates_2": {
+  "sprite": "sprites/prop_barrels_crates_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   65.6,
+   28.5
+  ]
+ },
+ "boarded_house_1": {
+  "sprite": "sprites/prop_boarded_house_1.png",
+  "metres": 11.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   187.2,
+   91.5
+  ]
+ },
+ "boarded_house_2": {
+  "sprite": "sprites/prop_boarded_house_2.png",
+  "metres": 11.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   188.3,
+   93.1
+  ]
+ },
+ "bone_pile_1": {
+  "sprite": "sprites/prop_bone_pile_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   33.8,
+   15.7
+  ]
+ },
+ "bone_pile_2": {
+  "sprite": "sprites/prop_bone_pile_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   31.9,
+   16.5
+  ]
+ },
+ "bookcase_1": {
+  "sprite": "sprites/prop_bookcase_1.png",
+  "metres": 4.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   52.5,
+   21.0
+  ]
+ },
+ "bookcase_2": {
+  "sprite": "sprites/prop_bookcase_2.png",
+  "metres": 4.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   50.4,
+   22.6
+  ]
+ },
+ "boulder_1": {
+  "sprite": "sprites/prop_boulder_1.png",
+  "metres": 3.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   68.8,
+   27.9
+  ]
+ },
+ "boulder_2": {
+  "sprite": "sprites/prop_boulder_2.png",
+  "metres": 3.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   57.0,
+   30.8
+  ]
+ },
+ "brazier_1": {
+  "sprite": "sprites/prop_brazier_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   25.5,
+   12.7
+  ],
+  "light": {
+   "colour": "#FF9A40",
+   "radius": 340,
+   "intensity": 1.45,
+   "flicker": 0.85,
+   "height": 1.35,
+   "flame": true,
+   "embers": 4
+  }
+ },
+ "brazier_2": {
+  "sprite": "sprites/prop_brazier_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   25.4,
+   12.7
+  ],
+  "light": {
+   "colour": "#FF9A40",
+   "radius": 340,
+   "intensity": 1.45,
+   "flicker": 0.85,
+   "height": 1.35,
+   "flame": true,
+   "embers": 4
+  }
+ },
+ "broken_column_1": {
+  "sprite": "sprites/prop_broken_column_1.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   32.3,
+   18.0
+  ]
+ },
+ "broken_column_2": {
+  "sprite": "sprites/prop_broken_column_2.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   40.6,
+   12.5
+  ]
+ },
+ "burned_beams_1": {
+  "sprite": "sprites/prop_burned_beams_1.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   52.9,
+   26.9
+  ],
+  "light": {
+   "colour": "#FF7A30",
+   "radius": 190,
+   "intensity": 0.8,
+   "flicker": 0.8,
+   "height": 0.35,
+   "flame": false,
+   "embers": 2.5
+  }
+ },
+ "burned_beams_2": {
+  "sprite": "sprites/prop_burned_beams_2.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   55.4,
+   26.5
+  ],
+  "light": {
+   "colour": "#FF7A30",
+   "radius": 190,
+   "intensity": 0.8,
+   "flicker": 0.8,
+   "height": 0.35,
+   "flame": false,
+   "embers": 2.5
+  }
+ },
+ "burnt_tree_1": {
+  "sprite": "sprites/prop_burnt_tree_1.png",
+  "metres": 6.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   14.9,
+   13.3
+  ]
+ },
+ "burnt_tree_2": {
+  "sprite": "sprites/prop_burnt_tree_2.png",
+  "metres": 6.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   25.5,
+   7.4
+  ]
+ },
+ "bush_1": {
+  "sprite": "sprites/prop_bush_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   26.0,
+   11.0
+  ]
+ },
+ "bush_2": {
+  "sprite": "sprites/prop_bush_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   26.0,
+   11.0
+  ]
+ },
+ "candelabrum_1": {
+  "sprite": "sprites/prop_candelabrum_1.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   20.4,
+   10.5
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 320,
+   "intensity": 1.3,
+   "flicker": 0.6,
+   "height": 1.62,
+   "flame": true,
+   "embers": 0.6
+  }
+ },
+ "candelabrum_2": {
+  "sprite": "sprites/prop_candelabrum_2.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   20.3,
+   10.1
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 320,
+   "intensity": 1.3,
+   "flicker": 0.6,
+   "height": 1.62,
+   "flame": true,
+   "embers": 0.6
+  }
+ },
+ "carpet_1": {
+  "sprite": "sprites/prop_carpet_1.png",
+  "metres": 5.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "carpet_2": {
+  "sprite": "sprites/prop_carpet_2.png",
+  "metres": 5.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "cell_bars_1": {
+  "sprite": "sprites/prop_cell_bars_1.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   74.4,
+   28.4
+  ]
+ },
+ "cell_bars_2": {
+  "sprite": "sprites/prop_cell_bars_2.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   70.8,
+   30.9
+  ]
+ },
+ "coffin_1": {
+  "sprite": "sprites/prop_coffin_1.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   52.7,
+   19.8
+  ]
+ },
+ "coffin_2": {
+  "sprite": "sprites/prop_coffin_2.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   49.0,
+   24.1
+  ]
+ },
+ "cot_1": {
+  "sprite": "sprites/prop_cot_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   58.6,
+   25.4
+  ]
+ },
+ "cot_2": {
+  "sprite": "sprites/prop_cot_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   57.2,
+   26.6
+  ]
+ },
+ "dead_tree_1": {
+  "sprite": "sprites/prop_dead_tree_1.png",
+  "metres": 6.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   29.8,
+   7.4
+  ]
+ },
+ "dead_tree_2": {
+  "sprite": "sprites/prop_dead_tree_2.png",
+  "metres": 6.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   14.7,
+   15.1
+  ]
+ },
+ "dry_grass_1": {
+  "sprite": "sprites/prop_dry_grass_1.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "dry_grass_2": {
+  "sprite": "sprites/prop_dry_grass_2.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "fallen_log_1": {
+  "sprite": "sprites/prop_fallen_log_1.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   72.8,
+   28.6
+  ]
+ },
+ "fallen_log_2": {
+  "sprite": "sprites/prop_fallen_log_2.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   69.2,
+   30.9
+  ]
+ },
+ "font_1": {
+  "sprite": "sprites/prop_font_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   28.7,
+   14.3
+  ]
+ },
+ "font_2": {
+  "sprite": "sprites/prop_font_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   28.4,
+   14.4
+  ]
+ },
+ "forge_hearth_1": {
+  "sprite": "sprites/prop_forge_hearth_1.png",
+  "metres": 5.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   49.0,
+   25.9
+  ],
+  "light": {
+   "colour": "#FF8A38",
+   "radius": 460,
+   "intensity": 1.6,
+   "flicker": 0.8,
+   "height": 1.0,
+   "flame": true,
+   "embers": 6
+  }
+ },
+ "forge_hearth_2": {
+  "sprite": "sprites/prop_forge_hearth_2.png",
+  "metres": 5.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   52.4,
+   23.4
+  ],
+  "light": {
+   "colour": "#FF8A38",
+   "radius": 460,
+   "intensity": 1.6,
+   "flicker": 0.8,
+   "height": 1.0,
+   "flame": true,
+   "embers": 6
+  }
+ },
+ "fungus_1": {
+  "sprite": "sprites/prop_fungus_1.png",
+  "metres": 1.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "light": {
+   "colour": "#9AE0A0",
+   "radius": 200,
+   "intensity": 0.7,
+   "flicker": 0.15,
+   "height": 0.25,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "fungus_2": {
+  "sprite": "sprites/prop_fungus_2.png",
+  "metres": 1.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "light": {
+   "colour": "#9AE0A0",
+   "radius": 200,
+   "intensity": 0.7,
+   "flicker": 0.15,
+   "height": 0.25,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "gibbet_cage_1": {
+  "sprite": "sprites/prop_gibbet_cage_1.png",
+  "metres": 4.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   8.5,
+   4.2
+  ]
+ },
+ "gibbet_cage_2": {
+  "sprite": "sprites/prop_gibbet_cage_2.png",
+  "metres": 4.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   8.6,
+   4.3
+  ]
+ },
+ "grass_flowers_1": {
+  "sprite": "sprites/prop_grass_flowers_1.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "grass_flowers_2": {
+  "sprite": "sprites/prop_grass_flowers_2.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "grass_tuft_1": {
+  "sprite": "sprites/prop_grass_tuft_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "grass_tuft_2": {
+  "sprite": "sprites/prop_grass_tuft_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "graves_1": {
+  "sprite": "sprites/prop_graves_1.png",
+  "metres": 3.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   52.9,
+   19.0
+  ]
+ },
+ "graves_2": {
+  "sprite": "sprites/prop_graves_2.png",
+  "metres": 3.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   49.7,
+   21.1
+  ]
+ },
+ "hay_cart_1": {
+  "sprite": "sprites/prop_hay_cart_1.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   76.5,
+   35.4
+  ]
+ },
+ "hay_cart_2": {
+  "sprite": "sprites/prop_hay_cart_2.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   79.1,
+   36.0
+  ]
+ },
+ "inquisition_banner_1": {
+  "sprite": "sprites/prop_inquisition_banner_1.png",
+  "metres": 5.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   2.7,
+   1.4
+  ]
+ },
+ "inquisition_banner_2": {
+  "sprite": "sprites/prop_inquisition_banner_2.png",
+  "metres": 5.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   2.8,
+   1.4
+  ]
+ },
+ "lectern_1": {
+  "sprite": "sprites/prop_lectern_1.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   20.2,
+   9.5
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 240,
+   "intensity": 1.0,
+   "flicker": 0.6,
+   "height": 1.45,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "lectern_2": {
+  "sprite": "sprites/prop_lectern_2.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   20.7,
+   9.8
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 240,
+   "intensity": 1.0,
+   "flicker": 0.6,
+   "height": 1.45,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "market_stall_1": {
+  "sprite": "sprites/prop_market_stall_1.png",
+  "metres": 3.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   73.5,
+   32.7
+  ]
+ },
+ "market_stall_2": {
+  "sprite": "sprites/prop_market_stall_2.png",
+  "metres": 3.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   72.3,
+   34.1
+  ]
+ },
+ "mine_timbers_1": {
+  "sprite": "sprites/prop_mine_timbers_1.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   58.3,
+   21.8
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 360,
+   "intensity": 1.25,
+   "flicker": 0.5,
+   "height": 2.0,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "mine_timbers_2": {
+  "sprite": "sprites/prop_mine_timbers_2.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   55.2,
+   23.9
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 360,
+   "intensity": 1.25,
+   "flicker": 0.5,
+   "height": 2.0,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "mist_coffer_1": {
+  "sprite": "sprites/prop_mist_coffer_1.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   30.8,
+   14.1
+  ],
+  "light": {
+   "colour": "#8AA8E0",
+   "radius": 220,
+   "intensity": 0.8,
+   "flicker": 0.3,
+   "height": 0.5,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "mist_coffer_2": {
+  "sprite": "sprites/prop_mist_coffer_2.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   30.5,
+   14.6
+  ],
+  "light": {
+   "colour": "#8AA8E0",
+   "radius": 220,
+   "intensity": 0.8,
+   "flicker": 0.3,
+   "height": 0.5,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "notice_board_1": {
+  "sprite": "sprites/prop_notice_board_1.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   37.2,
+   13.8
+  ]
+ },
+ "notice_board_2": {
+  "sprite": "sprites/prop_notice_board_2.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   35.2,
+   15.2
+  ]
+ },
+ "oak_tree_1": {
+  "sprite": "sprites/prop_oak_tree_1.png",
+  "metres": 7.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   30.4,
+   15.7
+  ]
+ },
+ "oak_tree_2": {
+  "sprite": "sprites/prop_oak_tree_2.png",
+  "metres": 7.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   31.5,
+   16.0
+  ]
+ },
+ "oak_tree_b_1": {
+  "sprite": "sprites/prop_oak_tree_b_1.png",
+  "metres": 7.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   26.2,
+   15.1
+  ]
+ },
+ "oak_tree_b_2": {
+  "sprite": "sprites/prop_oak_tree_b_2.png",
+  "metres": 7.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   31.0,
+   13.8
+  ]
+ },
+ "ossuary_wall_1": {
+  "sprite": "sprites/prop_ossuary_wall_1.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   77.5,
+   30.3
+  ]
+ },
+ "ossuary_wall_2": {
+  "sprite": "sprites/prop_ossuary_wall_2.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   74.1,
+   32.8
+  ]
+ },
+ "pews_1": {
+  "sprite": "sprites/prop_pews_1.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   105.0,
+   49.7
+  ]
+ },
+ "pews_2": {
+  "sprite": "sprites/prop_pews_2.png",
+  "metres": 4.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   104.8,
+   51.0
+  ]
+ },
+ "pine_tree_1": {
+  "sprite": "sprites/prop_pine_tree_1.png",
+  "metres": 8.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   12.1,
+   6.1
+  ]
+ },
+ "pine_tree_2": {
+  "sprite": "sprites/prop_pine_tree_2.png",
+  "metres": 8.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   12.0,
+   6.0
+  ]
+ },
+ "prie_dieu_1": {
+  "sprite": "sprites/prop_prie_dieu_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   26.7,
+   13.2
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 200,
+   "intensity": 0.9,
+   "flicker": 0.6,
+   "height": 1.1,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "prie_dieu_2": {
+  "sprite": "sprites/prop_prie_dieu_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   26.9,
+   13.4
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 200,
+   "intensity": 0.9,
+   "flicker": 0.6,
+   "height": 1.1,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "prison_wagon_1": {
+  "sprite": "sprites/prop_prison_wagon_1.png",
+  "metres": 5.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   85.1,
+   39.0
+  ]
+ },
+ "prison_wagon_2": {
+  "sprite": "sprites/prop_prison_wagon_2.png",
+  "metres": 5.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   84.0,
+   40.3
+  ]
+ },
+ "puddle_1": {
+  "sprite": "sprites/prop_puddle_1.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "puddle_2": {
+  "sprite": "sprites/prop_puddle_2.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8
+ },
+ "pyre_stake_1": {
+  "sprite": "sprites/prop_pyre_stake_1.png",
+  "metres": 5.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   54.2,
+   27.0
+  ]
+ },
+ "pyre_stake_2": {
+  "sprite": "sprites/prop_pyre_stake_2.png",
+  "metres": 5.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   54.6,
+   27.4
+  ]
+ },
+ "quench_tub_1": {
+  "sprite": "sprites/prop_quench_tub_1.png",
+  "metres": 1.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   24.9,
+   12.5
+  ]
+ },
+ "quench_tub_2": {
+  "sprite": "sprites/prop_quench_tub_2.png",
+  "metres": 1.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   24.9,
+   12.4
+  ]
+ },
+ "reliquary_1": {
+  "sprite": "sprites/prop_reliquary_1.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   40.0,
+   17.9
+  ]
+ },
+ "reliquary_2": {
+  "sprite": "sprites/prop_reliquary_2.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   39.3,
+   18.6
+  ]
+ },
+ "rock_cluster_1": {
+  "sprite": "sprites/prop_rock_cluster_1.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   52.9,
+   27.4
+  ]
+ },
+ "rock_cluster_2": {
+  "sprite": "sprites/prop_rock_cluster_2.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   58.2,
+   23.3
+  ]
+ },
+ "rubble_1": {
+  "sprite": "sprites/prop_rubble_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   47.8,
+   23.4
+  ]
+ },
+ "rubble_2": {
+  "sprite": "sprites/prop_rubble_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   49.3,
+   22.2
+  ]
+ },
+ "rune_bench_1": {
+  "sprite": "sprites/prop_rune_bench_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   42.6,
+   18.9
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 200,
+   "intensity": 0.9,
+   "flicker": 0.6,
+   "height": 1.1,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "rune_bench_2": {
+  "sprite": "sprites/prop_rune_bench_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   41.8,
+   19.7
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 200,
+   "intensity": 0.9,
+   "flicker": 0.6,
+   "height": 1.1,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "saint_statue_1": {
+  "sprite": "sprites/prop_saint_statue_1.png",
+  "metres": 4.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   29.9,
+   15.0
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 280,
+   "intensity": 1.05,
+   "flicker": 0.6,
+   "height": 1.5,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "saint_statue_2": {
+  "sprite": "sprites/prop_saint_statue_2.png",
+  "metres": 4.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   30.1,
+   15.1
+  ],
+  "light": {
+   "colour": "#FFC070",
+   "radius": 280,
+   "intensity": 1.05,
+   "flicker": 0.6,
+   "height": 1.5,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "sarcophagus_1": {
+  "sprite": "sprites/prop_sarcophagus_1.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   49.5,
+   22.2
+  ]
+ },
+ "sarcophagus_2": {
+  "sprite": "sprites/prop_sarcophagus_2.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   48.8,
+   23.1
+  ]
+ },
+ "scaffold_1": {
+  "sprite": "sprites/prop_scaffold_1.png",
+  "metres": 7.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   107.5,
+   50.4
+  ]
+ },
+ "scaffold_2": {
+  "sprite": "sprites/prop_scaffold_2.png",
+  "metres": 7.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   107.0,
+   51.8
+  ]
+ },
+ "smuggler_cache_1": {
+  "sprite": "sprites/prop_smuggler_cache_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   45.1,
+   13.5
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 300,
+   "intensity": 1.2,
+   "flicker": 0.5,
+   "height": 1.0,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "smuggler_cache_2": {
+  "sprite": "sprites/prop_smuggler_cache_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   31.7,
+   22.0
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 300,
+   "intensity": 1.2,
+   "flicker": 0.5,
+   "height": 1.0,
+   "flame": true,
+   "embers": 0
+  }
+ },
+ "split_fence_1": {
+  "sprite": "sprites/prop_split_fence_1.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   39.9,
+   14.9
+  ]
+ },
+ "split_fence_2": {
+  "sprite": "sprites/prop_split_fence_2.png",
+  "metres": 2.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   38.0,
+   16.2
+  ]
+ },
+ "stained_glass_wall_1": {
+  "sprite": "sprites/prop_stained_glass_wall_1.png",
+  "metres": 6.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   83.4,
+   32.9
+  ],
+  "light": {
+   "colour": "#A0B8FF",
+   "radius": 420,
+   "intensity": 0.9,
+   "flicker": 0.05,
+   "height": 2.4,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "stained_glass_wall_2": {
+  "sprite": "sprites/prop_stained_glass_wall_2.png",
+  "metres": 6.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   79.8,
+   35.5
+  ],
+  "light": {
+   "colour": "#A0B8FF",
+   "radius": 420,
+   "intensity": 0.9,
+   "flicker": 0.05,
+   "height": 2.4,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "stalagmites_1": {
+  "sprite": "sprites/prop_stalagmites_1.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   41.4,
+   19.4
+  ]
+ },
+ "stalagmites_2": {
+  "sprite": "sprites/prop_stalagmites_2.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   38.1,
+   18.3
+  ]
+ },
+ "stocks_1": {
+  "sprite": "sprites/prop_stocks_1.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   33.7,
+   12.5
+  ]
+ },
+ "stocks_2": {
+  "sprite": "sprites/prop_stocks_2.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   31.8,
+   13.7
+  ]
+ },
+ "stone_pillar_1": {
+  "sprite": "sprites/prop_stone_pillar_1.png",
+  "metres": 5.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   28.3,
+   14.1
+  ]
+ },
+ "stone_pillar_2": {
+  "sprite": "sprites/prop_stone_pillar_2.png",
+  "metres": 5.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   28.5,
+   14.3
+  ]
+ },
+ "stone_well_1": {
+  "sprite": "sprites/prop_stone_well_1.png",
+  "metres": 4.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   88.3,
+   43.9
+  ]
+ },
+ "stone_well_2": {
+  "sprite": "sprites/prop_stone_well_2.png",
+  "metres": 4.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   88.5,
+   43.8
+  ]
+ },
+ "suit_of_armour_1": {
+  "sprite": "sprites/prop_suit_of_armour_1.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   20.9,
+   10.1
+  ]
+ },
+ "suit_of_armour_2": {
+  "sprite": "sprites/prop_suit_of_armour_2.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   20.9,
+   10.3
+  ]
+ },
+ "tapestry_wall_1": {
+  "sprite": "sprites/prop_tapestry_wall_1.png",
+  "metres": 5.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   82.2,
+   31.7
+  ]
+ },
+ "tapestry_wall_2": {
+  "sprite": "sprites/prop_tapestry_wall_2.png",
+  "metres": 5.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   78.2,
+   34.4
+  ]
+ },
+ "tent_1": {
+  "sprite": "sprites/prop_tent_1.png",
+  "metres": 4.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   83.1,
+   39.7
+  ]
+ },
+ "tent_2": {
+  "sprite": "sprites/prop_tent_2.png",
+  "metres": 4.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   82.9,
+   40.3
+  ]
+ },
+ "throne_dais_1": {
+  "sprite": "sprites/prop_throne_dais_1.png",
+  "metres": 4.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   105.9,
+   50.9
+  ]
+ },
+ "throne_dais_2": {
+  "sprite": "sprites/prop_throne_dais_2.png",
+  "metres": 4.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   106.0,
+   52.0
+  ]
+ },
+ "tomb_effigy_1": {
+  "sprite": "sprites/prop_tomb_effigy_1.png",
+  "metres": 3.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   69.4,
+   29.9
+  ]
+ },
+ "tomb_effigy_2": {
+  "sprite": "sprites/prop_tomb_effigy_2.png",
+  "metres": 3.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   67.6,
+   31.4
+  ]
+ },
+ "torch_post_1": {
+  "sprite": "sprites/prop_torch_post_1.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   6.5,
+   3.3
+  ],
+  "light": {
+   "colour": "#FFA850",
+   "radius": 280,
+   "intensity": 1.25,
+   "flicker": 0.8,
+   "height": 2.2,
+   "flame": true,
+   "embers": 2
+  }
+ },
+ "torch_post_2": {
+  "sprite": "sprites/prop_torch_post_2.png",
+  "metres": 3.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   6.6,
+   3.3
+  ],
+  "light": {
+   "colour": "#FFA850",
+   "radius": 280,
+   "intensity": 1.25,
+   "flicker": 0.8,
+   "height": 2.2,
+   "flame": true,
+   "embers": 2
+  }
+ },
+ "torture_rack_1": {
+  "sprite": "sprites/prop_torture_rack_1.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   60.3,
+   25.8
+  ]
+ },
+ "torture_rack_2": {
+  "sprite": "sprites/prop_torture_rack_2.png",
+  "metres": 3.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   58.8,
+   27.2
+  ]
+ },
+ "townhouse_1": {
+  "sprite": "sprites/prop_townhouse_1.png",
+  "metres": 12.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   207.4,
+   102.7
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 300,
+   "intensity": 0.8,
+   "flicker": 0.3,
+   "height": 1.5,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "townhouse_2": {
+  "sprite": "sprites/prop_townhouse_2.png",
+  "metres": 12.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   209.2,
+   104.1
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 300,
+   "intensity": 0.8,
+   "flicker": 0.3,
+   "height": 1.5,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "townhouse_b_1": {
+  "sprite": "sprites/prop_townhouse_b_1.png",
+  "metres": 11.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   209.9,
+   99.5
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 300,
+   "intensity": 0.8,
+   "flicker": 0.3,
+   "height": 1.5,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "townhouse_b_2": {
+  "sprite": "sprites/prop_townhouse_b_2.png",
+  "metres": 11.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   209.5,
+   102.0
+  ],
+  "light": {
+   "colour": "#FFB060",
+   "radius": 300,
+   "intensity": 0.8,
+   "flicker": 0.3,
+   "height": 1.5,
+   "flame": false,
+   "embers": 0
+  }
+ },
+ "tree_stump_1": {
+  "sprite": "sprites/prop_tree_stump_1.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   33.1,
+   18.6
+  ]
+ },
+ "tree_stump_2": {
+  "sprite": "sprites/prop_tree_stump_2.png",
+  "metres": 2.0,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   32.6,
+   13.8
+  ]
+ },
+ "wall_shackles_1": {
+  "sprite": "sprites/prop_wall_shackles_1.png",
+  "metres": 4.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   66.1,
+   25.8
+  ]
+ },
+ "wall_shackles_2": {
+  "sprite": "sprites/prop_wall_shackles_2.png",
+  "metres": 4.25,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   63.2,
+   27.9
+  ]
+ },
+ "wayside_cross_1": {
+  "sprite": "sprites/prop_wayside_cross_1.png",
+  "metres": 3.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   33.9,
+   16.1
+  ]
+ },
+ "wayside_cross_2": {
+  "sprite": "sprites/prop_wayside_cross_2.png",
+  "metres": 3.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   33.3,
+   16.2
+  ]
+ },
+ "weapon_rack_1": {
+  "sprite": "sprites/prop_weapon_rack_1.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   31.2,
+   13.2
+  ]
+ },
+ "weapon_rack_2": {
+  "sprite": "sprites/prop_weapon_rack_2.png",
+  "metres": 2.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   30.5,
+   13.7
+  ]
+ },
+ "wheat_sheaves_1": {
+  "sprite": "sprites/prop_wheat_sheaves_1.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   34.9,
+   17.5
+  ]
+ },
+ "wheat_sheaves_2": {
+  "sprite": "sprites/prop_wheat_sheaves_2.png",
+  "metres": 1.75,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   35.4,
+   16.7
+  ]
+ },
+ "wine_casks_1": {
+  "sprite": "sprites/prop_wine_casks_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   57.4,
+   25.3
+  ]
+ },
+ "wine_casks_2": {
+  "sprite": "sprites/prop_wine_casks_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   56.3,
+   26.5
+  ]
+ },
+ "wooden_plough_1": {
+  "sprite": "sprites/prop_wooden_plough_1.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   49.5,
+   19.2
+  ]
+ },
+ "wooden_plough_2": {
+  "sprite": "sprites/prop_wooden_plough_2.png",
+  "metres": 2.5,
+  "anchorX": 0.5,
+  "anchorY": 0.8,
+  "footprint": [
+   47.2,
+   20.8
+  ]
+ }
+}

@@ -1,0 +1,1044 @@
+{
+ "id": "legates_palace_3",
+ "name": "The Papal Legate's Palace",
+ "act": 3,
+ "levelMin": 68,
+ "levelMax": 70,
+ "width": 5760,
+ "height": 3240,
+ "playerSpawn": [
+  320,
+  1620
+ ],
+ "safeRadius": 700,
+ "packCount": 18,
+ "rarityCap": "Legendary",
+ "goldMin": 95,
+ "goldMax": 385,
+ "spawns": [
+  {
+   "monster": "legate_inquisitor",
+   "weight": 35,
+   "groupMin": 2,
+   "groupMax": 4
+  },
+  {
+   "monster": "vault_warden",
+   "weight": 30,
+   "groupMin": 1,
+   "groupMax": 2
+  },
+  {
+   "monster": "papal_guard",
+   "weight": 35,
+   "groupMin": 3,
+   "groupMax": 5
+  }
+ ],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act3_marble.png",
+ "description": "The Inquisitor General hears no confession he did not write.",
+ "exits": [
+  {
+   "to": "legates_palace_2",
+   "x": 120,
+   "y": 1620
+  }
+ ],
+ "waypoint": [
+  620,
+  1880
+ ],
+ "isTown": false,
+ "generated": true,
+ "music": "act3_field",
+ "boss": "inquisitor_general",
+ "bossPosition": [
+  5060,
+  1620
+ ],
+ "floor": "Floor 3 of 3",
+ "ambience": {
+  "ambient": "#E0D0C0",
+  "level": 0.62,
+  "tint": "#FFF0DC",
+  "saturation": 0.95,
+  "contrast": 1.08,
+  "vignette": 0.45,
+  "bloom": 0.8,
+  "particles": "dust",
+  "particleDensity": 1.0,
+  "heroLight": 260,
+  "clouds": 0.0,
+  "dust": "#7A7066",
+  "sound": "hall"
+ },
+ "decor": [
+  {
+   "prop": "throne_dais_1",
+   "x": 5060,
+   "y": 1200,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 4580,
+   "y": 1140,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5540,
+   "y": 1140,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 455,
+   "y": 180,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 429,
+   "y": 3078,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1030,
+   "y": 174,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1069,
+   "y": 3119,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1734,
+   "y": 129,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1731,
+   "y": 3082,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2359,
+   "y": 175,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2293,
+   "y": 3083,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2888,
+   "y": 137,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2949,
+   "y": 3088,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3595,
+   "y": 154,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3594,
+   "y": 3093,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4223,
+   "y": 180,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4189,
+   "y": 3083,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4849,
+   "y": 131,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4806,
+   "y": 3089,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5473,
+   "y": 176,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5444,
+   "y": 3094,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 155,
+   "y": 448,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5634,
+   "y": 466,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 147,
+   "y": 1091,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5577,
+   "y": 1706,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 183,
+   "y": 2320,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5630,
+   "y": 2350,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 108,
+   "y": 2949,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5106,
+   "y": 3081,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3258,
+   "y": 3048,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 348,
+   "y": 2801,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 460,
+   "y": 2382,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5301,
+   "y": 1014,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 963,
+   "y": 2856,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4395,
+   "y": 485,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4482,
+   "y": 244,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 456,
+   "y": 439,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 1405,
+   "y": 270,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 167,
+   "y": 794,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 207,
+   "y": 87,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4688,
+   "y": 500,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 5345,
+   "y": 2773,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4473,
+   "y": 3137,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3959,
+   "y": 124,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 595,
+   "y": 2721,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3798,
+   "y": 418,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5635,
+   "y": 2644,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 505,
+   "y": 1041,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5314,
+   "y": 1756,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5333,
+   "y": 2221,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 2653,
+   "y": 3124,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 1696,
+   "y": 441,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 439,
+   "y": 1334,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 2464,
+   "y": 507,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 1451,
+   "y": 2811,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 694,
+   "y": 3034,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 770,
+   "y": 102,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3282,
+   "y": 341,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3878,
+   "y": 3056,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3706,
+   "y": 2827,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 165,
+   "y": 2022,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 2168,
+   "y": 480,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 5015,
+   "y": 2756,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5591,
+   "y": 862,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5275,
+   "y": 584,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 135,
+   "y": 2623,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 2183,
+   "y": 2876,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 5269,
+   "y": 1302,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 5667,
+   "y": 3104,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 200,
+   "y": 3177,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 5593,
+   "y": 1482,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 5223,
+   "y": 336,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 2666,
+   "y": 86,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 812,
+   "y": 353,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 4220,
+   "y": 2763,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 5655,
+   "y": 2123,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 2989,
+   "y": 2764,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 5690,
+   "y": 200,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 428,
+   "y": 2078,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 4367,
+   "y": 2900,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 1694,
+   "y": 2905,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 5034,
+   "y": 290,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 2742,
+   "y": 2791,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 2982,
+   "y": 376,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 1954,
+   "y": 3197,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 4565,
+   "y": 2779,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 1081,
+   "y": 472,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 4988,
+   "y": 491,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 2636,
+   "y": 282,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_2",
+   "x": 2386,
+   "y": 2770,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 4122,
+   "y": 424,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_2",
+   "x": 5462,
+   "y": 1997,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 2042,
+   "y": 114,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 1438,
+   "y": 3127,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 5269,
+   "y": 2494,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 1936,
+   "y": 2729,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 440,
+   "y": 736,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_2",
+   "x": 5153,
+   "y": 94,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 3443,
+   "y": 2724,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 90,
+   "y": 1341,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 3334,
+   "y": 85,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1586,
+   "y": 2117,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 3785,
+   "y": 1857,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 2754,
+   "y": 694,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 2110,
+   "y": 1463,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 3201,
+   "y": 1507,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 3974,
+   "y": 993,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 2167,
+   "y": 2077,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 1686,
+   "y": 1341,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1486,
+   "y": 2489,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 5045,
+   "y": 893,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 681,
+   "y": 1202,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3678,
+   "y": 2058,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3021,
+   "y": 259,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 1643,
+   "y": 1691,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 815,
+   "y": 1602,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 4378,
+   "y": 1154,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 1282,
+   "y": 1601,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3079,
+   "y": 921,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1012,
+   "y": 2451,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 3662,
+   "y": 2596,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 2193,
+   "y": 1128,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 4210,
+   "y": 2269,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1237,
+   "y": 1204,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 3881,
+   "y": 2085,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2509,
+   "y": 216,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 3876,
+   "y": 1735,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 4103,
+   "y": 1634,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 4084,
+   "y": 1288,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 1707,
+   "y": 1918,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 2135,
+   "y": 1898,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banner_1",
+   "x": 1926,
+   "y": 2971,
+   "flip": false,
+   "auto": "scenery"
+  }
+ ],
+ "lights": [
+  {
+   "x": 5372,
+   "y": 699,
+   "light": {
+    "colour": "#C8D8FF",
+    "radius": 260,
+    "intensity": 0.55,
+    "flicker": 0.0,
+    "height": 0,
+    "flame": false,
+    "embers": 0
+   }
+  },
+  {
+   "x": 4838,
+   "y": 504,
+   "light": {
+    "colour": "#C8D8FF",
+    "radius": 260,
+    "intensity": 0.55,
+    "flicker": 0.0,
+    "height": 0,
+    "flame": false,
+    "embers": 0
+   }
+  },
+  {
+   "x": 1095,
+   "y": 1812,
+   "light": {
+    "colour": "#C8D8FF",
+    "radius": 260,
+    "intensity": 0.55,
+    "flicker": 0.0,
+    "height": 0,
+    "flame": false,
+    "embers": 0
+   }
+  }
+ ]
+}

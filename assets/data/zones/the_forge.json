@@ -1,0 +1,185 @@
+{
+ "id": "the_forge",
+ "name": "The Armourer's Forge",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 1,
+ "width": 2000,
+ "height": 1300,
+ "playerSpawn": [
+  1000,
+  1060
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act2_stone.png",
+ "description": "A vaulted smithy under the Sanctuary: Aubry's anvil, the Runecarver's bench, and the Athanor that never goes cold.",
+ "isTown": true,
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 1000,
+   "y": 1210
+  }
+ ],
+ "waypoint": null,
+ "arena": null,
+ "npcs": [
+  {
+   "id": "master_aubry",
+   "name": "Master Aubry",
+   "role": "Armourer",
+   "services": [
+    "forge"
+   ],
+   "unlock": "q3_smiths_hammer",
+   "hiddenUntil": null,
+   "x": 820,
+   "y": 560,
+   "sprite": "",
+   "lines": [
+    "That blade was forged to guard pilgrims on the road. I will sharpen it for whatever you need now.",
+    "Push the temper past +4 and the steel starts to argue with you. Past +7, it wins as often as you do.",
+    "Bring me their iron. Their helms make good nails for a coffin."
+   ]
+  },
+  {
+   "id": "gilles_runecarver",
+   "name": "Gilles the Runecarver",
+   "role": "Runecarver",
+   "services": [
+    "runes"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1240,
+   "y": 560,
+   "sprite": "sprites/npc_renier_armourer.png",
+   "lines": [
+    "Every rune starts plain. Wear it, bleed with it, and it learns.",
+    "Two runes at the top of their craft make one of a finer kind. Never three, never one."
+   ]
+  },
+  {
+   "id": "the_athanor",
+   "name": "The Athanor",
+   "role": "The alchemists' furnace",
+   "services": [
+    "athanor"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1620,
+   "y": 500,
+   "sprite": "sprites/npc_athanor.png",
+   "lines": []
+  }
+ ],
+ "decor": [
+  {
+   "prop": "forge_hearth_1",
+   "x": 820,
+   "y": 330,
+   "flip": false
+  },
+  {
+   "prop": "anvil_1",
+   "x": 880,
+   "y": 650,
+   "flip": false
+  },
+  {
+   "prop": "quench_tub_1",
+   "x": 600,
+   "y": 640,
+   "flip": false
+  },
+  {
+   "prop": "rune_bench_1",
+   "x": 1240,
+   "y": 650,
+   "flip": false
+  },
+  {
+   "prop": "weapon_rack_1",
+   "x": 360,
+   "y": 420,
+   "flip": false
+  },
+  {
+   "prop": "weapon_rack_2",
+   "x": 1450,
+   "y": 330,
+   "flip": true
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 300,
+   "y": 980,
+   "flip": false
+  },
+  {
+   "prop": "barrels_crates_2",
+   "x": 1750,
+   "y": 960,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1000,
+   "y": 240,
+   "flip": false
+  },
+  {
+   "prop": "brazier_1",
+   "x": 1820,
+   "y": 700,
+   "flip": false
+  }
+ ],
+ "lights": [
+  {
+   "x": 820,
+   "y": 470,
+   "light": {
+    "colour": "#FF9A48",
+    "radius": 520,
+    "intensity": 1.1,
+    "flicker": 0.5
+   }
+  },
+  {
+   "x": 1620,
+   "y": 430,
+   "light": {
+    "colour": "#B070FF",
+    "radius": 460,
+    "intensity": 0.9,
+    "flicker": 0.35
+   }
+  }
+ ],
+ "music": "town_act1",
+ "ambience": {
+  "ambient": "#D8B48C",
+  "level": 0.62,
+  "tint": "#FFEAD2",
+  "saturation": 0.95,
+  "contrast": 1.1,
+  "vignette": 0.5,
+  "bloom": 0.9,
+  "particles": "embers",
+  "particleDensity": 0.8,
+  "heroLight": 280,
+  "clouds": 0.0,
+  "dust": "#6A5E50",
+  "sound": "fire"
+ },
+ "levelSync": false
+}

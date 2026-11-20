@@ -1,0 +1,97 @@
+{
+ "id": "proving_pit",
+ "name": "The Proving Pit",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 100,
+ "width": 2400,
+ "height": 1800,
+ "playerSpawn": [
+  1200,
+  1500
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Legendary",
+ "goldMin": 20,
+ "goldMax": 80,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act1_quarry.png",
+ "description": "A sand pit ringed with stone where the Order once tested its novices. Ten floors deep now, and nothing down there is a novice.",
+ "isTown": false,
+ "provingPit": true,
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 1200,
+   "y": 1720
+  }
+ ],
+ "waypoint": null,
+ "arena": null,
+ "npcs": [],
+ "decor": [
+  {
+   "prop": "torch_post_1",
+   "x": 420,
+   "y": 360,
+   "flip": false
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 1980,
+   "y": 360,
+   "flip": true
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 420,
+   "y": 1440,
+   "flip": false
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 1980,
+   "y": 1440,
+   "flip": true
+  },
+  {
+   "prop": "weapon_rack_1",
+   "x": 1200,
+   "y": 200,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 700,
+   "y": 900,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 1700,
+   "y": 900,
+   "flip": true
+  }
+ ],
+ "lights": [],
+ "music": "boss",
+ "ambience": {
+  "ambient": "#C49A70",
+  "level": 0.55,
+  "tint": "#FFE2C0",
+  "saturation": 0.92,
+  "contrast": 1.12,
+  "vignette": 0.55,
+  "bloom": 0.9,
+  "particles": "dust",
+  "particleDensity": 0.8,
+  "heroLight": 320,
+  "clouds": 0.0,
+  "dust": "#8A7458",
+  "sound": "crypt"
+ },
+ "levelSync": false
+}

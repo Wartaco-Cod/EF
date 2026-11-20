@@ -1,0 +1,347 @@
+{
+ "id": "catacombs_of_the_rule",
+ "name": "The Catacombs of the Rule",
+ "act": 1,
+ "levelMin": 19,
+ "levelMax": 20,
+ "width": 5760,
+ "height": 3240,
+ "playerSpawn": [
+  320,
+  1620
+ ],
+ "safeRadius": 700,
+ "packCount": 14,
+ "rarityCap": "Epic",
+ "goldMin": 28,
+ "goldMax": 115,
+ "spawns": [
+  {
+   "monster": "fallen_templar",
+   "weight": 40,
+   "groupMin": 5,
+   "groupMax": 8
+  },
+  {
+   "monster": "risen_marshal",
+   "weight": 22,
+   "groupMin": 2,
+   "groupMax": 3
+  },
+  {
+   "monster": "chapel_wraith",
+   "weight": 24,
+   "groupMin": 4,
+   "groupMax": 6
+  },
+  {
+   "monster": "torturer",
+   "weight": 14,
+   "groupMin": 2,
+   "groupMax": 3
+  }
+ ],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/meshy_crypt_slabs.png",
+ "description": "Beneath the round church. He is still reading.",
+ "exits": [
+  {
+   "to": "preceptory_of_payns",
+   "x": 120,
+   "y": 1620
+  }
+ ],
+ "waypoint": [
+  620,
+  1880
+ ],
+ "isTown": false,
+ "boss": "imbert",
+ "bossPosition": [
+  5060,
+  1620
+ ],
+ "decor": [
+  {
+   "prop": "candelabrum_1",
+   "x": 4042,
+   "y": 197,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2077,
+   "y": 247,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5064,
+   "y": 260,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5233,
+   "y": 270,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3200,
+   "y": 275,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 718,
+   "y": 300,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2177,
+   "y": 355,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 3250,
+   "y": 369,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1763,
+   "y": 391,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4458,
+   "y": 394,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4590,
+   "y": 406,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 3586,
+   "y": 647,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_2",
+   "x": 4024,
+   "y": 656,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3666,
+   "y": 710,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1802,
+   "y": 759,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 196,
+   "y": 814,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1064,
+   "y": 845,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 180,
+   "y": 921,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_2",
+   "x": 3323,
+   "y": 921,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 1436,
+   "y": 944,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2929,
+   "y": 987,
+   "flip": true
+  },
+  {
+   "prop": "sarcophagus_1",
+   "x": 3513,
+   "y": 1148,
+   "flip": false
+  },
+  {
+   "prop": "broken_column_2",
+   "x": 4463,
+   "y": 1302,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_1",
+   "x": 4117,
+   "y": 1574,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_1",
+   "x": 1652,
+   "y": 1642,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2656,
+   "y": 1663,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_1",
+   "x": 1580,
+   "y": 1722,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1230,
+   "y": 1746,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5501,
+   "y": 1792,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 4288,
+   "y": 1845,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 4263,
+   "y": 1942,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 1480,
+   "y": 2100,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 1386,
+   "y": 2132,
+   "flip": true
+  },
+  {
+   "prop": "sarcophagus_2",
+   "x": 3442,
+   "y": 2151,
+   "flip": true
+  },
+  {
+   "prop": "sarcophagus_2",
+   "x": 897,
+   "y": 2173,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_1",
+   "x": 516,
+   "y": 2231,
+   "flip": true
+  },
+  {
+   "prop": "sarcophagus_1",
+   "x": 3470,
+   "y": 2246,
+   "flip": true
+  },
+  {
+   "prop": "broken_column_2",
+   "x": 400,
+   "y": 2314,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3040,
+   "y": 2356,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 5593,
+   "y": 2664,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 977,
+   "y": 2698,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 2069,
+   "y": 2721,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3005,
+   "y": 2944,
+   "flip": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2958,
+   "y": 3043,
+   "flip": false
+  }
+ ],
+ "ambience": {
+  "ambient": "#7484A4",
+  "level": 0.4,
+  "tint": "#FFF4E8",
+  "saturation": 0.85,
+  "contrast": 1.1,
+  "vignette": 0.55,
+  "bloom": 0.9,
+  "particles": "dust",
+  "particleDensity": 1.0,
+  "heroLight": 400,
+  "clouds": 0.0,
+  "dust": "#6A6660",
+  "sound": "crypt"
+ },
+ "lights": []
+}

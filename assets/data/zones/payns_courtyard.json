@@ -1,0 +1,240 @@
+{
+ "id": "payns_courtyard",
+ "name": "The Courtyard at Payns",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 1,
+ "width": 2600,
+ "height": 1700,
+ "playerSpawn": [
+  300,
+  850
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Rare",
+ "goldMin": 1,
+ "goldMax": 6,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act1_burning.png",
+ "description": "13 October 1307. The preceptory burns. Get to the crypt stair.",
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 2440,
+   "y": 850
+  }
+ ],
+ "waypoint": null,
+ "isTown": false,
+ "generated": true,
+ "music": "prologue",
+ "cutscene": "prologue",
+ "prologue": true,
+ "fixedSpawns": [
+  {
+   "monster": "payns_soldier",
+   "x": 1000,
+   "y": 780
+  },
+  {
+   "monster": "payns_soldier",
+   "x": 1500,
+   "y": 900
+  },
+  {
+   "monster": "payns_soldier",
+   "x": 2000,
+   "y": 820
+  }
+ ],
+ "ambience": {
+  "ambient": "#B07A68",
+  "level": 0.6,
+  "tint": "#FFF0E6",
+  "saturation": 1.05,
+  "contrast": 1.1,
+  "vignette": 0.48,
+  "bloom": 1.0,
+  "particles": "embers",
+  "particleDensity": 2.0,
+  "heroLight": 260,
+  "clouds": 0.0,
+  "dust": "#5A4A40",
+  "sound": "fire"
+ },
+ "decor": [
+  {
+   "prop": "burnt_tree_2",
+   "x": 299,
+   "y": 1517,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_1",
+   "x": 115,
+   "y": 122,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_2",
+   "x": 204,
+   "y": 441,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_2",
+   "x": 2379,
+   "y": 1141,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_1",
+   "x": 2415,
+   "y": 1598,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_2",
+   "x": 1398,
+   "y": 254,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_1",
+   "x": 2303,
+   "y": 345,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "burnt_tree_2",
+   "x": 1794,
+   "y": 1630,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 1347,
+   "y": 616,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 623,
+   "y": 1400,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 1642,
+   "y": 569,
+   "flip": false,
+   "auto": "scenery"
+  }
+ ],
+ "lights": [
+  {
+   "x": 1707,
+   "y": 1135,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 585,
+   "y": 1350,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 1852,
+   "y": 494,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 2294,
+   "y": 1393,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 1323,
+   "y": 410,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 982,
+   "y": 1079,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 553,
+   "y": 661,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  }
+ ]
+}

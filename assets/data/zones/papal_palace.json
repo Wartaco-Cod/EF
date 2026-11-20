@@ -1,0 +1,1720 @@
+{
+ "id": "papal_palace",
+ "name": "The Papal Palace",
+ "act": 4,
+ "levelMin": 88,
+ "levelMax": 94,
+ "width": 7680,
+ "height": 4320,
+ "playerSpawn": [
+  320,
+  2160
+ ],
+ "safeRadius": 700,
+ "packCount": 26,
+ "rarityCap": "Legendary",
+ "goldMin": 123,
+ "goldMax": 517,
+ "spawns": [
+  {
+   "monster": "vatican_champion",
+   "weight": 35,
+   "groupMin": 1,
+   "groupMax": 3
+  },
+  {
+   "monster": "cardinal_inquisitor",
+   "weight": 35,
+   "groupMin": 2,
+   "groupMax": 3
+  },
+  {
+   "monster": "papal_guard",
+   "weight": 30,
+   "groupMin": 3,
+   "groupMax": 5
+  }
+ ],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act4_palace.png",
+ "description": "Clement waits among his cardinals. He knows why you have come.",
+ "exits": [
+  {
+   "to": "notre_dame",
+   "x": 120,
+   "y": 2160
+  },
+  {
+   "to": "tower_of_truth_1",
+   "x": 7540,
+   "y": 2160
+  }
+ ],
+ "waypoint": [
+  620,
+  2420
+ ],
+ "isTown": false,
+ "generated": true,
+ "music": "act4_field",
+ "boss": "clement",
+ "bossPosition": [
+  6980,
+  2160
+ ],
+ "ambience": {
+  "ambient": "#D0B490",
+  "level": 0.58,
+  "tint": "#FFF0DC",
+  "saturation": 0.95,
+  "contrast": 1.08,
+  "vignette": 0.45,
+  "bloom": 0.8,
+  "particles": "dust",
+  "particleDensity": 1.0,
+  "heroLight": 260,
+  "clouds": 0.0,
+  "dust": "#7A7066",
+  "sound": "hall"
+ },
+ "decor": [
+  {
+   "prop": "throne_dais_2",
+   "x": 6980,
+   "y": 1740,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "altar_1",
+   "x": 6460,
+   "y": 1900,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 7500,
+   "y": 1900,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 6980,
+   "y": 2420,
+   "flip": false,
+   "auto": "setpiece"
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 443,
+   "y": 151,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 467,
+   "y": 4181,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1049,
+   "y": 161,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1029,
+   "y": 4190,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1746,
+   "y": 152,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1738,
+   "y": 4155,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2300,
+   "y": 151,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2276,
+   "y": 4142,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2989,
+   "y": 158,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2944,
+   "y": 4180,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3561,
+   "y": 145,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3594,
+   "y": 4199,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4220,
+   "y": 151,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4196,
+   "y": 4144,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4755,
+   "y": 130,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4776,
+   "y": 4146,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5442,
+   "y": 171,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5421,
+   "y": 4193,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 6028,
+   "y": 150,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 6068,
+   "y": 4152,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 6693,
+   "y": 172,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 6706,
+   "y": 4146,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 7332,
+   "y": 160,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 7264,
+   "y": 4146,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 166,
+   "y": 487,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 7531,
+   "y": 485,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 94,
+   "y": 1059,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 7576,
+   "y": 1057,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 122,
+   "y": 1673,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 109,
+   "y": 2939,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 7500,
+   "y": 2949,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 203,
+   "y": 3582,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 7566,
+   "y": 3572,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "brazier_1",
+   "x": 489,
+   "y": 801,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 1483,
+   "y": 494,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 2690,
+   "y": 3831,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 7193,
+   "y": 1251,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 2036,
+   "y": 489,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 6969,
+   "y": 501,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 4562,
+   "y": 514,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 114,
+   "y": 2448,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 500,
+   "y": 1260,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 5059,
+   "y": 424,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 3785,
+   "y": 3811,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7356,
+   "y": 3797,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 6503,
+   "y": 3893,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 3831,
+   "y": 230,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7609,
+   "y": 137,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5002,
+   "y": 3975,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5771,
+   "y": 4107,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7345,
+   "y": 2423,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 3315,
+   "y": 4247,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 4372,
+   "y": 3893,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 376,
+   "y": 1755,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 1007,
+   "y": 424,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 131,
+   "y": 4172,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 7549,
+   "y": 4164,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 2683,
+   "y": 497,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3677,
+   "y": 515,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 7269,
+   "y": 1673,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 450,
+   "y": 3288,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5699,
+   "y": 311,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 1416,
+   "y": 3808,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 400,
+   "y": 3895,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 151,
+   "y": 3241,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7201,
+   "y": 3057,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7426,
+   "y": 2667,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 2708,
+   "y": 220,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 3226,
+   "y": 3937,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 6894,
+   "y": 3894,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 1272,
+   "y": 4093,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 131,
+   "y": 186,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 6406,
+   "y": 320,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7176,
+   "y": 2730,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 3418,
+   "y": 364,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7555,
+   "y": 3295,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 697,
+   "y": 389,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 7301,
+   "y": 3436,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 784,
+   "y": 4260,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 6011,
+   "y": 3880,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 75,
+   "y": 3807,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 5563,
+   "y": 3901,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 7372,
+   "y": 837,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5154,
+   "y": 4201,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7212,
+   "y": 1926,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 3109,
+   "y": 432,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 2018,
+   "y": 3948,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5475,
+   "y": 502,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 7610,
+   "y": 3833,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 7541,
+   "y": 1588,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 689,
+   "y": 3815,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 86,
+   "y": 1355,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 6994,
+   "y": 4229,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 1483,
+   "y": 4263,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 1000,
+   "y": 3865,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 382,
+   "y": 2789,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 4101,
+   "y": 392,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 3861,
+   "y": 4242,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 1729,
+   "y": 3809,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 5246,
+   "y": 3851,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4460,
+   "y": 4130,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 6125,
+   "y": 499,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 479,
+   "y": 3631,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4677,
+   "y": 3801,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 2532,
+   "y": 4271,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 1369,
+   "y": 88,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 6329,
+   "y": 4215,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 2261,
+   "y": 3844,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 4476,
+   "y": 102,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_1",
+   "x": 2042,
+   "y": 4278,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tapestry_wall_2",
+   "x": 721,
+   "y": 129,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 2433,
+   "y": 274,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 7619,
+   "y": 684,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 7045,
+   "y": 86,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 87,
+   "y": 1891,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 400,
+   "y": 375,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 3249,
+   "y": 112,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 7616,
+   "y": 2495,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 7374,
+   "y": 370,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 6237,
+   "y": 106,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_1",
+   "x": 81,
+   "y": 667,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "suit_of_armour_2",
+   "x": 7122,
+   "y": 4005,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bookcase_1",
+   "x": 7616,
+   "y": 1303,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 509,
+   "y": 3018,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 5863,
+   "y": 512,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 1712,
+   "y": 3249,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 1171,
+   "y": 1726,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 3955,
+   "y": 1115,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 5070,
+   "y": 1314,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1061,
+   "y": 1237,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1533,
+   "y": 1859,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 2745,
+   "y": 2959,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1843,
+   "y": 1167,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 6176,
+   "y": 3078,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 6775,
+   "y": 2694,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 6536,
+   "y": 2851,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 3260,
+   "y": 851,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 6705,
+   "y": 1452,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1697,
+   "y": 2823,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 4131,
+   "y": 2591,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 1211,
+   "y": 3168,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 5119,
+   "y": 956,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_1",
+   "x": 4611,
+   "y": 2633,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banquet_table_2",
+   "x": 4983,
+   "y": 3584,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2762,
+   "y": 376,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2702,
+   "y": 3120,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 4791,
+   "y": 1365,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 3504,
+   "y": 3104,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 7091,
+   "y": 801,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 6098,
+   "y": 1301,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1218,
+   "y": 2546,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 7373,
+   "y": 3308,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 4283,
+   "y": 3636,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 2615,
+   "y": 4030,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3417,
+   "y": 1335,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2633,
+   "y": 362,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1733,
+   "y": 662,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3395,
+   "y": 3212,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 2963,
+   "y": 1573,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 7241,
+   "y": 3723,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1819,
+   "y": 536,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 5080,
+   "y": 3035,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 3099,
+   "y": 1608,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 4643,
+   "y": 3272,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2498,
+   "y": 129,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 6595,
+   "y": 2994,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 4894,
+   "y": 215,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1665,
+   "y": 1263,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2122,
+   "y": 3320,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3500,
+   "y": 1768,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 7405,
+   "y": 569,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1590,
+   "y": 2319,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 3683,
+   "y": 3138,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 5048,
+   "y": 3789,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 6932,
+   "y": 3582,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 7252,
+   "y": 280,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3033,
+   "y": 3940,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 3538,
+   "y": 1622,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 1075,
+   "y": 2193,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 4280,
+   "y": 3764,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 2763,
+   "y": 2154,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 5047,
+   "y": 3276,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 1876,
+   "y": 3127,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 4604,
+   "y": 2109,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 6254,
+   "y": 1507,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 5919,
+   "y": 4161,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 4317,
+   "y": 2365,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 4119,
+   "y": 1759,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 5822,
+   "y": 913,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_2",
+   "x": 6668,
+   "y": 494,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "carpet_1",
+   "x": 5362,
+   "y": 3473,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banner_1",
+   "x": 6257,
+   "y": 3817,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_1",
+   "x": 2338,
+   "y": 2712,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 2636,
+   "y": 2548,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 3981,
+   "y": 1537,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 1205,
+   "y": 937,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 5631,
+   "y": 1725,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 4478,
+   "y": 1143,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_1",
+   "x": 4735,
+   "y": 1726,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 5271,
+   "y": 2842,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_1",
+   "x": 4881,
+   "y": 835,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 3048,
+   "y": 3567,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 5532,
+   "y": 2625,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_2",
+   "x": 836,
+   "y": 3036,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_1",
+   "x": 1418,
+   "y": 2798,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "altar_1",
+   "x": 6620,
+   "y": 3566,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 1419,
+   "y": 1282,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 4774,
+   "y": 2881,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 5688,
+   "y": 1314,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 3643,
+   "y": 801,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 6885,
+   "y": 3253,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 5361,
+   "y": 1768,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 4143,
+   "y": 2931,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 2455,
+   "y": 2991,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 3805,
+   "y": 2576,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 6238,
+   "y": 2571,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 2331,
+   "y": 1437,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 4824,
+   "y": 1096,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 3880,
+   "y": 2884,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_2",
+   "x": 942,
+   "y": 3550,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 3902,
+   "y": 1943,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 5710,
+   "y": 2895,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 3339,
+   "y": 2797,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "reliquary_1",
+   "x": 5897,
+   "y": 1569,
+   "flip": false,
+   "auto": "scenery"
+  }
+ ],
+ "lights": [
+  {
+   "x": 5953,
+   "y": 789,
+   "light": {
+    "colour": "#C8D8FF",
+    "radius": 260,
+    "intensity": 0.55,
+    "flicker": 0.0,
+    "height": 0,
+    "flame": false,
+    "embers": 0
+   }
+  },
+  {
+   "x": 2217,
+   "y": 2486,
+   "light": {
+    "colour": "#C8D8FF",
+    "radius": 260,
+    "intensity": 0.55,
+    "flicker": 0.0,
+    "height": 0,
+    "flame": false,
+    "embers": 0
+   }
+  },
+  {
+   "x": 6436,
+   "y": 601,
+   "light": {
+    "colour": "#C8D8FF",
+    "radius": 260,
+    "intensity": 0.55,
+    "flicker": 0.0,
+    "height": 0,
+    "flame": false,
+    "embers": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "id": "sanctuary_of_the_broken_seal",
+ "name": "The Sanctuary of the Broken Seal",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 1,
+ "width": 2600,
+ "height": 1700,
+ "playerSpawn": [
+  1200,
+  820
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act1_sanctuary.png",
+ "description": "A crypt beneath the burned chapel of Sainte-Croix, outside Payns. Candle smoke and wet stone.",
+ "isTown": true,
+ "exits": [
+  {
+   "to": "bloodied_fields",
+   "x": 2440,
+   "y": 820
+  },
+  {
+   "to": "commandery_halls",
+   "x": 1200,
+   "y": 120
+  },
+  {
+   "to": "town_in_shadow",
+   "x": 1200,
+   "y": 1600,
+   "requiresUnlock": "act2",
+   "lockedText": "The road south opens when Imbert's ledger is yours."
+  },
+  {
+   "to": "the_forge",
+   "x": 120,
+   "y": 820
+  },
+  {
+   "to": "knights_cell",
+   "x": 760,
+   "y": 120
+  },
+  {
+   "to": "proving_pit",
+   "x": 2000,
+   "y": 1600
+  }
+ ],
+ "waypoint": [
+  1200,
+  1180
+ ],
+ "arena": {
+  "name": "The Ossuary Ring",
+  "x": 180,
+  "y": 1150,
+  "width": 560,
+  "height": 420
+ },
+ "npcs": [
+  {
+   "id": "gerard_de_villiers",
+   "name": "Gerard de Villiers",
+   "role": "Preceptor of France",
+   "services": [
+    "main_quest"
+   ],
+   "unlock": null,
+   "x": 1520,
+   "y": 560,
+   "hiddenUntil": null,
+   "lines": [
+    "We kept the Rule for two hundred years. It did not keep us.",
+    "Pray when you can. Kill when you must. Confess to no one; there is no one left to hear it.",
+    "Every brother you bring back asks me what you have become. I tell them: what the king made of you."
+   ]
+  },
+  {
+   "id": "eleanor_of_troyes",
+   "name": "Eleanor of Troyes",
+   "role": "Fair-merchant and smuggler",
+   "services": [
+    "buy",
+    "sell",
+    "gamble"
+   ],
+   "unlock": null,
+   "x": 880,
+   "y": 560,
+   "hiddenUntil": null,
+   "lines": [
+    "The king's coin, the Church's coin, yours. It all spends the same.",
+    "A Templar haggling in a smuggler's cellar. Your Rule would have something to say about that."
+   ]
+  },
+  {
+   "id": "sister_ysabeau",
+   "name": "Sister Ysabeau",
+   "role": "Infirmarian",
+   "services": [
+    "heal",
+    "potions"
+   ],
+   "unlock": null,
+   "x": 880,
+   "y": 1060,
+   "hiddenUntil": null,
+   "lines": [
+    "Sit. The wounds I can stitch. The rest you carry yourself.",
+    "You smell of smoke and other men's blood. Drink this, and do not tell me where you have been."
+   ]
+  },
+  {
+   "id": "brother_thomas",
+   "name": "Brother Thomas",
+   "role": "Chaplain and archivist",
+   "services": [
+    "identify"
+   ],
+   "unlock": null,
+   "x": 1200,
+   "y": 420,
+   "hiddenUntil": "q4_last_witness",
+   "lines": [
+    "I saw what they did to the others. I am writing it all down, every name. You will want the list.",
+    "You came for me. I do not know whether to thank you for how you did it."
+   ]
+  },
+  {
+   "id": "the_hermit",
+   "name": "The Hermit",
+   "role": "Unknown",
+   "services": [
+    "lore"
+   ],
+   "unlock": null,
+   "x": 1980,
+   "y": 1300,
+   "hiddenUntil": "q5_sealed_vault",
+   "lines": [
+    "The vault was sealed against men like you. Now there are no other kind left.",
+    "Vengeance is a debt too. Ask the king how he likes paying his."
+   ]
+  },
+  {
+   "id": "jehan_the_broker",
+   "name": "Jehan the Broker",
+   "role": "Auction house",
+   "services": [
+    "auction"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1880,
+   "y": 560
+  },
+  {
+   "id": "strongbox",
+   "name": "The Order's Strongbox",
+   "role": "Your stash",
+   "services": [
+    "stash"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1200,
+   "y": 1420
+  },
+  {
+   "id": "brother_almoner",
+   "name": "Brother Almoner",
+   "role": "Daily pledges and endeavours",
+   "services": [
+    "daily"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1520,
+   "y": 1060,
+   "sprite": "sprites/npc_brother_thomas.png",
+   "lines": [
+    "Each day the Order asks something of you. Each day it pays, in what it has left.",
+    "The pledges are the same for every brother. The endeavours are yours alone."
+   ]
+  },
+  {
+   "id": "guillaume_herald",
+   "name": "Guillaume the Herald",
+   "role": "Herald of the hunt",
+   "services": [
+    "herald"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 2010,
+   "y": 760,
+   "sprite": "sprites/npc_gerard_act2.png",
+   "lines": [
+    "The Tarasque comes up the Rhône again. The muster gathers at Tarascon.",
+    "Twenty can cross, no more. She has to be fought together."
+   ]
+  },
+  {
+   "id": "mathilde_menagerie",
+   "name": "Mathilde of the Menagerie",
+   "role": "Keeper of beasts",
+   "services": [
+    "pets"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 560,
+   "y": 700,
+   "sprite": "sprites/npc_odette_the_farrier.png",
+   "lines": [
+    "Every beast here was bought dear. Bring tokens from the great hunts, and gold, a great deal of gold.",
+    "They will follow you anywhere. They will not fight for you. Neither would I."
+   ]
+  },
+  {
+   "id": "forge_door",
+   "name": "Master Aubry's apprentice",
+   "role": "Shows the way to the forge",
+   "services": [
+    "forge"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1520,
+   "y": 1300,
+   "sprite": "sprites/npc_master_aubry.png",
+   "lines": [
+    "The master's moved his anvil downstairs, to its own forge. Through the west door."
+   ]
+  }
+ ],
+ "cutscene": "sanctuary_first",
+ "music": "town_act1",
+ "ambience": {
+  "ambient": "#C8B0A8",
+  "level": 0.6,
+  "tint": "#FFF0DC",
+  "saturation": 0.95,
+  "contrast": 1.08,
+  "vignette": 0.45,
+  "bloom": 0.8,
+  "particles": "dust",
+  "particleDensity": 1.0,
+  "heroLight": 260,
+  "clouds": 0.0,
+  "dust": "#7A7066",
+  "sound": "hall"
+ },
+ "decor": [
+  {
+   "prop": "candelabrum_2",
+   "x": 1757,
+   "y": 150,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2363,
+   "y": 154,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 104,
+   "y": 461,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2414,
+   "y": 476,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "brazier_2",
+   "x": 88,
+   "y": 1514,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 2240,
+   "y": 1022,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 2492,
+   "y": 1527,
+   "flip": false,
+   "auto": "scenery"
+  }
+ ],
+ "lights": []
+}

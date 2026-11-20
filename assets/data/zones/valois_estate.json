@@ -1,0 +1,789 @@
+{
+ "id": "valois_estate",
+ "name": "The Estate of Count de Valois",
+ "act": 3,
+ "levelMin": 41,
+ "levelMax": 70,
+ "width": 2600,
+ "height": 1700,
+ "playerSpawn": [
+  1200,
+  820
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act3_gardens.png",
+ "description": "Hedges, fountains and a count who smiles at the king and hides his enemies.",
+ "isTown": true,
+ "waypoint": [
+  1200,
+  1180
+ ],
+ "arena": {
+  "name": "The Tilting Yard",
+  "x": 180,
+  "y": 1150,
+  "width": 560,
+  "height": 420
+ },
+ "exits": [
+  {
+   "to": "town_in_shadow",
+   "x": 120,
+   "y": 820
+  },
+  {
+   "to": "kings_forest_west",
+   "x": 2480,
+   "y": 820
+  },
+  {
+   "to": "remnant_camp",
+   "x": 1200,
+   "y": 120,
+   "requiresUnlock": "act4",
+   "lockedText": "Paris waits until the Inquisitor General falls."
+  }
+ ],
+ "cutscene": "valois_estate",
+ "music": "town_act3",
+ "generated": true,
+ "npcs": [
+  {
+   "id": "count_de_valois",
+   "name": "Count de Valois",
+   "role": "Your host",
+   "services": [
+    "main_quest"
+   ],
+   "x": 1520,
+   "y": 560,
+   "lines": [
+    "My brother is the king's brother. Do not mistake that for loyalty.",
+    "Proof, Templar. Without proof, your Grand Master burns and the world shrugs."
+   ],
+   "sprite": "sprites/npc_count_de_valois.png"
+  },
+  {
+   "id": "bishop_of_senlis",
+   "name": "The Bishop of Senlis",
+   "role": "Healer",
+   "services": [
+    "heal",
+    "potions"
+   ],
+   "x": 880,
+   "y": 1060,
+   "lines": [
+    "Not every bishop signed the king's list. Sit down; you are bleeding on my carpet."
+   ],
+   "sprite": "sprites/npc_bishop_of_senlis.png"
+  },
+  {
+   "id": "marie",
+   "name": "Marie",
+   "role": "Spy in the papal court",
+   "services": [
+    "talk"
+   ],
+   "x": 1880,
+   "y": 1060,
+   "lines": [
+    "A cleric's robe opens more doors than a sword. Don't run in it.",
+    "The Legate keeps his proof in a vault under his palace. The keeper never sleeps."
+   ],
+   "sprite": "sprites/npc_marie.png"
+  },
+  {
+   "id": "isabeau_clothier",
+   "name": "Isabeau the Clothier",
+   "role": "Merchant",
+   "services": [
+    "buy",
+    "sell",
+    "gamble"
+   ],
+   "x": 880,
+   "y": 560,
+   "lines": [
+    "Silk, steel or a good lie: I sell all three."
+   ],
+   "sprite": "sprites/npc_isabeau_clothier.png"
+  },
+  {
+   "id": "renier_armourer",
+   "name": "Renier the Armourer",
+   "role": "Smith",
+   "services": [
+    "forge"
+   ],
+   "x": 1520,
+   "y": 1060,
+   "lines": [
+    "My anvil went to Master Aubry's forge, under the Sanctuary. Come, I'll walk you there."
+   ],
+   "unlock": "forge",
+   "lockedLine": "No forge for you until Aubry's hammer rings again.",
+   "sprite": "sprites/npc_renier_armourer.png"
+  },
+  {
+   "id": "strongbox_act3",
+   "name": "The Order's Strongbox",
+   "role": "Your stash",
+   "services": [
+    "stash"
+   ],
+   "x": 1200,
+   "y": 1420,
+   "lines": [],
+   "sprite": "sprites/npc_strongbox_act3.png"
+  },
+  {
+   "id": "broker_act3",
+   "name": "Mathilde the Broker",
+   "role": "Auction house",
+   "services": [
+    "auction"
+   ],
+   "x": 1880,
+   "y": 560,
+   "lines": [
+    "The count's servants buy here too. Price accordingly."
+   ],
+   "sprite": "sprites/npc_broker_act3.png"
+  }
+ ],
+ "ambience": {
+  "ambient": "#FFD8A8",
+  "level": 0.9,
+  "tint": "#FFF0DC",
+  "saturation": 1.05,
+  "contrast": 1.05,
+  "vignette": 0.38,
+  "bloom": 0.7,
+  "particles": "fireflies",
+  "particleDensity": 0.6,
+  "heroLight": 0,
+  "clouds": 0.3,
+  "dust": "#7A6A50",
+  "sound": "night"
+ },
+ "decor": [
+  {
+   "prop": "oak_tree_2",
+   "x": 137,
+   "y": 447,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_1",
+   "x": 887,
+   "y": 140,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_1",
+   "x": 2092,
+   "y": 186,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_2",
+   "x": 1706,
+   "y": 1525,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_1",
+   "x": 2288,
+   "y": 1470,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_1",
+   "x": 399,
+   "y": 166,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_1",
+   "x": 2281,
+   "y": 1153,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_b_2",
+   "x": 2285,
+   "y": 563,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_b_1",
+   "x": 1695,
+   "y": 139,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_b_2",
+   "x": 531,
+   "y": 635,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_b_2",
+   "x": 59,
+   "y": 1086,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_b_1",
+   "x": 562,
+   "y": 1039,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "oak_tree_b_2",
+   "x": 2430,
+   "y": 167,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bush_1",
+   "x": 857,
+   "y": 1591,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bush_1",
+   "x": 2002,
+   "y": 1634,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bush_2",
+   "x": 87,
+   "y": 109,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bush_2",
+   "x": 833,
+   "y": 1393,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bush_2",
+   "x": 1425,
+   "y": 1632,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "bush_1",
+   "x": 1403,
+   "y": 306,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1541,
+   "y": 1265,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 446,
+   "y": 484,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 2023,
+   "y": 632,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 734,
+   "y": 313,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1584,
+   "y": 1227,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1433,
+   "y": 1536,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 2110,
+   "y": 452,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 809,
+   "y": 910,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1727,
+   "y": 391,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 340,
+   "y": 958,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1885,
+   "y": 1466,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 2182,
+   "y": 1626,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 2012,
+   "y": 1149,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 2117,
+   "y": 1029,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1032,
+   "y": 1016,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 704,
+   "y": 494,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1636,
+   "y": 937,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1935,
+   "y": 823,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 342,
+   "y": 601,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 472,
+   "y": 908,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 764,
+   "y": 273,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 666,
+   "y": 714,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1122,
+   "y": 663,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1767,
+   "y": 1285,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 487,
+   "y": 319,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 881,
+   "y": 881,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1559,
+   "y": 751,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 2372,
+   "y": 1604,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 736,
+   "y": 736,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 2082,
+   "y": 1281,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 2178,
+   "y": 760,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1169,
+   "y": 1596,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 1045,
+   "y": 255,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 926,
+   "y": 1306,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1036,
+   "y": 209,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_1",
+   "x": 868,
+   "y": 320,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 1342,
+   "y": 593,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_flowers_2",
+   "x": 2150,
+   "y": 1393,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 970,
+   "y": 267,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 221,
+   "y": 646,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1354,
+   "y": 766,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1693,
+   "y": 1230,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1114,
+   "y": 962,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2256,
+   "y": 315,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1851,
+   "y": 398,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 469,
+   "y": 775,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2428,
+   "y": 1097,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1911,
+   "y": 1506,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1555,
+   "y": 839,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2372,
+   "y": 316,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2290,
+   "y": 837,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 668,
+   "y": 325,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1413,
+   "y": 1237,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1175,
+   "y": 626,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1774,
+   "y": 782,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2292,
+   "y": 911,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 2223,
+   "y": 800,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 929,
+   "y": 289,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1304,
+   "y": 523,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1218,
+   "y": 1571,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2488,
+   "y": 1484,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1315,
+   "y": 352,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 591,
+   "y": 333,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 2246,
+   "y": 756,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 705,
+   "y": 432,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 2364,
+   "y": 380,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 917,
+   "y": 348,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 2093,
+   "y": 1507,
+   "flip": true,
+   "auto": "scenery"
+  }
+ ],
+ "lights": []
+}

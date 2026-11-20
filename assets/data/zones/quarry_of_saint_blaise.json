@@ -1,0 +1,2200 @@
+{
+ "id": "quarry_of_saint_blaise",
+ "name": "The Quarry of Saint-Blaise",
+ "act": 1,
+ "levelMin": 11,
+ "levelMax": 15,
+ "width": 7680,
+ "height": 4320,
+ "playerSpawn": [
+  320,
+  2160
+ ],
+ "safeRadius": 700,
+ "packCount": 24,
+ "rarityCap": "Elite",
+ "goldMin": 18,
+ "goldMax": 75,
+ "spawns": [
+  {
+   "monster": "quarry_ghoul",
+   "weight": 45,
+   "groupMin": 5,
+   "groupMax": 8
+  },
+  {
+   "monster": "iron_sergeant",
+   "weight": 22,
+   "groupMin": 2,
+   "groupMax": 3
+  },
+  {
+   "monster": "bailiffs_enforcer",
+   "weight": 22,
+   "groupMin": 2,
+   "groupMax": 4
+  },
+  {
+   "monster": "chapel_wraith",
+   "weight": 11,
+   "groupMin": 2,
+   "groupMax": 3
+  }
+ ],
+ "superunique": "foreman_girauld",
+ "superuniquePosition": [
+  6980,
+  2160
+ ],
+ "groundTile": "tiles/act1_quarry.png",
+ "description": "Pillar-and-stall galleries. Total dark past the torch.",
+ "exits": [
+  {
+   "to": "drowned_commandery",
+   "x": 120,
+   "y": 2160
+  },
+  {
+   "to": "provins_road",
+   "x": 7540,
+   "y": 2160
+  }
+ ],
+ "waypoint": [
+  620,
+  2420
+ ],
+ "isTown": false,
+ "ambience": {
+  "ambient": "#F4E4CC",
+  "level": 1.0,
+  "tint": "#FFF6EA",
+  "saturation": 0.92,
+  "contrast": 1.06,
+  "vignette": 0.38,
+  "bloom": 0.55,
+  "particles": "dust",
+  "particleDensity": 1.5,
+  "heroLight": 0,
+  "clouds": 0.3,
+  "dust": "#A8987C",
+  "sound": "wind"
+ },
+ "decor": [
+  {
+   "prop": "boulder_2",
+   "x": 2095,
+   "y": 255,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 466,
+   "y": 2893,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4386,
+   "y": 1806,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3831,
+   "y": 2828,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 739,
+   "y": 3375,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4023,
+   "y": 3435,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 1879,
+   "y": 672,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 5065,
+   "y": 255,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 7062,
+   "y": 3372,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 2543,
+   "y": 3431,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6226,
+   "y": 1868,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 6517,
+   "y": 289,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 5404,
+   "y": 623,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 2603,
+   "y": 1799,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 5502,
+   "y": 2766,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4026,
+   "y": 678,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4201,
+   "y": 364,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 4121,
+   "y": 1287,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 2904,
+   "y": 3327,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 6013,
+   "y": 794,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6321,
+   "y": 899,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 2356,
+   "y": 680,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 2426,
+   "y": 4107,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 7265,
+   "y": 2677,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 7047,
+   "y": 4185,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 4850,
+   "y": 146,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 3475,
+   "y": 3616,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1484,
+   "y": 1282,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 5214,
+   "y": 1347,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4229,
+   "y": 3577,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1358,
+   "y": 3180,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3469,
+   "y": 3249,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 489,
+   "y": 3714,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3944,
+   "y": 2350,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 2072,
+   "y": 3834,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 1778,
+   "y": 3926,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 1173,
+   "y": 2676,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 2623,
+   "y": 1354,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 755,
+   "y": 552,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1154,
+   "y": 4105,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 2694,
+   "y": 625,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 3173,
+   "y": 159,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6351,
+   "y": 3966,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 4901,
+   "y": 3000,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 7313,
+   "y": 3903,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1279,
+   "y": 1536,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 5838,
+   "y": 3328,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3901,
+   "y": 321,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6530,
+   "y": 4207,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 6504,
+   "y": 3018,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 5829,
+   "y": 3856,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 5549,
+   "y": 1312,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 847,
+   "y": 1683,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3610,
+   "y": 507,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 2858,
+   "y": 2694,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 5912,
+   "y": 2704,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 714,
+   "y": 4112,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6442,
+   "y": 3320,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 7252,
+   "y": 1243,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3215,
+   "y": 3740,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1475,
+   "y": 358,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 5658,
+   "y": 3468,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4418,
+   "y": 4247,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4771,
+   "y": 3578,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 440,
+   "y": 463,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 437,
+   "y": 1350,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4686,
+   "y": 1652,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 6920,
+   "y": 918,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 4368,
+   "y": 729,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 381,
+   "y": 4122,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6832,
+   "y": 185,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 134,
+   "y": 1599,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 3280,
+   "y": 2857,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6680,
+   "y": 3691,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1872,
+   "y": 3164,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 2523,
+   "y": 205,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 1578,
+   "y": 2492,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_1",
+   "x": 6680,
+   "y": 3457,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 6126,
+   "y": 1164,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "boulder_2",
+   "x": 2090,
+   "y": 1936,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6195,
+   "y": 2510,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6149,
+   "y": 3598,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4855,
+   "y": 1962,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3173,
+   "y": 752,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 103,
+   "y": 179,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4341,
+   "y": 2551,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2025,
+   "y": 2553,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 5852,
+   "y": 1440,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7414,
+   "y": 717,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 3317,
+   "y": 1070,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2115,
+   "y": 960,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6716,
+   "y": 1304,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 6918,
+   "y": 2455,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6069,
+   "y": 3167,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2216,
+   "y": 2994,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5700,
+   "y": 2617,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2041,
+   "y": 4073,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7477,
+   "y": 3493,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 5366,
+   "y": 313,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2903,
+   "y": 3899,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4288,
+   "y": 2394,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2280,
+   "y": 1164,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 5101,
+   "y": 759,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6687,
+   "y": 588,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 5624,
+   "y": 4013,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7571,
+   "y": 3919,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3412,
+   "y": 826,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3579,
+   "y": 1892,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2858,
+   "y": 1231,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6303,
+   "y": 645,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 6383,
+   "y": 3582,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 721,
+   "y": 1209,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4148,
+   "y": 3068,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4816,
+   "y": 2443,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3658,
+   "y": 919,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 4400,
+   "y": 2875,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2405,
+   "y": 1897,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1239,
+   "y": 1872,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6667,
+   "y": 2522,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6709,
+   "y": 1072,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4347,
+   "y": 1119,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 399,
+   "y": 1661,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4660,
+   "y": 2674,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2333,
+   "y": 3522,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5893,
+   "y": 1896,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 3373,
+   "y": 1890,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 6314,
+   "y": 1522,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2838,
+   "y": 353,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 5531,
+   "y": 1963,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2813,
+   "y": 2996,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3079,
+   "y": 1836,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1766,
+   "y": 993,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3117,
+   "y": 1394,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1393,
+   "y": 829,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6892,
+   "y": 3578,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 4239,
+   "y": 4034,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5717,
+   "y": 1770,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 94,
+   "y": 3000,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 680,
+   "y": 1021,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 3216,
+   "y": 520,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 572,
+   "y": 1693,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7150,
+   "y": 957,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 466,
+   "y": 173,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2388,
+   "y": 956,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 2518,
+   "y": 2907,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7478,
+   "y": 2799,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5179,
+   "y": 4241,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5248,
+   "y": 3618,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 545,
+   "y": 3164,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4784,
+   "y": 397,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7033,
+   "y": 2639,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 7083,
+   "y": 3670,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5497,
+   "y": 1759,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4819,
+   "y": 1387,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1987,
+   "y": 2939,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1775,
+   "y": 1700,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 7439,
+   "y": 1744,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5980,
+   "y": 3687,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 6816,
+   "y": 4157,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 997,
+   "y": 1074,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 7473,
+   "y": 1575,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2086,
+   "y": 2780,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1678,
+   "y": 3567,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 4608,
+   "y": 842,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 3167,
+   "y": 3356,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 2499,
+   "y": 1563,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 5134,
+   "y": 532,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1684,
+   "y": 2832,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 1233,
+   "y": 529,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 4388,
+   "y": 3892,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_1",
+   "x": 180,
+   "y": 1162,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 267,
+   "y": 3720,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rock_cluster_2",
+   "x": 1548,
+   "y": 1648,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_2",
+   "x": 834,
+   "y": 135,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_2",
+   "x": 3841,
+   "y": 4082,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 7595,
+   "y": 218,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 7289,
+   "y": 231,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_2",
+   "x": 1774,
+   "y": 179,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 4815,
+   "y": 3965,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 7594,
+   "y": 3099,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 152,
+   "y": 778,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 5843,
+   "y": 443,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 213,
+   "y": 3305,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dead_tree_1",
+   "x": 3464,
+   "y": 4195,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 993,
+   "y": 814,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6027,
+   "y": 2816,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 2202,
+   "y": 1772,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 3112,
+   "y": 2062,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5320,
+   "y": 2166,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 4902,
+   "y": 2724,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6685,
+   "y": 1626,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5170,
+   "y": 706,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4914,
+   "y": 608,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 7534,
+   "y": 1643,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3156,
+   "y": 607,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 7031,
+   "y": 1754,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4834,
+   "y": 1616,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4610,
+   "y": 1560,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6191,
+   "y": 3482,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 2346,
+   "y": 1825,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2402,
+   "y": 1301,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 7355,
+   "y": 398,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1954,
+   "y": 2164,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 3395,
+   "y": 3883,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 656,
+   "y": 1881,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1015,
+   "y": 1984,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 152,
+   "y": 2455,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1328,
+   "y": 4099,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1161,
+   "y": 1674,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2179,
+   "y": 367,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5004,
+   "y": 2227,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 6150,
+   "y": 472,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6888,
+   "y": 1615,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3829,
+   "y": 479,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 684,
+   "y": 3479,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2323,
+   "y": 2050,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 3672,
+   "y": 217,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6044,
+   "y": 2206,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 3528,
+   "y": 3972,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5492,
+   "y": 187,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5429,
+   "y": 1381,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 6049,
+   "y": 1498,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 968,
+   "y": 1584,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 7446,
+   "y": 3888,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 4971,
+   "y": 385,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1783,
+   "y": 2681,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2602,
+   "y": 2575,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1647,
+   "y": 3738,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 6040,
+   "y": 337,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2798,
+   "y": 2877,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 6684,
+   "y": 3954,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1304,
+   "y": 3921,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 981,
+   "y": 3581,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5769,
+   "y": 224,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 4347,
+   "y": 2669,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4495,
+   "y": 1620,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1802,
+   "y": 2067,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3936,
+   "y": 818,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6181,
+   "y": 735,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1443,
+   "y": 196,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4244,
+   "y": 3131,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 2512,
+   "y": 4219,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2871,
+   "y": 3725,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5758,
+   "y": 1219,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 6673,
+   "y": 479,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 2877,
+   "y": 2878,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3849,
+   "y": 3893,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4181,
+   "y": 2916,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6413,
+   "y": 4194,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1916,
+   "y": 369,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3611,
+   "y": 2210,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 726,
+   "y": 2951,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 593,
+   "y": 765,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4458,
+   "y": 252,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5466,
+   "y": 4151,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 6233,
+   "y": 266,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2149,
+   "y": 4045,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 818,
+   "y": 2402,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1843,
+   "y": 2114,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4752,
+   "y": 2105,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5374,
+   "y": 846,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 7508,
+   "y": 3602,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 7057,
+   "y": 399,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5512,
+   "y": 848,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5066,
+   "y": 2495,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 207,
+   "y": 447,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1032,
+   "y": 369,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1268,
+   "y": 965,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 7188,
+   "y": 703,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1050,
+   "y": 1941,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3630,
+   "y": 1024,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1375,
+   "y": 3560,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5182,
+   "y": 2000,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6432,
+   "y": 2487,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5862,
+   "y": 789,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5725,
+   "y": 107,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 410,
+   "y": 3863,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 135,
+   "y": 3441,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2502,
+   "y": 3570,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 5432,
+   "y": 1210,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 5609,
+   "y": 127,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1416,
+   "y": 1524,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 4237,
+   "y": 1838,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 1623,
+   "y": 3404,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 1285,
+   "y": 3482,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 2601,
+   "y": 3285,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 6755,
+   "y": 1420,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2150,
+   "y": 3544,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 4375,
+   "y": 2212,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 3047,
+   "y": 410,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_1",
+   "x": 2556,
+   "y": 3578,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "dry_grass_2",
+   "x": 4854,
+   "y": 1108,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 3436,
+   "y": 2470,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 3907,
+   "y": 1893,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 5215,
+   "y": 3215,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 3056,
+   "y": 2359,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 4552,
+   "y": 3295,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 3564,
+   "y": 1406,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 2084,
+   "y": 1434,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 7104,
+   "y": 3048,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 3847,
+   "y": 3153,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 3867,
+   "y": 1551,
+   "flip": true,
+   "auto": "scenery"
+  }
+ ],
+ "lights": []
+}

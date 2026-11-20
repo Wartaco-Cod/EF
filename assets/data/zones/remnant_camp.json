@@ -1,0 +1,472 @@
+{
+ "id": "remnant_camp",
+ "name": "The Remnant's Camp",
+ "act": 4,
+ "levelMin": 71,
+ "levelMax": 100,
+ "width": 2600,
+ "height": 1700,
+ "playerSpawn": [
+  1200,
+  820
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act4_camp.png",
+ "description": "Tents in the frost outside the walls of Paris. Everyone who chose you is here.",
+ "isTown": true,
+ "waypoint": [
+  1200,
+  1180
+ ],
+ "arena": {
+  "name": "The Ring of Banners",
+  "x": 180,
+  "y": 1150,
+  "width": 560,
+  "height": 420
+ },
+ "exits": [
+  {
+   "to": "valois_estate",
+   "x": 120,
+   "y": 820
+  },
+  {
+   "to": "place_de_greve",
+   "x": 2480,
+   "y": 820
+  }
+ ],
+ "cutscene": "remnant_camp",
+ "music": "town_act4",
+ "generated": true,
+ "npcs": [
+  {
+   "id": "gerard_act4",
+   "name": "Gerard de Villiers",
+   "role": "Commander of the Remnant",
+   "services": [
+    "main_quest"
+   ],
+   "x": 1520,
+   "y": 560,
+   "lines": [
+    "Look at them. Every one of them is here because of you.",
+    "Prove yourself worthy of command. Then prove it again tomorrow."
+   ],
+   "sprite": "sprites/npc_gerard_act4.png"
+  },
+  {
+   "id": "eleanor_act4",
+   "name": "Eleanor of Valois",
+   "role": "Quartermaster",
+   "services": [
+    "buy",
+    "sell",
+    "gamble"
+   ],
+   "x": 880,
+   "y": 560,
+   "lines": [
+    "Business is very good when the world is ending."
+   ],
+   "sprite": "sprites/npc_eleanor_act4.png"
+  },
+  {
+   "id": "ysabeau_act4",
+   "name": "Sister Ysabeau",
+   "role": "Infirmarian",
+   "services": [
+    "heal",
+    "potions"
+   ],
+   "x": 880,
+   "y": 1060,
+   "lines": [
+    "I followed you from Payns. I'm not stopping at the walls of Paris."
+   ],
+   "sprite": "sprites/npc_ysabeau_act4.png"
+  },
+  {
+   "id": "aubry_act4",
+   "name": "Master Aubry",
+   "role": "Armourer",
+   "services": [
+    "forge"
+   ],
+   "x": 1520,
+   "y": 1060,
+   "lines": [
+    "My anvil went to Master Aubry's forge, under the Sanctuary. Come, I'll walk you there."
+   ],
+   "unlock": "forge",
+   "lockedLine": "My hammer is still in the quarry, brother.",
+   "sprite": "sprites/npc_aubry_act4.png"
+  },
+  {
+   "id": "thomas_act4",
+   "name": "Brother Thomas",
+   "role": "Archivist",
+   "services": [
+    "talk"
+   ],
+   "x": 1980,
+   "y": 1300,
+   "lines": [
+    "You came back for me in Payns. I won't forget it.",
+    "I kept every name. When this is over, someone has to remember them."
+   ],
+   "hiddenUntil": "thomas_trust",
+   "sprite": "sprites/npc_thomas_act4.png"
+  },
+  {
+   "id": "reginald_act4",
+   "name": "Captain Réginald",
+   "role": "Turned captain",
+   "services": [
+    "talk"
+   ],
+   "x": 420,
+   "y": 1300,
+   "lines": [
+    "My men are yours. The king lied to all of us."
+   ],
+   "hiddenUntil": "reginald_spared",
+   "sprite": "sprites/npc_reginald_act4.png"
+  },
+  {
+   "id": "arnaud_act4",
+   "name": "Arnaud de Foix",
+   "role": "Penitent knight",
+   "services": [
+    "talk"
+   ],
+   "x": 420,
+   "y": 560,
+   "lines": [
+    "I sold my brothers once. I will not do it twice."
+   ],
+   "hiddenUntil": "arnaud_spared",
+   "sprite": "sprites/npc_arnaud_act4.png"
+  },
+  {
+   "id": "marie_act4",
+   "name": "Marie",
+   "role": "Spy",
+   "services": [
+    "talk"
+   ],
+   "x": 1980,
+   "y": 820,
+   "lines": [
+    "Avignon trembles. Clement knows you're coming."
+   ],
+   "sprite": "sprites/npc_marie_act4.png"
+  },
+  {
+   "id": "strongbox_act4",
+   "name": "The Order's Strongbox",
+   "role": "Your stash",
+   "services": [
+    "stash"
+   ],
+   "x": 1200,
+   "y": 1420,
+   "lines": [],
+   "sprite": "sprites/npc_strongbox_act4.png"
+  },
+  {
+   "id": "broker_act4",
+   "name": "Jehan the Broker",
+   "role": "Auction house",
+   "services": [
+    "auction"
+   ],
+   "x": 1880,
+   "y": 560,
+   "lines": [
+    "Even here, even now. Someone has to keep the ledger."
+   ],
+   "sprite": "sprites/npc_broker_act4.png"
+  }
+ ],
+ "ambience": {
+  "ambient": "#8A88B0",
+  "level": 0.55,
+  "tint": "#FFF0E0",
+  "saturation": 0.95,
+  "contrast": 1.08,
+  "vignette": 0.5,
+  "bloom": 0.9,
+  "particles": "embers",
+  "particleDensity": 0.8,
+  "heroLight": 240,
+  "clouds": 0,
+  "dust": "#5A5048",
+  "sound": "camp"
+ },
+ "decor": [
+  {
+   "prop": "tent_1",
+   "x": 1157,
+   "y": 196,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tent_1",
+   "x": 255,
+   "y": 189,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tent_1",
+   "x": 701,
+   "y": 139,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tent_1",
+   "x": 2427,
+   "y": 1093,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tent_2",
+   "x": 2424,
+   "y": 163,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "tent_2",
+   "x": 287,
+   "y": 1047,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 1668,
+   "y": 286,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 1796,
+   "y": 1584,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 938,
+   "y": 1341,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 83,
+   "y": 1485,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banner_1",
+   "x": 2258,
+   "y": 1560,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "banner_2",
+   "x": 526,
+   "y": 1655,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "fallen_log_1",
+   "x": 2175,
+   "y": 515,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 782,
+   "y": 814,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1775,
+   "y": 1230,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 2295,
+   "y": 855,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 1351,
+   "y": 330,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1416,
+   "y": 1581,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1095,
+   "y": 1545,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2054,
+   "y": 512,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2280,
+   "y": 680,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 1497,
+   "y": 1634,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_1",
+   "x": 971,
+   "y": 1612,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "grass_tuft_2",
+   "x": 2184,
+   "y": 888,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "weapon_rack_1",
+   "x": 1971,
+   "y": 82,
+   "flip": true,
+   "auto": "scenery"
+  }
+ ],
+ "lights": [
+  {
+   "x": 713,
+   "y": 780,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 2251,
+   "y": 995,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 1680,
+   "y": 1384,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 2205,
+   "y": 431,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 744,
+   "y": 1298,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  },
+  {
+   "x": 1232,
+   "y": 449,
+   "light": {
+    "colour": "#FF9A40",
+    "radius": 380,
+    "intensity": 1.5,
+    "flicker": 0.9,
+    "height": 0.45,
+    "flame": true,
+    "embers": 6
+   }
+  }
+ ]
+}

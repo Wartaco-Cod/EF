@@ -1,0 +1,113 @@
+{
+ "id": "commandery_halls",
+ "name": "The Commandery Halls",
+ "act": 1,
+ "levelMin": 1,
+ "levelMax": 1,
+ "width": 1800,
+ "height": 1200,
+ "playerSpawn": [
+  900,
+  980
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act1_hall.png",
+ "description": "Each brotherhood keeps its own hall beneath the Sanctuary: a long table, its banner and a shared strongbox.",
+ "isTown": true,
+ "isGuildHall": true,
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 900,
+   "y": 1110
+  }
+ ],
+ "waypoint": null,
+ "arena": null,
+ "npcs": [
+  {
+   "id": "guild_steward",
+   "name": "The Steward",
+   "role": "Keeps the guild's roster",
+   "services": [
+    "guild"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 600,
+   "y": 480
+  },
+  {
+   "id": "guild_strongbox",
+   "name": "The Guild Strongbox",
+   "role": "Shared guild stash",
+   "services": [
+    "guild_stash"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 1200,
+   "y": 480
+  },
+  {
+   "id": "guild_armoury",
+   "name": "The Armoury Rack",
+   "role": "Your loadouts",
+   "services": [
+    "armoury"
+   ],
+   "unlock": null,
+   "hiddenUntil": null,
+   "x": 900,
+   "y": 420,
+   "sprite": "sprites/npc_armoury_rack.png",
+   "lines": []
+  }
+ ],
+ "ambience": {
+  "ambient": "#D0B490",
+  "level": 0.66,
+  "tint": "#FFF0DC",
+  "saturation": 0.95,
+  "contrast": 1.08,
+  "vignette": 0.45,
+  "bloom": 0.8,
+  "particles": "dust",
+  "particleDensity": 1.0,
+  "heroLight": 260,
+  "clouds": 0.0,
+  "dust": "#7A7066",
+  "sound": "hall"
+ },
+ "decor": [
+  {
+   "prop": "candelabrum_1",
+   "x": 505,
+   "y": 1077,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 182,
+   "y": 458,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1698,
+   "y": 455,
+   "flip": false,
+   "auto": true
+  }
+ ],
+ "lights": []
+}

@@ -1,0 +1,194 @@
+{
+  "rules": {
+    "maxSkillLevel": 10,
+    "buildPointsPerLevelUp": 1,
+    "costPerSkillLevel": 4,
+    "untrainedDamagePenalty": 0.3,
+    "spellUnlockLevels": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "maxBlockChance": 0.4,
+    "blockReduction": 0.75,
+    "startingSkillLevel": 1
+  },
+  "skills": [
+    {
+      "id": "heavy_two_handed",
+      "name": "Heavy Two-Handed",
+      "kind": "weapon",
+      "weaponType": "HeavyTwoHanded",
+      "description": "Great clubs and mauls. Slow, crushing blows that strike everything around the target.",
+      "perLevel": {
+        "damage": 0.06
+      }
+    },
+    {
+      "id": "light_two_handed",
+      "name": "Light Two-Handed",
+      "kind": "weapon",
+      "weaponType": "LightTwoHanded",
+      "description": "Longswords and greatswords. Heavy single blows with long reach.",
+      "perLevel": {
+        "damage": 0.05
+      }
+    },
+    {
+      "id": "one_handed_sword",
+      "name": "One-Handed Sword",
+      "kind": "weapon",
+      "weaponType": "OneHandedSword",
+      "description": "Arming swords and falchions. Balanced, and leaves a hand free for a shield.",
+      "perLevel": {
+        "damage": 0.05
+      }
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "kind": "weapon",
+      "weaponType": "Dagger",
+      "description": "Rondels and misericordes. Very fast strikes that find the gaps for critical hits.",
+      "perLevel": {
+        "damage": 0.04,
+        "critChance": 0.02
+      }
+    },
+    {
+      "id": "throwing",
+      "name": "Throwing",
+      "kind": "weapon",
+      "weaponType": "Throwing",
+      "description": "Throwing axes, knives and javelins. Ranged attacks from a pack that never runs dry.",
+      "perLevel": {
+        "damage": 0.05
+      }
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "kind": "shield",
+      "description": "Block blows with a shield. Blocked hits lose most of their force.",
+      "perLevel": {
+        "blockChance": 0.025,
+        "shieldDefense": 0.1
+      }
+    },
+    {
+      "id": "liturgy",
+      "name": "Liturgy",
+      "kind": "spellField",
+      "description": "The rites of the Order: healing, blessing, holy fire against the dead.",
+      "perLevel": {
+        "spellPower": 0.08
+      }
+    },
+    {
+      "id": "alchemy",
+      "name": "Alchemy",
+      "kind": "spellField",
+      "description": "Fire, frost and lightning drawn from the alchemist's furnace.",
+      "perLevel": {
+        "spellPower": 0.08
+      }
+    },
+    {
+      "id": "hermetica",
+      "name": "Hermetica",
+      "kind": "spellField",
+      "description": "The Hermit's secret texts: arcane force, confusion and the folding of distance.",
+      "perLevel": {
+        "spellPower": 0.08
+      }
+    },
+    {
+      "id": "warding",
+      "name": "Warding",
+      "kind": "spellField",
+      "description": "Protective seals and consecrations that harden flesh and steel.",
+      "perLevel": {
+        "spellPower": 0.08
+      }
+    },
+    {
+      "id": "grave_lore",
+      "name": "Grave Lore",
+      "kind": "spellField",
+      "description": "Forbidden arts taken from the Order's enemies: withering, leeching, plague.",
+      "perLevel": {
+        "spellPower": 0.08
+      }
+    }
+  ],
+  "classes": {
+    "Knight": {
+      "starting": [
+        "one_handed_sword",
+        "shield",
+        "throwing"
+      ],
+      "costMultiplier": {
+        "weapon": 1.0,
+        "shield": 1.0,
+        "liturgy": 2.0,
+        "alchemy": 2.0,
+        "hermetica": 2.0,
+        "warding": 1.5,
+        "grave_lore": 2.0
+      }
+    },
+    "Paladin": {
+      "starting": [
+        "one_handed_sword",
+        "shield",
+        "liturgy"
+      ],
+      "costMultiplier": {
+        "weapon": 1.0,
+        "shield": 1.0,
+        "liturgy": 1.0,
+        "alchemy": 2.0,
+        "hermetica": 2.0,
+        "warding": 1.0,
+        "grave_lore": 2.0
+      }
+    },
+    "Wizard": {
+      "starting": [
+        "alchemy",
+        "hermetica",
+        "dagger"
+      ],
+      "costMultiplier": {
+        "weapon": 1.5,
+        "dagger": 1.0,
+        "shield": 2.0,
+        "liturgy": 2.0,
+        "alchemy": 1.0,
+        "hermetica": 1.0,
+        "warding": 1.5,
+        "grave_lore": 1.0
+      }
+    },
+    "Healer": {
+      "starting": [
+        "liturgy",
+        "warding",
+        "dagger"
+      ],
+      "costMultiplier": {
+        "weapon": 2.0,
+        "dagger": 1.0,
+        "shield": 1.5,
+        "liturgy": 1.0,
+        "alchemy": 1.5,
+        "hermetica": 1.5,
+        "warding": 1.0,
+        "grave_lore": 1.5
+      }
+    }
+  }
+}

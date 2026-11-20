@@ -1,0 +1,324 @@
+[
+ {
+  "id": "prologue",
+  "title": "Payns, 13 October 1307",
+  "image": "ui/cutscene_prologue.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "A bell rung wrong in the dark. Torchlight under the dormitory door."
+   },
+   {
+    "speaker": "A royal sergeant",
+    "text": "\"By order of Philip, by the grace of God King of the French: every brother of the Temple is under arrest. God is not pleased.\""
+   },
+   {
+    "speaker": "",
+    "text": "They drag the Preceptor out in chains. They bar the chapel doors with your brothers inside, and they fire the thatch."
+   },
+   {
+    "speaker": "",
+    "text": "You hear them singing the psalms until the roof comes down."
+   },
+   {
+    "speaker": "",
+    "text": "Kneeling in the ash, you break your first vow. The Rule forbids a brother to avenge himself. You swear it anyway: every hand that lit this fire."
+   },
+   {
+    "speaker": "",
+    "text": "A Templar does not lie, does not steal, does not flee, and wears no colours but the Temple's. To finish what you have sworn, you will do all of it."
+   },
+   {
+    "speaker": "",
+    "text": "Three soldiers stand between you and the crypt stair. Click the ground to walk, or use W A S D; click a foe to strike; drink a potion with Z."
+   }
+  ]
+ },
+ {
+  "id": "sanctuary_first",
+  "title": "The Sanctuary of the Broken Seal",
+  "image": "ui/cutscene_sanctuary_first.png",
+  "lines": [
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"They called us heretics. They burned our brothers. The Rule says we forgive them.\""
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"I have watched you since the courtyard. You did not come down here to forgive. Good. The Rule was written for a Temple that still stands.\""
+   },
+   {
+    "speaker": "",
+    "text": "A crypt beneath the burned chapel of Sainte-Croix, lit by tallow. What is left of the Order gathers here, and pretends not to have heard what you swore."
+   }
+  ]
+ },
+ {
+  "id": "ledger_of_payns",
+  "title": "The Ledger of Payns",
+  "image": "ui/cutscene_ledger_of_payns.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "Imbert's ledger lies open in the ash. Every confession in it is in the same hand: his. Your brothers' names, and beside each, what was done to them."
+   },
+   {
+    "speaker": "",
+    "text": "You tear out the pages with the names and keep them. Not as proof. As a list."
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"Proof that they were forced. Take the ledger south to the Town in Shadow. And brother, what you did to Imbert at the end: I did not see it. No one did.\""
+   }
+  ]
+ },
+ {
+  "id": "town_in_shadow",
+  "title": "The Town in Shadow",
+  "image": "ui/cutscene_town_in_shadow.png",
+  "lines": [
+   {
+    "speaker": "Eleanor of Valois",
+    "text": "\"This is business. Nothing more.\""
+   },
+   {
+    "speaker": "",
+    "text": "A market town that closes its shutters at dusk and opens its cellars to the Order. The network has a home."
+   }
+  ]
+ },
+ {
+  "id": "castle_retaken",
+  "title": "The Castle Retaken",
+  "image": "ui/cutscene_castle_retaken.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "A Templar castle on the ridge, its banners torn down, its hall full of routiers."
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"Take it back, and the Order has walls again. Prove yourself worthy of command first.\""
+   }
+  ]
+ },
+ {
+  "id": "hermit_secret",
+  "title": "The Hermit's First Secret",
+  "image": "ui/cutscene_hermit_secret.png",
+  "lines": [
+   {
+    "speaker": "The Hermit",
+    "text": "\"You want to know what the Temple guarded? Not gold. Debts. The king owed us everything, and a dead creditor sends no bills.\""
+   },
+   {
+    "speaker": "",
+    "text": "Somewhere below, something pale moves in the well."
+   }
+  ]
+ },
+ {
+  "id": "marcus_archive",
+  "title": "Marcus' Archive",
+  "image": "ui/cutscene_marcus_archive.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "Inquisitor Marcus falls among his records. The torture logs are all here: dates, methods, the names of the dead."
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"This is not one man's cruelty. It's a plan. The king means to erase every Templar from the earth.\""
+   },
+   {
+    "speaker": "",
+    "text": "The road north, to the court of France, is open."
+   }
+  ]
+ },
+ {
+  "id": "valois_estate",
+  "title": "The Estate of Count de Valois",
+  "image": "ui/cutscene_valois_estate.png",
+  "lines": [
+   {
+    "speaker": "Count de Valois",
+    "text": "\"My brother is the king's brother, and my house is yours. Do not ask me why.\""
+   },
+   {
+    "speaker": "Marie",
+    "text": "\"I carry letters for the papal court. They trust me. They shouldn't.\""
+   }
+  ]
+ },
+ {
+  "id": "court_disguise",
+  "title": "Disguised at Court",
+  "image": "ui/cutscene_court_disguise.png",
+  "lines": [
+   {
+    "speaker": "Marie",
+    "text": "\"Walk, don't run. Bow to the clerks. The guards see the robe from across a hall; up close, they see your face.\""
+   },
+   {
+    "speaker": "",
+    "text": "If the disguise breaks, every guard nearby will come for you."
+   }
+  ]
+ },
+ {
+  "id": "de_molay_bars",
+  "title": "De Molay Through the Bars",
+  "image": "ui/cutscene_de_molay_bars.png",
+  "lines": [
+   {
+    "speaker": "Jacques de Molay",
+    "text": "\"I confessed nothing that was true. Nogaret signed the orders; the Pope signed what he was given; the king signed us away.\""
+   },
+   {
+    "speaker": "",
+    "text": "The Grand Master of the Temple, imprisoned, defiant, and alive. For now."
+   }
+  ]
+ },
+ {
+  "id": "legate_vault",
+  "title": "The Legate's Vault",
+  "image": "ui/cutscene_legate_vault.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "The Inquisitor General falls. The vault beneath him is full of letters between Paris and the Curia."
+   },
+   {
+    "speaker": "Marie",
+    "text": "\"If we carried out the proof, de Molay has a defence. If not... then we fight with what we have.\""
+   },
+   {
+    "speaker": "",
+    "text": "The road to Paris is open. They are building the pyre."
+   }
+  ]
+ },
+ {
+  "id": "remnant_camp",
+  "title": "The Remnant's Camp",
+  "image": "ui/cutscene_remnant_camp.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "Tents in the frost outside the walls of Paris. Everyone you recruited, spared or saved is here."
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"Look at them. Every one of them is here because of you.\""
+   }
+  ]
+ },
+ {
+  "id": "stake_at_greve",
+  "title": "The Stake at Grève",
+  "image": "ui/cutscene_stake_at_greve.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "The pyre is being built in the Place de Grève. The crowd is already gathering."
+   },
+   {
+    "speaker": "",
+    "text": "Your army is at your back. The size of it is the story of everything you have done."
+   }
+  ]
+ },
+ {
+  "id": "tower_of_truth",
+  "title": "The Tower of Truth",
+  "image": "ui/cutscene_tower_of_truth.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "Five floors. De Molay and de Charney at the top. And Philip IV, with a legendary sword and his royal guard."
+   },
+   {
+    "speaker": "Philip IV",
+    "text": "\"I am the chosen of God!\""
+   }
+  ]
+ },
+ {
+  "id": "ending_rescue",
+  "title": "The Rescue",
+  "image": "ui/cutscene_ending_rescue.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "De Molay walks out of the Tower of Truth on his own feet. The proof goes to every court in Christendom."
+   },
+   {
+    "speaker": "Jacques de Molay",
+    "text": "\"The Order lives, because you would not let it die.\""
+   },
+   {
+    "speaker": "",
+    "text": "The Temple is restored. Brother Thomas writes down every name."
+   }
+  ]
+ },
+ {
+  "id": "ending_vengeance",
+  "title": "The Vengeance",
+  "image": "ui/cutscene_ending_vengeance.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "You were too late for the Grand Master. The pyre burns on the Île aux Juifs."
+   },
+   {
+    "speaker": "Jacques de Molay",
+    "text": "\"Pope Clement, King Philip: before the year is out, I summon you to the judgement of God.\""
+   },
+   {
+    "speaker": "",
+    "text": "Within the year, both are dead. The Temple has its vengeance, and nothing else."
+   }
+  ]
+ },
+ {
+  "id": "ending_darkness",
+  "title": "The Darkness",
+  "image": "ui/cutscene_ending_darkness.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "Every enemy who knelt, you killed. Every door, you burned."
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"We fought so long against the king's methods that we became them.\""
+   },
+   {
+    "speaker": "",
+    "text": "The Remnant scatters. Vengeance has consumed you, and the Temple with you."
+   }
+  ]
+ },
+ {
+  "id": "ending_redemption",
+  "title": "The Redemption",
+  "image": "ui/cutscene_ending_redemption.png",
+  "lines": [
+   {
+    "speaker": "",
+    "text": "The Order of the Temple ends. Its brothers do not."
+   },
+   {
+    "speaker": "Gerard de Villiers",
+    "text": "\"In Portugal, the king will take us in under a new name. The Order of Christ.\""
+   },
+   {
+    "speaker": "",
+    "text": "The ideals live on. Somewhere in Tomar, a white mantle with a red cross is folded and put away, and kept."
+   }
+  ]
+ }
+]

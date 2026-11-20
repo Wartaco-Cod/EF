@@ -1,0 +1,398 @@
+{
+ "id": "town_in_shadow",
+ "name": "The Town in Shadow",
+ "act": 2,
+ "levelMin": 21,
+ "levelMax": 40,
+ "width": 2600,
+ "height": 1700,
+ "playerSpawn": [
+  1200,
+  820
+ ],
+ "safeRadius": 0,
+ "packCount": 0,
+ "rarityCap": "Common",
+ "goldMin": 0,
+ "goldMax": 0,
+ "spawns": [],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act2_cobbles.png",
+ "description": "A market town that keeps its shutters closed and its cellars open to the Order.",
+ "isTown": true,
+ "waypoint": [
+  1200,
+  1180
+ ],
+ "arena": {
+  "name": "The Tanners' Pit",
+  "x": 180,
+  "y": 1150,
+  "width": 560,
+  "height": 420
+ },
+ "exits": [
+  {
+   "to": "sanctuary_of_the_broken_seal",
+   "x": 120,
+   "y": 820
+  },
+  {
+   "to": "catacomb_network_1",
+   "x": 2480,
+   "y": 820
+  },
+  {
+   "to": "valois_estate",
+   "x": 1200,
+   "y": 120,
+   "requiresUnlock": "act3",
+   "lockedText": "The road north to court opens when Marcus' archive is yours."
+  }
+ ],
+ "cutscene": "town_in_shadow",
+ "music": "town_act2",
+ "generated": true,
+ "npcs": [
+  {
+   "id": "gerard_act2",
+   "name": "Gerard de Villiers",
+   "role": "Leader of the rebels",
+   "services": [
+    "main_quest"
+   ],
+   "x": 1520,
+   "y": 560,
+   "lines": [
+    "Every brother we save is another blade. Every blade is another night we survive.",
+    "The king wants us erased. Not dead: erased. As if the Temple never was."
+   ],
+   "sprite": "sprites/npc_gerard_act2.png"
+  },
+  {
+   "id": "eleanor_of_valois",
+   "name": "Eleanor of Valois",
+   "role": "Spy and merchant",
+   "services": [
+    "buy",
+    "sell",
+    "gamble"
+   ],
+   "x": 880,
+   "y": 560,
+   "lines": [
+    "This is business. Nothing more.",
+    "Gold buys silence in this town. I have a great deal of both."
+   ],
+   "sprite": "sprites/npc_eleanor_of_valois.png"
+  },
+  {
+   "id": "jean_baptiste",
+   "name": "Jean-Baptiste",
+   "role": "Former monk, healer",
+   "services": [
+    "heal",
+    "potions"
+   ],
+   "x": 880,
+   "y": 1060,
+   "lines": [
+    "I left the Church when I read what it keeps in its cellars.",
+    "Sit. The Church taught me two things: Latin, and how to close a wound."
+   ],
+   "sprite": "sprites/npc_jean_baptiste.png"
+  },
+  {
+   "id": "odette_the_farrier",
+   "name": "Odette the Farrier",
+   "role": "Smith",
+   "services": [
+    "forge"
+   ],
+   "x": 1520,
+   "y": 1060,
+   "lines": [
+    "My anvil went to Master Aubry's forge, under the Sanctuary. Come, I'll walk you there."
+   ],
+   "unlock": "forge",
+   "lockedLine": "My forge stays cold until Master Aubry's is lit again. Find his hammer.",
+   "sprite": "sprites/npc_odette_the_farrier.png"
+  },
+  {
+   "id": "strongbox_act2",
+   "name": "The Order's Strongbox",
+   "role": "Your stash",
+   "services": [
+    "stash"
+   ],
+   "x": 1200,
+   "y": 1420,
+   "lines": [],
+   "sprite": "sprites/npc_strongbox_act2.png"
+  },
+  {
+   "id": "broker_act2",
+   "name": "Lucas the Broker",
+   "role": "Auction house",
+   "services": [
+    "auction"
+   ],
+   "x": 1880,
+   "y": 560,
+   "lines": [
+    "Same ledger as Jehan's. A sale here is a sale in every town."
+   ],
+   "sprite": "sprites/npc_broker_act2.png"
+  }
+ ],
+ "ambience": {
+  "ambient": "#B0A0C0",
+  "level": 0.68,
+  "tint": "#FFF0E8",
+  "saturation": 0.9,
+  "contrast": 1.08,
+  "vignette": 0.45,
+  "bloom": 0.8,
+  "particles": "",
+  "particleDensity": 1,
+  "heroLight": 200,
+  "clouds": 0.2,
+  "dust": "#6A6060",
+  "sound": "town"
+ },
+ "decor": [
+  {
+   "prop": "townhouse_1",
+   "x": 260,
+   "y": 360,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "townhouse_b_2",
+   "x": 720,
+   "y": 360,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "townhouse_b_1",
+   "x": 1680,
+   "y": 360,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "boarded_house_2",
+   "x": 2140,
+   "y": 360,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "notice_board_1",
+   "x": 2460,
+   "y": 400,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "townhouse_b_1",
+   "x": 260,
+   "y": 1580,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "boarded_house_1",
+   "x": 720,
+   "y": 1580,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "townhouse_1",
+   "x": 1680,
+   "y": 1580,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "townhouse_b_2",
+   "x": 2140,
+   "y": 1580,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "hay_cart_1",
+   "x": 330,
+   "y": 1150,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "barrels_crates_2",
+   "x": 2300,
+   "y": 1150,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "prison_wagon_2",
+   "x": 950,
+   "y": 1310,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "notice_board_2",
+   "x": 1730,
+   "y": 960,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "stone_well_1",
+   "x": 1377,
+   "y": 440,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 1022,
+   "y": 440,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "market_stall_1",
+   "x": 545,
+   "y": 600,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "market_stall_2",
+   "x": 580,
+   "y": 1030,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "market_stall_1",
+   "x": 1430,
+   "y": 1270,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "stocks_1",
+   "x": 760,
+   "y": 1250,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 1010,
+   "y": 230,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 1390,
+   "y": 230,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 600,
+   "y": 690,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 620,
+   "y": 950,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 2050,
+   "y": 680,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 2000,
+   "y": 980,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "torch_post_1",
+   "x": 1060,
+   "y": 1500,
+   "flip": false,
+   "layout": "town"
+  },
+  {
+   "prop": "torch_post_2",
+   "x": 1340,
+   "y": 1500,
+   "flip": true,
+   "layout": "town"
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 527,
+   "y": 95,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 78,
+   "y": 1315,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 2460,
+   "y": 1472,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "barrels_crates_1",
+   "x": 2330,
+   "y": 94,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "puddle_2",
+   "x": 1813,
+   "y": 1223,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "puddle_2",
+   "x": 1909,
+   "y": 160,
+   "flip": false,
+   "auto": "scenery"
+  }
+ ],
+ "lights": []
+}

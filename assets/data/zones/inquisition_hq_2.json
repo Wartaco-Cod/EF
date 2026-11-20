@@ -1,0 +1,1111 @@
+{
+ "id": "inquisition_hq_2",
+ "name": "Inquisition Headquarters",
+ "act": 2,
+ "levelMin": 37,
+ "levelMax": 39,
+ "width": 5760,
+ "height": 3240,
+ "playerSpawn": [
+  320,
+  1620
+ ],
+ "safeRadius": 700,
+ "packCount": 20,
+ "rarityCap": "Epic",
+ "goldMin": 52,
+ "goldMax": 214,
+ "spawns": [
+  {
+   "monster": "inquisition_jailer",
+   "weight": 30,
+   "groupMin": 3,
+   "groupMax": 5
+  },
+  {
+   "monster": "dominican_inquisitor",
+   "weight": 30,
+   "groupMin": 2,
+   "groupMax": 3
+  },
+  {
+   "monster": "inquisition_executioner",
+   "weight": 20,
+   "groupMin": 1,
+   "groupMax": 2
+  },
+  {
+   "monster": "penitent_zealot",
+   "weight": 20,
+   "groupMin": 3,
+   "groupMax": 5
+  }
+ ],
+ "superunique": "warden_of_cells",
+ "superuniquePosition": [
+  5060,
+  1620
+ ],
+ "groundTile": "tiles/act2_stone.png",
+ "description": "The question rooms.",
+ "exits": [
+  {
+   "to": "inquisition_hq_1",
+   "x": 120,
+   "y": 1620
+  },
+  {
+   "to": "inquisition_hq_3",
+   "x": 5620,
+   "y": 1620
+  }
+ ],
+ "waypoint": [
+  620,
+  1880
+ ],
+ "isTown": false,
+ "generated": true,
+ "music": "act2_field",
+ "floor": "Floor 2 of 3",
+ "ambience": {
+  "ambient": "#8A6A5A",
+  "level": 0.35,
+  "tint": "#FFF4E8",
+  "saturation": 0.85,
+  "contrast": 1.1,
+  "vignette": 0.55,
+  "bloom": 0.9,
+  "particles": "embers",
+  "particleDensity": 0.5,
+  "heroLight": 400,
+  "clouds": 0.0,
+  "dust": "#6A6660",
+  "sound": "crypt"
+ },
+ "decor": [
+  {
+   "prop": "candelabrum_1",
+   "x": 408,
+   "y": 156,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 407,
+   "y": 3060,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1035,
+   "y": 142,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1023,
+   "y": 3081,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1675,
+   "y": 147,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1644,
+   "y": 3098,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2329,
+   "y": 145,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2315,
+   "y": 3071,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2889,
+   "y": 178,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2987,
+   "y": 3103,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3501,
+   "y": 147,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3515,
+   "y": 3098,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4135,
+   "y": 146,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4170,
+   "y": 3114,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 4816,
+   "y": 152,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 4749,
+   "y": 3102,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5378,
+   "y": 132,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5439,
+   "y": 3065,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 97,
+   "y": 435,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5606,
+   "y": 443,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 130,
+   "y": 1052,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 5563,
+   "y": 1108,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 167,
+   "y": 2304,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 5641,
+   "y": 2344,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 177,
+   "y": 2929,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "brazier_1",
+   "x": 2584,
+   "y": 510,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 4442,
+   "y": 2779,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 5054,
+   "y": 2742,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 5684,
+   "y": 1898,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 3816,
+   "y": 2744,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_2",
+   "x": 1931,
+   "y": 2740,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "brazier_1",
+   "x": 5269,
+   "y": 1805,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 1283,
+   "y": 2933,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 5506,
+   "y": 2779,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 2081,
+   "y": 284,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 742,
+   "y": 127,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 516,
+   "y": 2353,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 390,
+   "y": 2651,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 381,
+   "y": 1176,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 1588,
+   "y": 391,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 1832,
+   "y": 505,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 5272,
+   "y": 600,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 3798,
+   "y": 271,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 492,
+   "y": 734,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 2712,
+   "y": 2892,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 4039,
+   "y": 396,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 5285,
+   "y": 1282,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 3112,
+   "y": 2791,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 4938,
+   "y": 495,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 5364,
+   "y": 2293,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 718,
+   "y": 2806,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 1183,
+   "y": 349,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 109,
+   "y": 2016,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 5109,
+   "y": 188,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 446,
+   "y": 2091,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 3261,
+   "y": 3111,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 3371,
+   "y": 444,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_2",
+   "x": 5693,
+   "y": 3024,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stone_pillar_1",
+   "x": 5306,
+   "y": 853,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 4354,
+   "y": 432,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 3389,
+   "y": 2795,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 5248,
+   "y": 3199,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 1408,
+   "y": 143,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 433,
+   "y": 449,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 156,
+   "y": 820,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 188,
+   "y": 3184,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 130,
+   "y": 1307,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 4981,
+   "y": 3189,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 2607,
+   "y": 3172,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 4520,
+   "y": 114,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 1917,
+   "y": 82,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 817,
+   "y": 486,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 5624,
+   "y": 178,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 3229,
+   "y": 225,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 644,
+   "y": 3151,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 5698,
+   "y": 810,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 5643,
+   "y": 1340,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 2611,
+   "y": 84,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 4607,
+   "y": 512,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 1065,
+   "y": 2762,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 3023,
+   "y": 426,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_2",
+   "x": 165,
+   "y": 104,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "inquisition_banner_1",
+   "x": 2390,
+   "y": 2773,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "cell_bars_2",
+   "x": 150,
+   "y": 2569,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "cell_bars_1",
+   "x": 3906,
+   "y": 3170,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "cell_bars_1",
+   "x": 1361,
+   "y": 3185,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "cell_bars_2",
+   "x": 1491,
+   "y": 2761,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_1",
+   "x": 1453,
+   "y": 1304,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_2",
+   "x": 3713,
+   "y": 1818,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_2",
+   "x": 4117,
+   "y": 1222,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_1",
+   "x": 3031,
+   "y": 842,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_1",
+   "x": 1514,
+   "y": 1908,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_2",
+   "x": 4273,
+   "y": 2384,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_1",
+   "x": 4415,
+   "y": 662,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_2",
+   "x": 2798,
+   "y": 2524,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_1",
+   "x": 3233,
+   "y": 1331,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_1",
+   "x": 2467,
+   "y": 1262,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "torture_rack_2",
+   "x": 3851,
+   "y": 908,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_1",
+   "x": 2186,
+   "y": 1834,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_1",
+   "x": 2700,
+   "y": 1090,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_1",
+   "x": 2429,
+   "y": 2289,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_2",
+   "x": 1807,
+   "y": 1984,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_2",
+   "x": 3693,
+   "y": 2204,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_2",
+   "x": 1807,
+   "y": 1329,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_2",
+   "x": 1279,
+   "y": 795,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_2",
+   "x": 4230,
+   "y": 1887,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_1",
+   "x": 1075,
+   "y": 668,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "stocks_1",
+   "x": 4448,
+   "y": 2005,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 2735,
+   "y": 2091,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_1",
+   "x": 5052,
+   "y": 984,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_1",
+   "x": 4499,
+   "y": 1431,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_1",
+   "x": 3468,
+   "y": 893,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 3360,
+   "y": 2187,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 1090,
+   "y": 2491,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_1",
+   "x": 742,
+   "y": 979,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_1",
+   "x": 2231,
+   "y": 1216,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 3394,
+   "y": 2478,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 4776,
+   "y": 1894,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "gibbet_cage_2",
+   "x": 4688,
+   "y": 819,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 1478,
+   "y": 1070,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 2150,
+   "y": 652,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_2",
+   "x": 2808,
+   "y": 1862,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 830,
+   "y": 2553,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_2",
+   "x": 3083,
+   "y": 2361,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 2861,
+   "y": 1336,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 1863,
+   "y": 2223,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 1448,
+   "y": 2358,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_1",
+   "x": 4802,
+   "y": 1134,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_2",
+   "x": 4423,
+   "y": 1099,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_2",
+   "x": 1721,
+   "y": 991,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "lectern_2",
+   "x": 2409,
+   "y": 1925,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "coffin_1",
+   "x": 4880,
+   "y": 2108,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "coffin_2",
+   "x": 979,
+   "y": 1144,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "coffin_2",
+   "x": 5094,
+   "y": 2237,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "coffin_1",
+   "x": 1184,
+   "y": 1049,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "coffin_2",
+   "x": 2451,
+   "y": 2519,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "coffin_2",
+   "x": 3708,
+   "y": 1154,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_1",
+   "x": 4717,
+   "y": 2187,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_2",
+   "x": 845,
+   "y": 2101,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_2",
+   "x": 537,
+   "y": 1406,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_2",
+   "x": 1257,
+   "y": 1800,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_2",
+   "x": 1841,
+   "y": 3157,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_2",
+   "x": 2158,
+   "y": 2160,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_1",
+   "x": 1076,
+   "y": 2081,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_2",
+   "x": 2219,
+   "y": 907,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "rubble_1",
+   "x": 3928,
+   "y": 2009,
+   "flip": true,
+   "auto": "scenery"
+  }
+ ],
+ "lights": []
+}

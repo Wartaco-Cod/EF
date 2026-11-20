@@ -1,0 +1,188 @@
+{
+ "id": "sealed_vault_of_payns",
+ "name": "The Sealed Vault of Payns",
+ "act": 1,
+ "levelMin": 8,
+ "levelMax": 20,
+ "width": 3840,
+ "height": 2160,
+ "playerSpawn": [
+  320,
+  1080
+ ],
+ "safeRadius": 700,
+ "packCount": 8,
+ "rarityCap": "Epic",
+ "goldMin": 15,
+ "goldMax": 60,
+ "spawns": [
+  {
+   "monster": "chapel_wraith",
+   "weight": 40,
+   "groupMin": 3,
+   "groupMax": 5
+  },
+  {
+   "monster": "fallen_templar",
+   "weight": 35,
+   "groupMin": 3,
+   "groupMax": 4
+  },
+  {
+   "monster": "quarry_ghoul",
+   "weight": 25,
+   "groupMin": 4,
+   "groupMax": 6
+  }
+ ],
+ "superunique": null,
+ "superuniquePosition": null,
+ "groundTile": "tiles/act1_cellar.png",
+ "description": "Behind a false wall in the press-house cellar. The Order kept secrets from itself.",
+ "exits": [
+  {
+   "to": "frozen_vineyards",
+   "x": 120,
+   "y": 1080
+  }
+ ],
+ "waypoint": null,
+ "isTown": false,
+ "ambience": {
+  "ambient": "#7484A4",
+  "level": 0.34,
+  "tint": "#FFF4E8",
+  "saturation": 0.85,
+  "contrast": 1.1,
+  "vignette": 0.55,
+  "bloom": 0.9,
+  "particles": "dust",
+  "particleDensity": 1.0,
+  "heroLight": 400,
+  "clouds": 0.0,
+  "dust": "#6A6660",
+  "sound": "crypt"
+ },
+ "decor": [
+  {
+   "prop": "candelabrum_2",
+   "x": 424,
+   "y": 170,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 516,
+   "y": 2012,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1051,
+   "y": 149,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1118,
+   "y": 1982,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1679,
+   "y": 124,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1662,
+   "y": 2032,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2344,
+   "y": 122,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 2361,
+   "y": 2028,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2996,
+   "y": 152,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2996,
+   "y": 2038,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3548,
+   "y": 131,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3558,
+   "y": 2006,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 158,
+   "y": 437,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3739,
+   "y": 431,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3746,
+   "y": 1089,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 148,
+   "y": 1682,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3746,
+   "y": 1709,
+   "flip": false,
+   "auto": true
+  }
+ ],
+ "lights": []
+}

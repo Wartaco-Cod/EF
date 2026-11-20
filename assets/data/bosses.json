@@ -1,0 +1,664 @@
+[
+ {
+  "id": "reginald",
+  "title": "Réginald's Choice",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "garrison_crossbowman",
+      "name": "Garrison Crossbowman",
+      "count": 2,
+      "max": 4,
+      "every": 14,
+      "first": 6
+     }
+    ]
+   },
+   {
+    "below": 0.5,
+    "announce": "\"Hold the line! For the king!\"",
+    "damageMul": 1.25,
+    "abilities": [
+     {
+      "kind": "charge",
+      "every": 9,
+      "first": 2,
+      "radius": 110,
+      "damageMul": 2.5
+     },
+     {
+      "kind": "summon",
+      "monster": "garrison_pikeman",
+      "name": "Garrison Pikeman",
+      "count": 2,
+      "max": 4,
+      "every": 16,
+      "first": 4
+     }
+    ]
+   }
+  ],
+  "yieldAt": 0.12,
+  "choice": {
+   "prompt": "Réginald lowers his sword. \"The king lied to me as well. Do what you must.\"",
+   "options": [
+    {
+     "id": "spare",
+     "text": "Spare him: he may yet serve the truth",
+     "unlock": "reginald_spared",
+     "outcome": "spare",
+     "line": "{#9FD68A}Réginald kneels, then rises. \"Find me when the hour comes. My men will follow.\"{/}"
+    },
+    {
+     "id": "kill",
+     "text": "Kill him: his orders will speak for him",
+     "unlock": "reginald_killed",
+     "outcome": "kill",
+     "line": "{#E0A060}Réginald falls. In his satchel: the king's orders, and the lies they were built on.{/}"
+    }
+   ],
+   "seconds": 30
+  }
+ },
+ {
+  "id": "marcus",
+  "title": "Marcus' Archive",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "telegraph",
+      "every": 6,
+      "first": 3,
+      "radius": 95,
+      "delay": 1.3,
+      "damageMul": 3.0,
+      "count": 2
+     },
+     {
+      "kind": "curse",
+      "every": 14,
+      "first": 8,
+      "amount": 0.25,
+      "text": "\"Confess.\" Your arms grow heavy."
+     }
+    ]
+   },
+   {
+    "below": 0.66,
+    "announce": "He opens the torture logs. The jailers come.",
+    "shieldedByAdds": true,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "inquisition_jailer",
+      "name": "Jailer",
+      "count": 3,
+      "max": 3,
+      "every": 40,
+      "first": 0
+     },
+     {
+      "kind": "telegraph",
+      "every": 7,
+      "first": 4,
+      "radius": 95,
+      "delay": 1.3,
+      "damageMul": 3.0,
+      "count": 2
+     }
+    ]
+   },
+   {
+    "below": 0.33,
+    "announce": "\"The king's will is God's will!\"",
+    "damageMul": 1.35,
+    "speedMul": 1.15,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 8,
+      "first": 2,
+      "radius": 220,
+      "delay": 1.4,
+      "damageMul": 3.5,
+      "text": "He calls down judgement!"
+     },
+     {
+      "kind": "telegraph",
+      "every": 5,
+      "first": 3,
+      "radius": 95,
+      "delay": 1.2,
+      "damageMul": 3.0,
+      "count": 3
+     }
+    ]
+   }
+  ],
+  "deathCutscene": "marcus_archive"
+ },
+ {
+  "id": "arnaud",
+  "title": "The Betrayer",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "charge",
+      "every": 8,
+      "first": 4,
+      "radius": 110,
+      "damageMul": 2.5
+     }
+    ]
+   },
+   {
+    "below": 0.6,
+    "announce": "\"You could have joined us!\"",
+    "damageMul": 1.3,
+    "abilities": [
+     {
+      "kind": "charge",
+      "every": 7,
+      "first": 2,
+      "radius": 110,
+      "damageMul": 2.5
+     },
+     {
+      "kind": "summon",
+      "monster": "apostate_templar",
+      "name": "Apostate Brother",
+      "count": 2,
+      "max": 3,
+      "every": 18,
+      "first": 3
+     }
+    ]
+   },
+   {
+    "below": 0.3,
+    "announce": "He fights like a Templar, because he was one.",
+    "damageMul": 1.5,
+    "speedMul": 1.2,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 7,
+      "first": 2,
+      "radius": 180,
+      "delay": 1.1,
+      "damageMul": 3.0
+     },
+     {
+      "kind": "charge",
+      "every": 6,
+      "first": 4,
+      "radius": 110,
+      "damageMul": 2.5
+     }
+    ]
+   }
+  ],
+  "yieldAt": 0.1,
+  "choice": {
+   "prompt": "Arnaud drops to one knee, bleeding. \"Finish it, brother. Or don't.\"",
+   "options": [
+    {
+     "id": "spare",
+     "text": "Redemption: let him live and make amends",
+     "unlock": "arnaud_spared",
+     "outcome": "spare",
+     "line": "{#9FD68A}Arnaud bows his head. \"I will be at the stake when you need me.\"{/}"
+    },
+    {
+     "id": "kill",
+     "text": "Death: the Rule has no place for traitors",
+     "unlock": "arnaud_killed",
+     "outcome": "kill",
+     "line": "{#E0A060}Arnaud de Foix dies as he lived, sword in hand.{/}"
+    }
+   ],
+   "seconds": 30
+  }
+ },
+ {
+  "id": "inquisitor_general",
+  "title": "The Legate's Vault",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "telegraph",
+      "every": 6,
+      "first": 3,
+      "radius": 100,
+      "delay": 1.2,
+      "damageMul": 3.2,
+      "count": 3
+     },
+     {
+      "kind": "summon",
+      "monster": "papal_guard",
+      "name": "Papal Guard",
+      "count": 2,
+      "max": 4,
+      "every": 18,
+      "first": 6
+     }
+    ]
+   },
+   {
+    "below": 0.5,
+    "announce": "\"Every one of you will confess before the end.\"",
+    "shieldedByAdds": true,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "legate_inquisitor",
+      "name": "Inquisitor",
+      "count": 3,
+      "max": 3,
+      "every": 45,
+      "first": 0
+     },
+     {
+      "kind": "curse",
+      "every": 12,
+      "first": 5,
+      "amount": 0.3
+     }
+    ]
+   },
+   {
+    "below": 0.25,
+    "announce": "The vault's seals burn.",
+    "damageMul": 1.4,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 7,
+      "first": 1,
+      "radius": 240,
+      "delay": 1.4,
+      "damageMul": 3.5
+     },
+     {
+      "kind": "telegraph",
+      "every": 4,
+      "first": 3,
+      "radius": 100,
+      "delay": 1.1,
+      "damageMul": 3.2,
+      "count": 3
+     }
+    ]
+   }
+  ],
+  "deathCutscene": "legate_vault"
+ },
+ {
+  "id": "nogaret",
+  "title": "The King's Council",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "household_knight",
+      "name": "Knight of the Household",
+      "count": 2,
+      "max": 4,
+      "every": 15,
+      "first": 3
+     },
+     {
+      "kind": "telegraph",
+      "every": 6,
+      "first": 4,
+      "radius": 100,
+      "delay": 1.2,
+      "damageMul": 3.0,
+      "count": 2
+     }
+    ]
+   },
+   {
+    "below": 0.5,
+    "announce": "\"I arrested your Grand Master myself. I will do the same to you.\"",
+    "damageMul": 1.3,
+    "abilities": [
+     {
+      "kind": "curse",
+      "every": 10,
+      "first": 2,
+      "amount": 0.3,
+      "text": "He reads the charges aloud."
+     },
+     {
+      "kind": "nova",
+      "every": 9,
+      "first": 4,
+      "radius": 220,
+      "delay": 1.3,
+      "damageMul": 3.2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "clement",
+  "title": "Clement's Confession",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "cardinal_inquisitor",
+      "name": "Cardinal's Inquisitor",
+      "count": 2,
+      "max": 4,
+      "every": 14,
+      "first": 4
+     },
+     {
+      "kind": "telegraph",
+      "every": 6,
+      "first": 3,
+      "radius": 110,
+      "delay": 1.3,
+      "damageMul": 3.2,
+      "count": 3
+     }
+    ]
+   },
+   {
+    "below": 0.6,
+    "announce": "\"The king forced my hand!\"",
+    "shieldedByAdds": true,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "vatican_champion",
+      "name": "Champion of the Curia",
+      "count": 3,
+      "max": 3,
+      "every": 50,
+      "first": 0
+     },
+     {
+      "kind": "heal",
+      "every": 12,
+      "first": 6,
+      "amount": 0.04,
+      "text": "He prays, and is answered."
+     }
+    ]
+   },
+   {
+    "below": 0.3,
+    "announce": "Bells ring across Avignon.",
+    "damageMul": 1.4,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 7,
+      "first": 2,
+      "radius": 240,
+      "delay": 1.4,
+      "damageMul": 3.4
+     },
+     {
+      "kind": "telegraph",
+      "every": 4,
+      "first": 3,
+      "radius": 110,
+      "delay": 1.2,
+      "damageMul": 3.0,
+      "count": 3
+     }
+    ]
+   }
+  ],
+  "yieldAt": 0.1,
+  "choice": {
+   "prompt": "Clement falls to his knees. \"I signed what I was given. Mercy, in God's name.\"",
+   "options": [
+    {
+     "id": "spare",
+     "text": "Spare him: let him live with what he signed",
+     "unlock": "clement_spared",
+     "outcome": "spare",
+     "line": "{#9FD68A}The Pope weeps. \"Go to the Tower. Philip waits. God forgive us both.\"{/}"
+    },
+    {
+     "id": "condemn",
+     "text": "Condemn him: he answers for the pyres",
+     "unlock": "clement_condemned",
+     "outcome": "kill",
+     "line": "{#E0A060}\"Within the year,\" you tell him, \"you will stand before God.\" He does not live to see it end.{/}"
+    }
+   ],
+   "seconds": 30
+  }
+ },
+ {
+  "id": "philip_iv",
+  "title": "The Tower of Truth",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "charge",
+      "every": 8,
+      "first": 4,
+      "radius": 120,
+      "damageMul": 2.6
+     },
+     {
+      "kind": "summon",
+      "monster": "chosen_knight",
+      "name": "Chosen of the King",
+      "count": 2,
+      "max": 4,
+      "every": 16,
+      "first": 6
+     }
+    ]
+   },
+   {
+    "below": 0.7,
+    "announce": "\"I am the chosen of God!\"",
+    "shieldedByAdds": true,
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "household_knight",
+      "name": "Royal Guard",
+      "count": 4,
+      "max": 4,
+      "every": 60,
+      "first": 0
+     },
+     {
+      "kind": "telegraph",
+      "every": 5,
+      "first": 2,
+      "radius": 110,
+      "delay": 1.2,
+      "damageMul": 3.2,
+      "count": 3
+     }
+    ]
+   },
+   {
+    "below": 0.4,
+    "announce": "The legendary sword burns white.",
+    "damageMul": 1.35,
+    "speedMul": 1.1,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 8,
+      "first": 2,
+      "radius": 260,
+      "delay": 1.5,
+      "damageMul": 3.6,
+      "text": "He raises the sword of the kings!"
+     },
+     {
+      "kind": "charge",
+      "every": 6,
+      "first": 4,
+      "radius": 120,
+      "damageMul": 2.6
+     },
+     {
+      "kind": "curse",
+      "every": 15,
+      "first": 8,
+      "amount": 0.3,
+      "text": "\"Kneel.\""
+     }
+    ]
+   },
+   {
+    "below": 0.15,
+    "announce": "The Iron King stands alone.",
+    "damageMul": 1.6,
+    "speedMul": 1.2,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 5,
+      "first": 1,
+      "radius": 260,
+      "delay": 1.3,
+      "damageMul": 3.6
+     },
+     {
+      "kind": "telegraph",
+      "every": 4,
+      "first": 2,
+      "radius": 110,
+      "delay": 1.1,
+      "damageMul": 3.0,
+      "count": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tarasque",
+  "title": "La Tarasque of the Rhône",
+  "phases": [
+   {
+    "below": 1.0,
+    "abilities": [
+     {
+      "kind": "telegraph",
+      "every": 6,
+      "first": 3,
+      "radius": 120,
+      "delay": 1.4,
+      "damageMul": 2.4,
+      "count": 4
+     },
+     {
+      "kind": "charge",
+      "every": 11,
+      "first": 7,
+      "radius": 150,
+      "damageMul": 2.2
+     }
+    ]
+   },
+   {
+    "below": 0.7,
+    "announce": "The Tarasque bellows and the river boils. Her brood crawls out of the reeds!",
+    "abilities": [
+     {
+      "kind": "summon",
+      "monster": "tarasque_brood",
+      "name": "Tarasque Brood",
+      "count": 6,
+      "max": 12,
+      "every": 20,
+      "first": 0
+     },
+     {
+      "kind": "telegraph",
+      "every": 5,
+      "first": 2,
+      "radius": 120,
+      "delay": 1.3,
+      "damageMul": 2.6,
+      "count": 6
+     },
+     {
+      "kind": "nova",
+      "every": 14,
+      "first": 8,
+      "radius": 320,
+      "delay": 1.8,
+      "damageMul": 3.0,
+      "text": "She rears up on her six legs!"
+     }
+    ]
+   },
+   {
+    "below": 0.35,
+    "announce": "Her shell cracks. She is enraged!",
+    "damageMul": 1.3,
+    "speedMul": 1.15,
+    "abilities": [
+     {
+      "kind": "nova",
+      "every": 9,
+      "first": 3,
+      "radius": 340,
+      "delay": 1.6,
+      "damageMul": 3.2,
+      "text": "She rears up on her six legs!"
+     },
+     {
+      "kind": "telegraph",
+      "every": 4,
+      "first": 2,
+      "radius": 130,
+      "delay": 1.2,
+      "damageMul": 2.8,
+      "count": 8
+     },
+     {
+      "kind": "charge",
+      "every": 8,
+      "first": 5,
+      "radius": 160,
+      "damageMul": 2.4
+     },
+     {
+      "kind": "summon",
+      "monster": "tarasque_brood",
+      "name": "Tarasque Brood",
+      "count": 4,
+      "max": 10,
+      "every": 25,
+      "first": 10
+     }
+    ]
+   }
+  ]
+ }
+]

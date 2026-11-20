@@ -1,0 +1,379 @@
+{
+ "id": "charnel_hollow",
+ "name": "The Charnel Hollow",
+ "act": 1,
+ "levelMin": 2,
+ "levelMax": 5,
+ "width": 3840,
+ "height": 2160,
+ "playerSpawn": [
+  320,
+  1080
+ ],
+ "safeRadius": 700,
+ "packCount": 8,
+ "rarityCap": "Rare",
+ "goldMin": 7,
+ "goldMax": 30,
+ "spawns": [
+  {
+   "monster": "plague_rat_swarm",
+   "weight": 60,
+   "groupMin": 8,
+   "groupMax": 12
+  },
+  {
+   "monster": "carrion_crow",
+   "weight": 25,
+   "groupMin": 5,
+   "groupMax": 7
+  },
+  {
+   "monster": "royal_sergeant",
+   "weight": 15,
+   "groupMin": 2,
+   "groupMax": 3
+  }
+ ],
+ "superunique": "mere_aveline",
+ "superuniquePosition": [
+  3280,
+  1080
+ ],
+ "groundTile": "tiles/meshy_crypt_bones.png",
+ "description": "A plague pit from the famine years, reopened.",
+ "exits": [
+  {
+   "to": "bloodied_fields",
+   "x": 120,
+   "y": 1080
+  }
+ ],
+ "waypoint": null,
+ "isTown": false,
+ "decor": [
+  {
+   "prop": "bone_pile_1",
+   "x": 1954,
+   "y": 433,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 427,
+   "y": 493,
+   "flip": false
+  },
+  {
+   "prop": "sarcophagus_1",
+   "x": 3142,
+   "y": 565,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 2393,
+   "y": 594,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 2240,
+   "y": 602,
+   "flip": false
+  },
+  {
+   "prop": "broken_column_1",
+   "x": 2693,
+   "y": 693,
+   "flip": true
+  },
+  {
+   "prop": "sarcophagus_1",
+   "x": 2157,
+   "y": 1082,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 1353,
+   "y": 1313,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 2832,
+   "y": 1341,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 1252,
+   "y": 1353,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 2862,
+   "y": 1434,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 2214,
+   "y": 1435,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3500,
+   "y": 1853,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3608,
+   "y": 1853,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 906,
+   "y": 1896,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 1815,
+   "y": 1903,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 2510,
+   "y": 1911,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_2",
+   "x": 2671,
+   "y": 1914,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3266,
+   "y": 1918,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3166,
+   "y": 1927,
+   "flip": true
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 3620,
+   "y": 1951,
+   "flip": false
+  },
+  {
+   "prop": "bone_pile_1",
+   "x": 838,
+   "y": 1966,
+   "flip": false
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 443,
+   "y": 165,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 430,
+   "y": 2005,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 1028,
+   "y": 124,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 1722,
+   "y": 137,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2286,
+   "y": 175,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 2899,
+   "y": 133,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3590,
+   "y": 136,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 93,
+   "y": 444,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 3725,
+   "y": 489,
+   "flip": true,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_1",
+   "x": 3702,
+   "y": 1085,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "candelabrum_2",
+   "x": 175,
+   "y": 1712,
+   "flip": false,
+   "auto": true
+  },
+  {
+   "prop": "graves_2",
+   "x": 1346,
+   "y": 722,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 2644,
+   "y": 1033,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 585,
+   "y": 913,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 2041,
+   "y": 1660,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 768,
+   "y": 487,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 751,
+   "y": 1627,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 1481,
+   "y": 1803,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 2945,
+   "y": 1723,
+   "flip": false,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 891,
+   "y": 1369,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 1932,
+   "y": 864,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 1780,
+   "y": 1332,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_1",
+   "x": 815,
+   "y": 1092,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_2",
+   "x": 569,
+   "y": 1381,
+   "flip": true,
+   "auto": "scenery"
+  },
+  {
+   "prop": "graves_2",
+   "x": 1682,
+   "y": 614,
+   "flip": false,
+   "auto": "scenery"
+  }
+ ],
+ "ambience": {
+  "ambient": "#7A8A70",
+  "level": 0.4,
+  "tint": "#FFF4E8",
+  "saturation": 0.85,
+  "contrast": 1.1,
+  "vignette": 0.55,
+  "bloom": 0.9,
+  "particles": "spores",
+  "particleDensity": 1.0,
+  "heroLight": 400,
+  "clouds": 0.0,
+  "dust": "#6A6660",
+  "sound": "crypt"
+ },
+ "lights": []
+}

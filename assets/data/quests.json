@@ -1,0 +1,461 @@
+[
+ {
+  "id": "q0_out_of_the_fire",
+  "name": "Out of the Fire",
+  "zone": "sanctuary_of_the_broken_seal",
+  "act": 1,
+  "optional": false,
+  "objective": {
+   "text": "Fight through the courtyard to the crypt stair",
+   "type": "EnterZone",
+   "target": "sanctuary_of_the_broken_seal"
+  },
+  "reward": {
+   "buildPoints": 0,
+   "unlock": "prologue_done"
+  },
+  "generated": true,
+  "briefing": "The courtyard is full of the king's men. The crypt stair is behind them. Get to it."
+ },
+ {
+  "id": "q1_consecrate",
+  "name": "Consecrate the Ground",
+  "zone": "charnel_hollow",
+  "objective": {
+   "text": "Clear all monsters from both levels",
+   "type": "ClearZone",
+   "target": "charnel_hollow"
+  },
+  "rewards": [
+   "+1 build point",
+   "free healing"
+  ],
+  "optional": false,
+  "act": 1,
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "free_healing"
+  },
+  "briefing": "They threw our dead into the charnel pit without a rite, and something has risen from it. A brother may not raise his sword against the dead without a priest to bless it; we have no priests left. Go anyway, and put them down."
+ },
+ {
+  "id": "q2_drowned_commander",
+  "name": "The Drowned Commander",
+  "zone": "drowned_commandery",
+  "objective": {
+   "text": "Kill the Drowned Commander",
+   "type": "KillUnique",
+   "target": "drowned_commander"
+  },
+  "rewards": [
+   "+1 build point",
+   "Eleanor stocks Rare items"
+  ],
+  "optional": false,
+  "act": 1,
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "eleanor_rare_stock"
+  },
+  "briefing": "The king's men drowned the Commander in his own cellar, and he does not rest. Cut the commandery keys from his belt. Yes, it means robbing a brother's corpse. He would have done the same for you."
+ },
+ {
+  "id": "q3_smiths_hammer",
+  "name": "The Smith's Hammer",
+  "zone": "quarry_of_saint_blaise",
+  "objective": {
+   "text": "Recover Aubry's Hammer from Foreman Girauld",
+   "type": "KillUnique",
+   "target": "foreman_girauld"
+  },
+  "rewards": [
+   "Forge unlocked"
+  ],
+  "optional": false,
+  "act": 1,
+  "reward": {
+   "buildPoints": 0,
+   "unlock": "forge"
+  },
+  "briefing": "Master Aubry's hammer went to the quarry with the rest of our iron, and Foreman Girauld works our sergeants there in chains. The Rule forbids us to buy back what was stolen from God. So take it, and the foreman with it."
+ },
+ {
+  "id": "q4_last_witness",
+  "name": "The Last Witness",
+  "zone": "burned_village_of_payns",
+  "objective": {
+   "text": "Rescue Brother Thomas from the tithe barn",
+   "type": "ReachPoint",
+   "target": "burned_village_of_payns",
+   "x": 0.62,
+   "y": 0.25,
+   "radius": 260,
+   "hint": "The tithe barn, north-east of the burned village"
+  },
+  "rewards": [
+   "+1 build point",
+   "free identify"
+  ],
+  "optional": false,
+  "act": 1,
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "identify",
+   "flags": [
+    "thomas_trust"
+   ]
+  },
+  "briefing": "Brother Thomas is alive, in the tithe barn north-east of the burned village. They put him to the Question at dawn. Wear the king's blue if you must. Lie at the gate if you must. Bring him home."
+ },
+ {
+  "id": "q5_sealed_vault",
+  "name": "The Sealed Vault",
+  "zone": "sealed_vault_of_payns",
+  "objective": {
+   "text": "Find and clear the vault, open the reliquary",
+   "type": "ClearZone",
+   "target": "sealed_vault_of_payns"
+  },
+  "rewards": [
+   "guaranteed Elite+ item",
+   "+1 build point"
+  ],
+  "optional": true,
+  "act": 1,
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "hermit",
+   "item": "Elite"
+  },
+  "briefing": "Beneath the preceptory is a vault the Masters forbade any brother to open, and sealed for a reason. I am telling you where it is. I am not telling you to open it."
+ },
+ {
+  "id": "q6_the_question",
+  "name": "The Question",
+  "zone": "catacombs_of_the_rule",
+  "objective": {
+   "text": "Kill Guillaume Imbert",
+   "type": "KillUnique",
+   "target": "imbert"
+  },
+  "rewards": [
+   "+1 build point",
+   "Act II unlocked"
+  ],
+  "optional": false,
+  "act": 1,
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "act2"
+  },
+  "briefing": "Guillaume Imbert wrote every confession himself. He is a priest: to strike him is excommunication, and for one of us, damnation. He waits in the Catacombs of the Rule. I will pray for your soul, since you will not."
+ },
+ {
+  "id": "q7_smugglers_road",
+  "name": "The Smugglers' Road",
+  "zone": "catacomb_network_2",
+  "act": 2,
+  "optional": false,
+  "objective": {
+   "text": "Defeat Bastien the Ferryman in the Catacomb Network",
+   "type": "KillUnique",
+   "target": "bastien"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "gold": 1500
+  },
+  "generated": true,
+  "giver": "gerard_act2",
+  "briefing": "The network runs on the smugglers' roads under the town, and Bastien the Ferryman owns them. Make him an ally or make him gone."
+ },
+ {
+  "id": "q8_reginalds_choice",
+  "name": "Réginald's Choice",
+  "zone": "royal_garrison",
+  "act": 2,
+  "optional": false,
+  "objective": {
+   "text": "Defeat Captain Réginald at the Royal Garrison, then spare or kill him",
+   "type": "KillUnique",
+   "target": "reginald"
+  },
+  "reward": {
+   "buildPoints": 1
+  },
+  "generated": true,
+  "giver": "gerard_act2",
+  "briefing": "Captain Réginald holds the garrison road. They say he doubts the king's story. Beat him, then decide what he is worth.",
+  "after": "q7_smugglers_road"
+ },
+ {
+  "id": "q9_castle_retaken",
+  "name": "The Castle Retaken",
+  "zone": "abandoned_castle",
+  "act": 2,
+  "optional": false,
+  "objective": {
+   "text": "Clear the Abandoned Castle",
+   "type": "ClearZone",
+   "target": "abandoned_castle"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "flags": [
+    "castle_base"
+   ]
+  },
+  "generated": true,
+  "giver": "gerard_act2",
+  "briefing": "There is a Templar castle on the ridge, full of routiers who think it's theirs. Clear it. Prove yourself worthy of command first.",
+  "after": "q8_reginalds_choice"
+ },
+ {
+  "id": "q10_hermits_secret",
+  "name": "The Hermit's First Secret",
+  "zone": "hermits_cave",
+  "act": 2,
+  "optional": true,
+  "objective": {
+   "text": "Kill the Pale Thing in the Hermit's Cave",
+   "type": "KillUnique",
+   "target": "pale_thing"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "item": "Elite",
+   "flags": [
+    "hermit_secret"
+   ]
+  },
+  "generated": true
+ },
+ {
+  "id": "q11_marcus_archive",
+  "name": "Marcus' Archive",
+  "zone": "inquisition_hq_3",
+  "act": 2,
+  "optional": false,
+  "objective": {
+   "text": "Defeat Inquisitor Marcus beneath the Inquisition Headquarters",
+   "type": "KillUnique",
+   "target": "marcus"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "act3"
+  },
+  "generated": true,
+  "giver": "gerard_act2",
+  "briefing": "Inquisitor Marcus keeps the torture logs. With them, no one can say the confessions were true. Bring them out.",
+  "after": "q9_castle_retaken"
+ },
+ {
+  "id": "q12_through_the_forest",
+  "name": "Through the King's Forest",
+  "zone": "kings_forest_east",
+  "act": 3,
+  "optional": false,
+  "objective": {
+   "text": "Kill the Black Boar of Vincennes in the King's Forest",
+   "type": "KillUnique",
+   "target": "black_boar"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "cleric_robes"
+  },
+  "generated": true,
+  "giver": "count_de_valois",
+  "briefing": "The only road to court that the king doesn't watch runs through his own forest. Take it, and take the Black Boar's head while you're there. Marie will have robes for you when you return."
+ },
+ {
+  "id": "q13_court_records",
+  "name": "Disguised at Court",
+  "zone": "royal_court_outskirts",
+  "act": 3,
+  "optional": false,
+  "objective": {
+   "text": "Take the court records from the Keeper of the Rolls",
+   "type": "KillUnique",
+   "target": "keeper_of_rolls"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "flags": [
+    "court_records"
+   ]
+  },
+  "generated": true,
+  "giver": "count_de_valois",
+  "briefing": "Walk the court in Marie's robes. The Keeper of the Rolls carries the arrest orders. Don't run, don't draw steel until you must.",
+  "after": "q12_through_the_forest"
+ },
+ {
+  "id": "q14_the_betrayer",
+  "name": "The Betrayer",
+  "zone": "underground_cathedral_2",
+  "act": 3,
+  "optional": false,
+  "objective": {
+   "text": "Defeat Sir Arnaud de Foix in the Underground Cathedral",
+   "type": "KillUnique",
+   "target": "arnaud"
+  },
+  "reward": {
+   "buildPoints": 1
+  },
+  "generated": true,
+  "giver": "count_de_valois",
+  "briefing": "The man who sold your Grand Master to the king was a Templar. Sir Arnaud de Foix. He's under the cathedral. Redemption or death: it's personal now.",
+  "after": "q13_court_records"
+ },
+ {
+  "id": "q15_the_proof",
+  "name": "The Legate's Vault",
+  "zone": "legates_palace_2",
+  "act": 3,
+  "optional": true,
+  "objective": {
+   "text": "Defeat the Keeper of the Vault so Marie can carry out the proof",
+   "type": "KillUnique",
+   "target": "keeper_of_the_vault"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "flags": [
+    "proof_secured"
+   ]
+  },
+  "generated": true
+ },
+ {
+  "id": "q16_inquisitor_general",
+  "name": "The Inquisitor General",
+  "zone": "legates_palace_3",
+  "act": 3,
+  "optional": false,
+  "objective": {
+   "text": "Defeat the Inquisitor General atop the Legate's Palace",
+   "type": "KillUnique",
+   "target": "inquisitor_general"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "unlock": "act4"
+  },
+  "generated": true,
+  "giver": "count_de_valois",
+  "briefing": "The Inquisitor General wrote half the confessions himself. End him, and the papal court loses its voice.",
+  "after": "q14_the_betrayer"
+ },
+ {
+  "id": "q_trial_by_ordeal",
+  "name": "Trial by Ordeal",
+  "zone": "monastery_of_trials",
+  "act": 3,
+  "optional": true,
+  "objective": {
+   "text": "Defeat Prior Anselme the Examiner",
+   "type": "KillUnique",
+   "target": "prior_anselme"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "item": "Epic"
+  },
+  "generated": true
+ },
+ {
+  "id": "q17_stake_at_greve",
+  "name": "The Stake at Grève",
+  "zone": "place_de_greve",
+  "act": 4,
+  "optional": false,
+  "objective": {
+   "text": "Defeat the Provost of Paris in the Place de Grève",
+   "type": "KillUnique",
+   "target": "provost"
+  },
+  "reward": {
+   "buildPoints": 1
+  },
+  "generated": true,
+  "giver": "gerard_act4",
+  "briefing": "They are building the pyre in the Place de Grève. Take the square. Everyone you saved marches with you."
+ },
+ {
+  "id": "q18_kings_council",
+  "name": "The King's Council",
+  "zone": "royal_palace_3",
+  "act": 4,
+  "optional": false,
+  "objective": {
+   "text": "Defeat Guillaume de Nogaret in the Royal Palace",
+   "type": "KillUnique",
+   "target": "nogaret"
+  },
+  "reward": {
+   "buildPoints": 1
+  },
+  "generated": true,
+  "giver": "gerard_act4",
+  "briefing": "Nogaret arrested the Grand Master with his own hands. He sits on Philip's council in the palace. Climb to him.",
+  "after": "q17_stake_at_greve"
+ },
+ {
+  "id": "q19_clements_confession",
+  "name": "Clement's Confession",
+  "zone": "papal_palace",
+  "act": 4,
+  "optional": false,
+  "objective": {
+   "text": "Confront Pope Clement V, then condemn or spare him",
+   "type": "KillUnique",
+   "target": "clement"
+  },
+  "reward": {
+   "buildPoints": 1
+  },
+  "generated": true,
+  "giver": "gerard_act4",
+  "briefing": "The Pope signed the bull that dissolved us. He'll say the king forced his hand. He may even be telling the truth. Find him.",
+  "after": "q18_kings_council"
+ },
+ {
+  "id": "q_vaticans_finest",
+  "name": "The Vatican's Finest",
+  "zone": "notre_dame",
+  "act": 4,
+  "optional": true,
+  "objective": {
+   "text": "Defeat the Cardinal's Champion in Notre Dame",
+   "type": "KillUnique",
+   "target": "cardinals_champion"
+  },
+  "reward": {
+   "buildPoints": 1,
+   "item": "Legendary"
+  },
+  "generated": true
+ },
+ {
+  "id": "q20_tower_of_truth",
+  "name": "The Tower of Truth",
+  "zone": "tower_of_truth_5",
+  "act": 4,
+  "optional": false,
+  "objective": {
+   "text": "Climb the Tower of Truth and defeat Philip IV",
+   "type": "KillUnique",
+   "target": "philip_iv"
+  },
+  "reward": {
+   "buildPoints": 2
+  },
+  "generated": true,
+  "giver": "gerard_act4",
+  "briefing": "De Molay and de Charney are at the top of the Tower of Truth. So is Philip. Five floors. Go.",
+  "after": "q19_clements_confession"
+ }
+]
