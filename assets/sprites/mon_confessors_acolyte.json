@@ -1,0 +1,50 @@
+{
+ "image": "mon_confessors_acolyte_sheet.png",
+ "frameWidth": 208,
+ "frameHeight": 208,
+ "directions": 4,
+ "directionAngles": [
+  135,
+  45,
+  315,
+  225
+ ],
+ "anchor": [
+  104,
+  166
+ ],
+ "metres": 3.38,
+ "animations": {
+  "idle": {
+   "row": 0,
+   "frames": 8,
+   "fps": 6,
+   "loop": true
+  },
+  "walk": {
+   "row": 4,
+   "frames": 8,
+   "fps": 11,
+   "loop": true
+  },
+  "attack": {
+   "row": 8,
+   "frames": 8,
+   "fps": 16,
+   "loop": false,
+   "hitFrame": 4
+  },
+  "hit": {
+   "row": 12,
+   "frames": 4,
+   "fps": 14,
+   "loop": false
+  },
+  "death": {
+   "row": 16,
+   "frames": 10,
+   "fps": 12,
+   "loop": false
+  }
+ }
+}
