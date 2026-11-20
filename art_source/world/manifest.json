@@ -1,0 +1,216 @@
+{
+  "start_balance": 1166,
+  "items": {
+    "fields_mud": {
+      "zone": "bloodied_fields",
+      "kind": "floor",
+      "height": null,
+      "task": "01a18a51-280c-712f-9f47-8bc8f0cf7289",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18a51-280c-712f-9f47-8bc8f0cf7289_0.png",
+      "credits": 6,
+      "file": "art_source\\world\\bloodied_fields\\fields_mud.png"
+    },
+    "fields_trampled": {
+      "zone": "bloodied_fields",
+      "kind": "floor",
+      "height": null,
+      "task": "01a18a51-29df-7729-93a6-2687196bbc9a",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18a51-29df-7729-93a6-2687196bbc9a_0.png",
+      "credits": 6,
+      "file": "art_source\\world\\bloodied_fields\\fields_trampled.png"
+    },
+    "hay_cart": {
+      "zone": "bloodied_fields",
+      "kind": "prop",
+      "height": 1.6,
+      "preview": "01a18a51-2bd4-74f0-9a94-1664cc266d8c",
+      "preview_credits": 20,
+      "refine": "01a18a53-7f60-713f-9395-393b715c356f",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a53-7f60-713f-9395-393b715c356f/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a53-7f60-713f-9395-393b715c356f/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\bloodied_fields\\hay_cart.glb"
+    },
+    "wheat_sheaves": {
+      "zone": "bloodied_fields",
+      "kind": "prop",
+      "height": 1.2,
+      "preview": "01a18a51-3463-75aa-8e60-93c7390b0a32",
+      "preview_credits": 20,
+      "refine": "01a18a54-7b0d-7759-8c2a-b54f321b36d0",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a54-7b0d-7759-8c2a-b54f321b36d0/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a54-7b0d-7759-8c2a-b54f321b36d0/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\bloodied_fields\\wheat_sheaves.glb"
+    },
+    "split_fence": {
+      "zone": "bloodied_fields",
+      "kind": "prop",
+      "height": 1.2,
+      "preview": "01a18a51-3d12-75ce-a36b-c1298e7469df",
+      "preview_credits": 20,
+      "refine": "01a18a52-1ca8-7393-8fd3-f04893cca9da",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-1ca8-7393-8fd3-f04893cca9da/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-1ca8-7393-8fd3-f04893cca9da/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\bloodied_fields\\split_fence.glb"
+    },
+    "wooden_plough": {
+      "zone": "bloodied_fields",
+      "kind": "prop",
+      "height": 0.9,
+      "preview": "01a18a51-44ef-759f-8867-dbddea677e33",
+      "preview_credits": 20,
+      "refine": "01a18a52-5301-70d7-a7b1-a0999b371ba8",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-5301-70d7-a7b1-a0999b371ba8/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-5301-70d7-a7b1-a0999b371ba8/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\bloodied_fields\\wooden_plough.glb"
+    },
+    "courtyard_flags": {
+      "zone": "preceptory_of_payns",
+      "kind": "floor",
+      "height": null,
+      "task": "01a18a51-4dd3-72a1-89dc-369edd771fa4",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18a51-4dd3-72a1-89dc-369edd771fa4_0.png",
+      "credits": 6,
+      "file": "art_source\\world\\preceptory_of_payns\\courtyard_flags.png"
+    },
+    "courtyard_cobbles": {
+      "zone": "preceptory_of_payns",
+      "kind": "floor",
+      "height": null,
+      "task": "01a18a51-4fb6-723c-a611-bafecf3379fe",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18a51-4fb6-723c-a611-bafecf3379fe_0.png",
+      "credits": 6,
+      "file": "art_source\\world\\preceptory_of_payns\\courtyard_cobbles.png"
+    },
+    "stone_well": {
+      "zone": "preceptory_of_payns",
+      "kind": "prop",
+      "height": 2.6,
+      "preview": "01a18a51-518e-76d3-9269-3cdfed305124",
+      "preview_credits": 20,
+      "refine": "01a18a52-be94-77a0-8bfb-b5fc98c9e544",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-be94-77a0-8bfb-b5fc98c9e544/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-be94-77a0-8bfb-b5fc98c9e544/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\preceptory_of_payns\\stone_well.glb"
+    },
+    "wayside_cross": {
+      "zone": "preceptory_of_payns",
+      "kind": "prop",
+      "height": 2.4,
+      "preview": "01a18a51-5e65-7651-b94c-9cf888eeb050",
+      "preview_credits": 20,
+      "refine": "01a18a52-2078-725e-b681-838ed149fcd3",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-2078-725e-b681-838ed149fcd3/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-2078-725e-b681-838ed149fcd3/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\preceptory_of_payns\\wayside_cross.glb"
+    },
+    "barrels_crates": {
+      "zone": "preceptory_of_payns",
+      "kind": "prop",
+      "height": 1.3,
+      "preview": "01a18a51-6c42-77ad-be2f-5948b6eb6c61",
+      "preview_credits": 20,
+      "refine": "01a18a52-c1a9-7036-9287-279c584d0770",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-c1a9-7036-9287-279c584d0770/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-c1a9-7036-9287-279c584d0770/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\preceptory_of_payns\\barrels_crates.glb"
+    },
+    "weapon_rack": {
+      "zone": "preceptory_of_payns",
+      "kind": "prop",
+      "height": 1.8,
+      "preview": "01a18a51-74ae-77e0-bf28-fcc211604537",
+      "preview_credits": 20,
+      "refine": "01a18a52-577a-77e9-b034-ebb46d9f2bf9",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-577a-77e9-b034-ebb46d9f2bf9/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-577a-77e9-b034-ebb46d9f2bf9/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\preceptory_of_payns\\weapon_rack.glb"
+    },
+    "burned_beams": {
+      "zone": "preceptory_of_payns",
+      "kind": "prop",
+      "height": 0.9,
+      "preview": "01a18a51-7df3-7357-a325-290197fc7a0a",
+      "preview_credits": 20,
+      "refine": "01a18a52-c494-7219-9e82-d8a8c61ade04",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-c494-7219-9e82-d8a8c61ade04/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-c494-7219-9e82-d8a8c61ade04/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\preceptory_of_payns\\burned_beams.glb"
+    },
+    "crypt_slabs": {
+      "zone": "catacombs_of_the_rule",
+      "kind": "floor",
+      "height": null,
+      "task": "01a18a51-8689-72b2-aad8-e18f4d27077f",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18a51-8689-72b2-aad8-e18f4d27077f_0.png",
+      "credits": 6,
+      "file": "art_source\\world\\catacombs_of_the_rule\\crypt_slabs.png"
+    },
+    "crypt_bones": {
+      "zone": "catacombs_of_the_rule",
+      "kind": "floor",
+      "height": null,
+      "task": "01a18a51-8857-7733-9e72-386e67c88416",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18a51-8857-7733-9e72-386e67c88416_0.png",
+      "credits": 6,
+      "file": "art_source\\world\\catacombs_of_the_rule\\crypt_bones.png"
+    },
+    "sarcophagus": {
+      "zone": "catacombs_of_the_rule",
+      "kind": "prop",
+      "height": 1.0,
+      "preview": "01a18a51-8a1e-71b3-8895-794c66a4dc97",
+      "preview_credits": 20,
+      "refine": "01a18a52-8d2e-743c-a221-96cd0e3aae9d",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-8d2e-743c-a221-96cd0e3aae9d/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-8d2e-743c-a221-96cd0e3aae9d/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\catacombs_of_the_rule\\sarcophagus.glb"
+    },
+    "bone_pile": {
+      "zone": "catacombs_of_the_rule",
+      "kind": "prop",
+      "height": 0.8,
+      "preview": "01a18a51-929a-77c0-af86-6fde6a3ebdd5",
+      "preview_credits": 20,
+      "refine": "01a18a55-488b-743c-b155-b14d30fe67db",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a55-488b-743c-b155-b14d30fe67db/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a55-488b-743c-b155-b14d30fe67db/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\catacombs_of_the_rule\\bone_pile.glb"
+    },
+    "candelabrum": {
+      "zone": "catacombs_of_the_rule",
+      "kind": "prop",
+      "height": 1.9,
+      "preview": "01a18a51-9c40-7304-ad77-d704ea09a38f",
+      "preview_credits": 20,
+      "refine": "01a18a52-9020-77ae-b477-a30b85258a85",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-9020-77ae-b477-a30b85258a85/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-9020-77ae-b477-a30b85258a85/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\catacombs_of_the_rule\\candelabrum.glb"
+    },
+    "broken_column": {
+      "zone": "catacombs_of_the_rule",
+      "kind": "prop",
+      "height": 1.4,
+      "preview": "01a18a51-a607-7796-9175-50076f1c8158",
+      "preview_credits": 20,
+      "refine": "01a18a52-9208-751a-aa5e-eb279d3a83a8",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-9208-751a-aa5e-eb279d3a83a8/output/model.glb",
+      "thumb": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18a52-9208-751a-aa5e-eb279d3a83a8/output/preview.png",
+      "credits": 10,
+      "file": "art_source\\world\\catacombs_of_the_rule\\broken_column.glb"
+    }
+  },
+  "spent": 426
+}

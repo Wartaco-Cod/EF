@@ -1,0 +1,62 @@
+{
+ "items": {
+  "hero_knight": {
+   "height": 1.85,
+   "extra_walk": false,
+   "sprite": "class_knight",
+   "dirs": "full",
+   "weapons": "knight",
+   "frame": 1.2
+  },
+  "hero_knight_dagger": {
+   "height": 1.85,
+   "extra_walk": false,
+   "sprite": "class_knight_dagger",
+   "dirs": "full",
+   "frame": 1.2,
+   "model": "hero_knight",
+   "loadout": {
+    "right": "rondel_dagger",
+    "left": "knight",
+    "scale": 1.3
+   }
+  },
+  "hero_knight_twohand": {
+   "height": 1.85,
+   "extra_walk": false,
+   "sprite": "class_knight_twohand",
+   "dirs": "full",
+   "frame": 1.2,
+   "model": "hero_knight",
+   "loadout": {
+    "right": "longsword",
+    "scale": 1.1
+   }
+  },
+  "hero_knight_heavy": {
+   "height": 1.85,
+   "extra_walk": false,
+   "sprite": "class_knight_heavy",
+   "dirs": "full",
+   "frame": 1.2,
+   "model": "hero_knight",
+   "loadout": {
+    "right": "great_maul",
+    "scale": 1.0
+   }
+  },
+  "hero_knight_throwing": {
+   "height": 1.85,
+   "extra_walk": false,
+   "sprite": "class_knight_throwing",
+   "dirs": "full",
+   "frame": 1.2,
+   "model": "hero_knight",
+   "loadout": {
+    "right": "throwing_axe",
+    "left": "knight",
+    "scale": 1.4
+   }
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "items": {
+  "royal_sergeant": {
+   "height": 1.85,
+   "extra_walk": false,
+   "strip_base": 0.11,
+   "loadout": {
+    "right": "spear",
+    "left": "heater_shield",
+    "scale": 1.0
+   },
+   "frame": 1.3
+  },
+  "torturer": {
+   "height": 2.0,
+   "extra_walk": false,
+   "loadout": {
+    "right": "war_hammer",
+    "left": "tongs"
+   },
+   "frame": 1.3
+  },
+  "fallen_templar": {
+   "height": 1.9,
+   "extra_walk": true,
+   "loadout": {
+    "right": "longsword"
+   },
+   "frame": 1.3
+  },
+  "risen_marshal": {
+   "height": 2.05,
+   "extra_walk": true,
+   "loadout": {
+    "right": "flanged_mace"
+   },
+   "frame": 1.3
+  },
+  "iron_sergeant": {
+   "height": 2.1,
+   "extra_walk": false,
+   "loadout": {
+    "right": "great_maul"
+   },
+   "strip_box": [
+    0.42,
+    0.9,
+    -0.05,
+    0.97
+   ],
+   "frame": 1.3
+  },
+  "sworn_blade": {
+   "height": 1.85,
+   "extra_walk": false,
+   "loadout": {
+    "right": "arming_sword",
+    "left": "baselard"
+   },
+   "frame": 1.3
+  },
+  "confessors_acolyte": {
+   "height": 1.8,
+   "extra_walk": false,
+   "loadout": {
+    "right": "misericorde",
+    "left": "book"
+   },
+   "frame": 1.3
+  },
+  "boss_brother_anselm": {
+   "height": 2.3,
+   "extra_walk": true,
+   "loadout": {
+    "right": "serrated_greatsword"
+   },
+   "frame": 1.2
+  }
+ }
+}

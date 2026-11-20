@@ -1,0 +1,234 @@
+{
+  "start_balance": 740,
+  "items": {
+    "royal_sergeant": {
+      "concept_task": "01a18dec-3632-71a9-8029-0e5495ea1ec0",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-3632-71a9-8029-0e5495ea1ec0_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\royal_sergeant.png",
+      "model_task": "01a18e49-fd37-72b6-a722-d0e6e428fad0",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e49-fd37-72b6-a722-d0e6e428fad0/output/model.glb",
+      "rig_task": "01a18e4b-b06b-77b0-8ec8-e8f74fe864be",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-b06b-77b0-8ec8-e8f74fe864be/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-b06b-77b0-8ec8-e8f74fe864be/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        89,
+        240,
+        178,
+        189
+      ],
+      "anim_task": "01a18e4c-19cf-7772-89a2-8e2b185c39de",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4c-19cf-7772-89a2-8e2b185c39de/output/merged_animations.glb"
+    },
+    "crossbowman": {
+      "concept_task": "01a18dec-3828-72c8-be7a-a29b60c2dac2",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-3828-72c8-be7a-a29b60c2dac2_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\crossbowman.png"
+    },
+    "man_at_arms": {
+      "concept_task": "01a18dec-39ff-7222-b331-33fdc6100b38",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-39ff-7222-b331-33fdc6100b38_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\man_at_arms.png"
+    },
+    "bailiffs_enforcer": {
+      "concept_task": "01a18dec-3bf0-773d-9812-8ced1e361750",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-3bf0-773d-9812-8ced1e361750_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\bailiffs_enforcer.png"
+    },
+    "flagellant": {
+      "concept_task": "01a18dec-3da6-7772-84ae-8d4c95ba551c",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-3da6-7772-84ae-8d4c95ba551c_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\flagellant.png"
+    },
+    "confessors_acolyte": {
+      "concept_task": "01a18dec-3f8d-707b-9d51-ef70e5f986ac",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-3f8d-707b-9d51-ef70e5f986ac_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\confessors_acolyte.png",
+      "model_task": "01a18e4a-1854-76be-98d4-e20b10a0814e",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-1854-76be-98d4-e20b10a0814e/output/model.glb",
+      "rig_task": "01a18e4b-7dbf-712d-a9c3-be036fb9d030",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-7dbf-712d-a9c3-be036fb9d030/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-7dbf-712d-a9c3-be036fb9d030/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        0,
+        4,
+        178,
+        189
+      ],
+      "anim_task": "01a18e4b-e574-706c-a00f-a5e21f366f45",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-e574-706c-a00f-a5e21f366f45/output/merged_animations.glb"
+    },
+    "iron_sergeant": {
+      "concept_task": "01a18dec-4160-754d-bf1f-e0e5bf1adf60",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-4160-754d-bf1f-e0e5bf1adf60_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\iron_sergeant.png",
+      "model_task": "01a18e4a-100f-721c-8404-c0440b87d667",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-100f-721c-8404-c0440b87d667/output/model.glb",
+      "rig_task": "01a18e4b-7278-76e9-9d99-dea46ebec942",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-7278-76e9-9d99-dea46ebec942/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-7278-76e9-9d99-dea46ebec942/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        89,
+        128,
+        178,
+        189
+      ],
+      "anim_task": "01a18e4b-d815-71de-be7f-d0b3b71ebf5b",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-d815-71de-be7f-d0b3b71ebf5b/output/merged_animations.glb"
+    },
+    "sworn_blade": {
+      "concept_task": "01a18dec-434c-7113-a34a-3493b532c187",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-434c-7113-a34a-3493b532c187_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\sworn_blade.png",
+      "model_task": "01a18e4a-13af-77df-8c7c-c646dad1e9c3",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-13af-77df-8c7c-c646dad1e9c3/output/model.glb",
+      "rig_task": "01a18e4b-db04-704a-8509-a81fbc871c58",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-db04-704a-8509-a81fbc871c58/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-db04-704a-8509-a81fbc871c58/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        89,
+        219,
+        178,
+        189
+      ],
+      "anim_task": "01a18e4c-2305-7094-9ca7-e833d89c0cc9",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4c-2305-7094-9ca7-e833d89c0cc9/output/merged_animations.glb"
+    },
+    "torturer": {
+      "concept_task": "01a18dec-451c-768b-a96d-5f2a1507e600",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-451c-768b-a96d-5f2a1507e600_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\torturer.png",
+      "model_task": "01a18e4a-0218-7474-a4f2-a59d8c0af5fd",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-0218-7474-a4f2-a59d8c0af5fd/output/model.glb",
+      "rig_task": "01a18e4b-bfe3-77ce-bb1c-dcc66354f38e",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-bfe3-77ce-bb1c-dcc66354f38e/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-bfe3-77ce-bb1c-dcc66354f38e/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        89,
+        128,
+        178,
+        189
+      ],
+      "anim_task": "01a18e4c-1c50-7697-b868-fae2023ebf0b",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4c-1c50-7697-b868-fae2023ebf0b/output/merged_animations.glb"
+    },
+    "drowned_penitent": {
+      "concept_task": "01a18dec-46ee-725f-b661-52cc2f5bdc19",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-46ee-725f-b661-52cc2f5bdc19_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\drowned_penitent.png"
+    },
+    "quarry_ghoul": {
+      "concept_task": "01a18dec-48c8-74b2-8c45-f97d6a799b35",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-48c8-74b2-8c45-f97d6a799b35_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\quarry_ghoul.png"
+    },
+    "chapel_wraith": {
+      "concept_task": "01a18dec-4aaf-7539-a906-642e4180d322",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-4aaf-7539-a906-642e4180d322_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\chapel_wraith.png"
+    },
+    "fallen_templar": {
+      "concept_task": "01a18dec-4c8d-744b-89e2-f87eaf730dec",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-4c8d-744b-89e2-f87eaf730dec_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\fallen_templar.png",
+      "model_task": "01a18e4a-071d-70ca-a871-83003dbde920",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-071d-70ca-a871-83003dbde920/output/model.glb",
+      "rig_task": "01a18e4b-ca51-70bc-97e6-f7b15a05682e",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-ca51-70bc-97e6-f7b15a05682e/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-ca51-70bc-97e6-f7b15a05682e/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        0,
+        219,
+        178,
+        189,
+        119
+      ],
+      "anim_task": "01a18e4c-1ef7-7536-9e9b-c1d0b521bb77",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4c-1ef7-7536-9e9b-c1d0b521bb77/output/merged_animations.glb"
+    },
+    "risen_marshal": {
+      "concept_task": "01a18dec-4e67-7382-b2d4-666f3a1d9a3d",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-4e67-7382-b2d4-666f3a1d9a3d_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\risen_marshal.png",
+      "model_task": "01a18e4a-0ba8-725a-a4ea-40c1b1c32246",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-0ba8-725a-a4ea-40c1b1c32246/output/model.glb",
+      "rig_task": "01a18e4b-6841-7161-a1a0-ac44ec453cc8",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-6841-7161-a1a0-ac44ec453cc8/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-6841-7161-a1a0-ac44ec453cc8/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        0,
+        128,
+        178,
+        189,
+        119
+      ],
+      "anim_task": "01a18e4b-d549-7240-8ff4-96100484bf74",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-d549-7240-8ff4-96100484bf74/output/merged_animations.glb"
+    },
+    "boss_corbin": {
+      "concept_task": "01a18dec-502e-766c-b53a-95b641c233ed",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-502e-766c-b53a-95b641c233ed_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_corbin.png"
+    },
+    "boss_sir_odo": {
+      "concept_task": "01a18dec-520d-75ff-9a1d-3a4f873a8976",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-520d-75ff-9a1d-3a4f873a8976_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_sir_odo.png"
+    },
+    "boss_drowned_commander": {
+      "concept_task": "01a18dec-53c1-7305-990a-04231dec6e5b",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-53c1-7305-990a-04231dec6e5b_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_drowned_commander.png"
+    },
+    "boss_foreman_girauld": {
+      "concept_task": "01a18dec-55ba-702c-a6d7-2d6cbc933ee8",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-55ba-702c-a6d7-2d6cbc933ee8_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_foreman_girauld.png"
+    },
+    "boss_brother_anselm": {
+      "concept_task": "01a18dec-57a7-77c8-863e-5dbe05c8a7ca",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-57a7-77c8-863e-5dbe05c8a7ca_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_brother_anselm.png",
+      "model_task": "01a18e4a-1d1d-7310-88cb-dd66fe9fd52c",
+      "model_done": true,
+      "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4a-1d1d-7310-88cb-dd66fe9fd52c/output/model.glb",
+      "rig_task": "01a18e4b-e86a-73cc-8497-9e9050b74c0e",
+      "rig_done": true,
+      "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-e86a-73cc-8497-9e9050b74c0e/output/Character_output.glb",
+      "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4b-e86a-73cc-8497-9e9050b74c0e/output/Animation_Walking_withSkin.glb",
+      "anim_ids": [
+        89,
+        242,
+        178,
+        189,
+        119
+      ],
+      "anim_task": "01a18e4c-5481-706c-9642-50381090c579",
+      "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18e4c-5481-706c-9642-50381090c579/output/merged_animations.glb"
+    },
+    "boss_mere_aveline": {
+      "concept_task": "01a18dec-5999-750a-8881-507b8edd2083",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-5999-750a-8881-507b8edd2083_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_mere_aveline.png"
+    },
+    "boss_imbert": {
+      "concept_task": "01a18dec-5b85-7057-9736-39b3e57a1207",
+      "concept_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18dec-5b85-7057-9736-39b3e57a1207_0.png",
+      "concept_file": "art_source\\enemies\\concepts\\boss_imbert.png"
+    }
+  },
+  "spent": 511
+}

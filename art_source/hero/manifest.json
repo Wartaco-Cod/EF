@@ -1,0 +1,43 @@
+{
+  "start_balance": 229,
+  "concepts": [
+    {
+      "task": "01a18fb5-be13-71eb-bcc1-cffa1f3cf70f",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18fb5-be13-71eb-bcc1-cffa1f3cf70f_0.png",
+      "file": "art_source\\hero\\concept_0.png"
+    },
+    {
+      "task": "01a18fb5-c01b-70f3-aeb1-c17a4384ff32",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18fb5-c01b-70f3-aeb1-c17a4384ff32_0.png",
+      "file": "art_source\\hero\\concept_1.png"
+    }
+  ],
+  "build": {
+    "pick": 0,
+    "model_task": "01a18fba-1089-7684-a3db-13afbe1f87fe",
+    "model_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18fba-1089-7684-a3db-13afbe1f87fe/output/model.glb",
+    "rig_task": "01a18fbb-d833-71fa-950b-fe8c40c3e6a5",
+    "rigged_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18fbb-d833-71fa-950b-fe8c40c3e6a5/output/Character_output.glb",
+    "walk_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18fbb-d833-71fa-950b-fe8c40c3e6a5/output/Animation_Walking_withSkin.glb",
+    "anim_task": "01a18fbc-2644-733a-b2fa-941efbaf7101",
+    "anim_url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/tasks/01a18fbc-2644-733a-b2fa-941efbaf7101/output/merged_animations.glb"
+  },
+  "spent": 77,
+  "scenes": {
+    "prologue": {
+      "task": "01a18fbc-b24c-71e9-b6d9-cacb166d55c0",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18fbc-b24c-71e9-b6d9-cacb166d55c0_0.png",
+      "file": "art_source\\hero\\scene_prologue.png"
+    },
+    "sanctuary_first": {
+      "task": "01a18fbc-b427-744c-98e2-3a27fd37e8b7",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18fbc-b427-744c-98e2-3a27fd37e8b7_0.png",
+      "file": "art_source\\hero\\scene_sanctuary_first.png"
+    },
+    "ledger_of_payns": {
+      "task": "01a18fbc-b5fc-70a2-ae53-a66c4c0ba1ec",
+      "url": "https://assets.meshy.ai/17812855-dcd5-4b41-b7c5-1b9f0071ec5c/uploads/image_01a18fbc-b5fc-70a2-ae53-a66c4c0ba1ec_0.png",
+      "file": "art_source\\hero\\scene_ledger_of_payns.png"
+    }
+  }
+}
